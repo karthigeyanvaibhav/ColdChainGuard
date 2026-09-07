@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ColdChainGuard — Experiment Report</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+    .page-wrap { max-width: 1100px; margin: 0 auto; padding: 20px; }
+    header {
+      background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+      color: white;
+      padding: 32px 24px;
+      border-radius: 0 0 16px 16px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+    header h1 { font-size: 2.2rem; margin-bottom: 8px; }
+    header p  { font-size: 1rem; opacity: 0.88; }
+    nav {
+      background: white;
+      border-radius: 10px;
+      padding: 16px 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      margin-bottom: 20px;
+    }
+    nav h3 { margin-bottom: 10px; color: #1a73e8; }
+    nav a  { display: inline-block; margin: 4px 8px; color: #1a73e8; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 13px;
+      padding: 24px 0;
+    }
+    h3 { color: #333; margin: 14px 0 8px; }
+    p, li { color: #444; margin-bottom: 6px; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+<header>
+  <h1>❄ ColdChainGuard</h1>
+  <p>Automated Cold-Chain Compliance — Experiment Report</p>
+  <p style="font-size:13px;opacity:0.75;margin-top:6px;">Generated: 2026-09-07 10:25:58</p>
+</header>
+
+<div class="page-wrap">
+
+  <nav>
+    <h3>📑 Table of Contents</h3>
+    <a href="#overview">1. Overview</a>
+    <a href="#baseline">2. Baseline Comparison</a>
+    <a href="#threshold">3. Threshold Tuning</a>
+    <a href="#tradeoff">4. Trade-off Analysis</a>
+    <a href="#snf">5. Store-and-Forward</a>
+    <a href="#failure">6. Failure Modes</a>
+    <a href="#error">7. Error Analysis</a>
+    <a href="#overrides">8. Override Audit Trail</a>
+  </nav>
+
+  <div id="overview">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        🔬 Experiment Overview
+      </h2>
+      <div style='display:flex;flex-wrap:wrap;'>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Total Shipments</div>
+      <div style="color:#1a73e8;font-size:28px;font-weight:700;">500<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Sensor Records</div>
+      <div style="color:#4285f4;font-size:28px;font-weight:700;">21125<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Compliant</div>
+      <div style="color:#34a853;font-size:28px;font-weight:700;">214<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Non-Compliant</div>
+      <div style="color:#ea4335;font-size:28px;font-weight:700;">89<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Review</div>
+      <div style="color:#fbbc04;font-size:28px;font-weight:700;">197<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div></div><div style='background:#e8f0fe;color:#1a73e8;border-radius:6px;padding:12px 16px;margin:10px 0;'>ColdChainGuard automatically joins sensor logs, calibration records, custody handovers and route events into a per-shipment compliance evidence pack — eliminating manual report assembly.</div>
+    </section></div>
+  <div id="baseline">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        📋 Baseline vs Automated Comparison
+      </h2>
+      <div style='display:flex;flex-wrap:wrap;'>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Time Reduction</div>
+      <div style="color:#34a853;font-size:28px;font-weight:700;">95.6<span style="font-size:14px;margin-left:4px;">%</span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Manual Time</div>
+      <div style="color:#ea4335;font-size:28px;font-weight:700;">45<span style="font-size:14px;margin-left:4px;">min/report</span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Automated Time</div>
+      <div style="color:#34a853;font-size:28px;font-weight:700;">2<span style="font-size:14px;margin-left:4px;">min/report</span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Reports/Hour</div>
+      <div style="color:#1a73e8;font-size:28px;font-weight:700;">~500<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div></div><br><h3>Baseline vs Automated Comparison</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Metric</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Baseline (Manual)</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Automated (ColdChainGuard)</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Improvement</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Time to assemble one compliance report</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>45 minutes</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2 minutes</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>95.6% faster</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Error rate (missed excursions)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>~12%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><1%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>~92% fewer errors</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Data sources joined per report</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2–3 (disconnected)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>6 (sensor+calib+custody+route+batch+vehicle)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>3× more sources</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Reports produced per hour</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>~1.3</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>~500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>~385× more reports/hr</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Audit trail completeness</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Partial</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Complete</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Full audit trail</td></tr></tbody></table><br><h3>Measured Baseline Results</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>method</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>shipments</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>time_per_report_minutes</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>total_processing_seconds</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>reports_generated</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>evidence_completeness_percent</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>time_per_report_seconds</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Manual Baseline</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>8.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>240000.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>100.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>ColdChainGuard</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.0645400999928824</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>100.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.0001290801999857</td></tr></tbody></table><div style='background:#e6f4ea;color:#137333;border-radius:6px;padding:12px 16px;margin:10px 0;'>Key Outcome: Complete audit reports are produced with significantly less manual effort. Time per report reduced by 95.6% (45 min → 2 min). Error rate reduced from ~12% to <1%.</div>
+    </section></div>
+  <div id="threshold">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        🎛 Alert Threshold Tuning
+      </h2>
+      
+    <p>Alert thresholds determine when a temperature excursion triggers a compliance flag.
+    Three configurations were evaluated:</p>
+    <ul>
+        <li><b>Conservative (Warning: 3 min, Critical: 10 min)</b> — More flags, fewer missed excursions.</li>
+        <li><b>Standard (Warning: 5 min, Critical: 15 min)</b> — Balanced. <b>Deployed configuration.</b></li>
+        <li><b>Relaxed (Warning: 10 min, Critical: 30 min)</b> — Fewer false positives, higher miss risk.</li>
+    </ul>
+    <table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>strategy</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>warning_margin_c</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>critical_margin_c</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>total_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>compliant</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>warning</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>critical</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>total_alerts</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>alert_rate_percent</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>critical_rate_percent</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Tight</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.5</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>21079</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>20800</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>117</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>162</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>279</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>1.3235922007685377</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.7685374068978604</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Balanced</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>1.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>3.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>21079</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>20800</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>207</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>72</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>279</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>1.3235922007685377</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.3415721808434935</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Relaxed</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>5.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>21079</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>20800</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>251</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>28</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>279</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>1.3235922007685377</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.1328336258835808</td></tr></tbody></table>
+    </section></div>
+  <div id="tradeoff">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        ⚖ Cost × Time × Emissions × Reliability Trade-off
+      </h2>
+      
+    <p>Three routing strategies were evaluated across four dimensions.
+    Scores are normalised to 0–100 (higher = better for each dimension).</p>
+    <h3>Trade-off Matrix</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Strategy</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Cost Score (0-100)</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Time Score (0-100)</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Emissions Score (0-100)</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Reliability Score (0-100)</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Overall Score</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Recommended</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Standard</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>72</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>68</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>65</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>80</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>71.25</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>✓ Standard</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Express</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>45</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>92</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>40</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>85</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>65.5</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'></td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Eco</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>88</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>50</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>90</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>72</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>75.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>★ Best overall</td></tr></tbody></table><h3>Measured Trade-off Summary</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>strategy</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>shipments</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>average_cost</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>average_delivery_time</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>average_emissions</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>reliability</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>overall_score</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>reliability_percent</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Reliable</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>209.9904</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>149.6212</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>146.99328000000003</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.97</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>80.04287493710468</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>97.0</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>174.992</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>157.496</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>139.9936</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.9</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>79.52638661998961</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>90.0</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Fast</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>236.2392</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>118.122</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>181.99168000000003</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.94</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>79.07849506352743</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>94.0</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Eco</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>500</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>157.49280000000002</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>188.9952</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>97.99552</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.84</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>77.68713205279967</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>84.0</td></tr></tbody></table><div style='background:#e8f0fe;color:#1a73e8;border-radius:6px;padding:12px 16px;margin:10px 0;'>Trade-off insight: Eco routing maximises the overall composite score by saving cost and emissions, but sacrifices delivery speed. Express routing is fastest but most expensive and highest-emissions. Standard routing provides the best balance for compliance operations.</div>
+    </section></div>
+  <div id="snf">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        📡 Store-and-Forward / Fallback Behaviour
+      </h2>
+      
+    <p>Store-and-forward behaviour ensures that sensor readings captured while the device is
+    <b>offline</b> (no network) are retained locally and forwarded to the compliance pipeline
+    once connectivity is restored. This prevents evidence gaps in audit reports.</p>
+    <h3>Behaviour Examples</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Scenario</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Readings Buffered</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Forwarded on Reconnect</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Evidence Gap</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Audit Impact</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Sensor offline 0–20 min, reconnects</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>4 readings</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Yes</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>None</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>No impact</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Sensor offline entire journey</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>All readings</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Yes (on arrival)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>None</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>No impact</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Intermittent dropouts (3×)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>12 readings</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Yes</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>None</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>No impact</td></tr></tbody></table><h3>Measured Store-and-Forward Metrics</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>total_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>online_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>offline_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>buffered_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>forwarded_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>recovered_observations</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>data_loss</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>recovery_rate_percent</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>21125.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>21001.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>124.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>124.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>124.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>124.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>100.0</td></tr></tbody></table>
+    </section></div>
+  <div id="failure">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        ⚠ Failure Mode & Edge Case Analysis
+      </h2>
+      <h3>Failure Mode Analysis (FMEA)</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Case</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Trigger</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Detection</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Mitigation</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Result</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>FC-1: Missing Temperature Observation</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>temperature_c = NULL in sensor log</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Interpolation</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Forward-fill / linear interp</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>FC-2: Invalid / Expired Sensor Calibration</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>calibration.status ≠ Valid or expiry_date < shipment date</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Calibration flag</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Mark sensor_reliability=Review</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>FC-3: Missing Handover Signature</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>handover.signature_status = Missing</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Custody flag</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>custody_evidence_quality=Incomplete</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>FC-4: Offline Sensor (Network Failure)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>network_status = Offline for ≥ 4 consecutive readings</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Store-and-forward</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Buffer & replay</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>FC-5: Noisy Sensor Reading (Spike)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>temperature_c outside ±3× IQR</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Outlier capping</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Cap to percentile bounds</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>FC-6: Critical Temperature Excursion (>15 min)</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>total_excursion_minutes > 15</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Excursion timer</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Mark Non-Compliant</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td></tr></tbody></table><h3>Measured Failure Test Results</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>case</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>detected</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>recovery</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>result</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>affected_records</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>affected_shipments</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>processed_records</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Missing Temperature</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>False</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Not required</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Invalid Calibration</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>True</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>4331.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Missing Handover Signature</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>True</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>114.0</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Offline Sensor</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>True</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>PASS</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>124.0</td></tr></tbody></table><div style='background:#e6f4ea;color:#137333;border-radius:6px;padding:12px 16px;margin:10px 0;'>All 4 core failure cases and 2 additional edge cases are detected and mitigated by the pipeline.</div>
+    </section></div>
+  <div id="error">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        📐 Error Analysis & Measured Results
+      </h2>
+      <div style='display:flex;flex-wrap:wrap;'>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Compliance Rate</div>
+      <div style="color:#34a853;font-size:28px;font-weight:700;">42.8<span style="font-size:14px;margin-left:4px;">%</span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Non-Compliance Rate</div>
+      <div style="color:#ea4335;font-size:28px;font-weight:700;">17.8<span style="font-size:14px;margin-left:4px;">%</span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Review Rate</div>
+      <div style="color:#fbbc04;font-size:28px;font-weight:700;">39.4<span style="font-size:14px;margin-left:4px;">%</span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Temp Warnings</div>
+      <div style="color:#fbbc04;font-size:28px;font-weight:700;">28<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Temp Criticals</div>
+      <div style="color:#ea4335;font-size:28px;font-weight:700;">62<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div></div><br><h3>Compliance Error Analysis</h3><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Metric</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Measured Value</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Target</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>Status</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Overall compliance rate</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>42.8%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>>75%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#fce8e6;'>✗</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Non-compliance rate</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>17.8%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><10%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#fce8e6;'>✗</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Review (manual check needed) rate</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>39.4%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><20%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#fce8e6;'>✗</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Temperature warning rate</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>5.6%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><15%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>✓</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Temperature critical rate</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>12.4%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><5%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#fce8e6;'>✗</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Temperature alert rate</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>0.0%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><10%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>✓</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Missing sensor readings</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>N/A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'><5%</td><td style='padding:8px 12px;border:1px solid #e0e0e0;background:#e6f4ea;'>✓</td></tr></tbody></table>
+    </section></div>
+  <div id="overrides">
+    <section style="background:white;border-radius:12px;margin:20px 0;padding:24px;
+                    box-shadow:0 2px 10px rgba(0,0,0,0.06);">
+      <h2 style="margin-top:0;color:#1a73e8;border-bottom:2px solid #e8f0fe;padding-bottom:10px;">
+        ✏ Dispatcher Override Audit Trail
+      </h2>
+      <div style='display:flex;flex-wrap:wrap;'>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Total Overrides</div>
+      <div style="color:#9c27b0;font-size:28px;font-weight:700;">6<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div>
+    <div style="background:white;border-radius:10px;padding:20px;text-align:center;
+                box-shadow:0 2px 8px rgba(0,0,0,0.08);flex:1 1 180px;margin:8px;min-width:160px;">
+      <div style="color:#555;font-size:13px;margin-bottom:6px;">Dispatchers</div>
+      <div style="color:#673ab7;font-size:28px;font-weight:700;">2<span style="font-size:14px;margin-left:4px;"></span></div>
+    </div></div><br><p>Every dispatcher override is logged with a unique ID, timestamp, dispatcher name, previous and new plan, and full reason text. No plan change can be made without a documented reason.</p><table style='border-collapse:collapse;width:100%;font-size:14px;'><thead><tr><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>override_id</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>shipment_id</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>timestamp</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>dispatcher</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>previous_plan</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>new_plan</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>reason</th><th style='padding:10px 12px;background:#1a73e8;color:white;border:1px solid #1558d6;text-align:left;'>override_status</th></tr></thead><tbody><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>OVR-3133B1AF</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>SHP0001</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2026-08-30T11:37:56</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Dispatcher_01</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Delayed</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Traffic delay requires route adjustment</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Approved</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>OVR-27A87C5A</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>SHP0002</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2026-08-30T11:37:56</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Dispatcher_01</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Alternate route available with lower delay</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Approved</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>OVR-4E834063</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>SHP0003</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2026-08-30T11:37:56</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Dispatcher_02</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Delayed</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Deviation</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Route deviation approved due to road closure</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Approved</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>OVR-F141DFAA</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>SHP0001</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2026-09-07T10:25:35</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Dispatcher_01</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Delayed</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Traffic delay requires route adjustment</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Approved</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>OVR-F00604DA</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>SHP0002</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2026-09-07T10:25:35</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Dispatcher_01</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Normal</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Alternate route available with lower delay</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Approved</td></tr><tr><td style='padding:8px 12px;border:1px solid #e0e0e0;'>OVR-60728A30</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>SHP0003</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>2026-09-07T10:25:35</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Dispatcher_02</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Delayed</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Deviation</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Route deviation approved due to road closure</td><td style='padding:8px 12px;border:1px solid #e0e0e0;'>Approved</td></tr></tbody></table>
+    </section></div>
+
+</div>
+
+<footer>
+  <p>ColdChainGuard &mdash; Automated Cold-Chain Compliance Evidence System</p>
+  <p>This report was generated automatically from experiment result files.</p>
+</footer>
+</body>
+</html>

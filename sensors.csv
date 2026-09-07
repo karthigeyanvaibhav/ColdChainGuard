@@ -1,0 +1,151 @@
+sensor_id,vehicle_id,sensor_type,installation_date,status
+S001,V007,Temperature,2025-11-30,Active
+S002,V012,Temperature,2026-04-20,Active
+S003,V022,Temperature + Humidity,2025-07-28,Active
+S004,V062,Temperature + Humidity,2025-04-20,Active
+S005,V008,Temperature + Humidity,2025-03-26,Active
+S006,V001,Temperature + Humidity,2025-07-19,Active
+S007,V059,Temperature + Humidity,2025-05-27,Active
+S008,V090,Temperature + Humidity,2026-05-06,Active
+S009,V020,Temperature + Humidity,2025-04-08,Active
+S010,V028,Temperature,2026-05-11,Active
+S011,V075,Temperature,2026-01-12,Active
+S012,V096,Temperature,2025-06-10,Active
+S013,V007,Temperature + Humidity,2025-10-27,Active
+S014,V065,Temperature,2026-04-16,Active
+S015,V008,Temperature,2026-05-07,Active
+S016,V024,Temperature,2025-02-05,Active
+S017,V087,Temperature,2026-03-18,Active
+S018,V052,Temperature,2025-03-03,Active
+S019,V075,Temperature,2025-11-01,Active
+S020,V080,Temperature + Humidity,2025-02-11,Active
+S021,V085,Temperature + Humidity,2025-10-26,Active
+S022,V034,Temperature + Humidity,2025-04-15,Active
+S023,V031,Temperature + Humidity,2025-05-16,Active
+S024,V017,Temperature + Humidity,2025-12-10,Active
+S025,V059,Temperature,2025-06-11,Active
+S026,V002,Temperature,2025-08-23,Active
+S027,V010,Temperature,2025-10-03,Active
+S028,V065,Temperature,2025-05-16,Active
+S029,V045,Temperature,2026-03-28,Active
+S030,V032,Temperature + Humidity,2025-07-09,Active
+S031,V021,Temperature + Humidity,2025-08-13,Active
+S032,V079,Temperature,2026-02-18,Active
+S033,V086,Temperature + Humidity,2026-02-23,Active
+S034,V085,Temperature,2025-02-23,Active
+S035,V034,Temperature,2025-03-01,Active
+S036,V096,Temperature,2025-10-11,Active
+S037,V035,Temperature,2025-05-25,Active
+S038,V092,Temperature,2025-06-25,Active
+S039,V088,Temperature + Humidity,2025-11-21,Active
+S040,V065,Temperature + Humidity,2025-09-08,Active
+S041,V007,Temperature + Humidity,2025-02-17,Active
+S042,V036,Temperature,2025-01-23,Active
+S043,V043,Temperature,2026-01-30,Active
+S044,V082,Temperature,2025-05-15,Active
+S045,V095,Temperature + Humidity,2025-08-15,Active
+S046,V072,Temperature,2025-01-05,Active
+S047,V010,Temperature,2026-04-29,Active
+S048,V070,Temperature + Humidity,2025-01-19,Active
+S049,V075,Temperature,2025-10-10,Active
+S050,V056,Temperature,2025-03-07,Active
+S051,V040,Temperature,2025-07-06,Active
+S052,V046,Temperature,2025-04-18,Active
+S053,V086,Temperature + Humidity,2025-02-22,Active
+S054,V100,Temperature + Humidity,2025-10-14,Active
+S055,V080,Temperature,2026-01-19,Active
+S056,V031,Temperature,2026-03-19,Active
+S057,V023,Temperature + Humidity,2026-03-28,Active
+S058,V004,Temperature + Humidity,2025-04-02,Active
+S059,V053,Temperature,2026-02-15,Active
+S060,V035,Temperature,2025-03-23,Active
+S061,V049,Temperature,2026-03-23,Active
+S062,V061,Temperature,2025-04-24,Active
+S063,V059,Temperature + Humidity,2025-06-29,Active
+S064,V030,Temperature,2025-04-25,Active
+S065,V085,Temperature + Humidity,2025-04-09,Active
+S066,V043,Temperature,2025-05-23,Active
+S067,V099,Temperature + Humidity,2025-05-23,Active
+S068,V083,Temperature + Humidity,2025-09-18,Active
+S069,V087,Temperature + Humidity,2026-03-08,Active
+S070,V004,Temperature + Humidity,2025-03-01,Active
+S071,V023,Temperature + Humidity,2025-10-25,Active
+S072,V005,Temperature + Humidity,2025-02-25,Active
+S073,V045,Temperature + Humidity,2026-01-09,Active
+S074,V056,Temperature,2025-11-07,Active
+S075,V050,Temperature,2026-04-06,Active
+S076,V033,Temperature + Humidity,2025-01-23,Active
+S077,V001,Temperature,2025-09-24,Active
+S078,V047,Temperature,2025-08-09,Active
+S079,V086,Temperature + Humidity,2026-04-17,Active
+S080,V080,Temperature,2025-06-10,Active
+S081,V093,Temperature + Humidity,2026-04-06,Active
+S082,V065,Temperature + Humidity,2025-06-08,Active
+S083,V042,Temperature + Humidity,2025-07-26,Active
+S084,V071,Temperature,2025-03-07,Active
+S085,V054,Temperature + Humidity,2025-12-07,Active
+S086,V087,Temperature,2026-01-19,Active
+S087,V079,Temperature + Humidity,2025-10-19,Active
+S088,V052,Temperature,2025-10-08,Active
+S089,V039,Temperature,2025-05-27,Active
+S090,V056,Temperature + Humidity,2026-02-07,Active
+S091,V060,Temperature + Humidity,2025-08-15,Active
+S092,V087,Temperature + Humidity,2025-04-20,Active
+S093,V095,Temperature,2025-03-28,Active
+S094,V037,Temperature + Humidity,2025-09-21,Active
+S095,V012,Temperature,2026-02-24,Active
+S096,V087,Temperature,2025-06-08,Active
+S097,V026,Temperature,2025-03-17,Active
+S098,V006,Temperature + Humidity,2025-05-06,Active
+S099,V079,Temperature,2026-03-12,Active
+S100,V059,Temperature,2025-08-01,Active
+S101,V092,Temperature + Humidity,2025-12-23,Active
+S102,V064,Temperature,2025-07-24,Active
+S103,V019,Temperature,2025-12-02,Active
+S104,V097,Temperature,2026-03-17,Active
+S105,V100,Temperature,2025-08-06,Active
+S106,V023,Temperature + Humidity,2026-02-16,Active
+S107,V007,Temperature,2025-10-13,Active
+S108,V016,Temperature,2025-08-22,Active
+S109,V060,Temperature + Humidity,2025-12-08,Active
+S110,V097,Temperature + Humidity,2026-04-02,Active
+S111,V079,Temperature + Humidity,2026-02-22,Active
+S112,V071,Temperature,2025-08-17,Active
+S113,V096,Temperature + Humidity,2026-03-18,Active
+S114,V058,Temperature,2025-05-13,Active
+S115,V082,Temperature + Humidity,2025-05-22,Active
+S116,V081,Temperature + Humidity,2025-05-03,Active
+S117,V057,Temperature + Humidity,2025-02-09,Active
+S118,V031,Temperature + Humidity,2025-05-20,Active
+S119,V041,Temperature,2026-04-03,Active
+S120,V018,Temperature,2025-03-19,Active
+S121,V050,Temperature,2025-12-22,Active
+S122,V091,Temperature,2025-04-20,Active
+S123,V054,Temperature + Humidity,2025-07-28,Active
+S124,V070,Temperature + Humidity,2025-08-27,Active
+S125,V008,Temperature + Humidity,2025-04-16,Active
+S126,V050,Temperature,2026-04-09,Active
+S127,V098,Temperature + Humidity,2025-10-22,Active
+S128,V062,Temperature + Humidity,2025-01-04,Active
+S129,V039,Temperature + Humidity,2026-01-21,Active
+S130,V054,Temperature,2025-10-03,Active
+S131,V063,Temperature + Humidity,2025-04-23,Active
+S132,V056,Temperature,2025-09-06,Active
+S133,V050,Temperature + Humidity,2025-06-22,Active
+S134,V093,Temperature + Humidity,2025-03-26,Active
+S135,V017,Temperature,2025-11-15,Active
+S136,V051,Temperature,2025-10-31,Active
+S137,V011,Temperature + Humidity,2025-11-26,Active
+S138,V018,Temperature + Humidity,2026-03-20,Active
+S139,V024,Temperature + Humidity,2025-01-26,Active
+S140,V049,Temperature,2025-06-17,Active
+S141,V059,Temperature + Humidity,2025-06-17,Active
+S142,V098,Temperature + Humidity,2026-03-27,Active
+S143,V036,Temperature + Humidity,2026-01-21,Active
+S144,V033,Temperature,2026-03-04,Active
+S145,V061,Temperature,2025-01-10,Active
+S146,V045,Temperature,2025-04-25,Active
+S147,V100,Temperature,2026-05-06,Active
+S148,V097,Temperature,2025-01-16,Active
+S149,V026,Temperature,2026-03-06,Active
+S150,V080,Temperature,2025-03-20,Active

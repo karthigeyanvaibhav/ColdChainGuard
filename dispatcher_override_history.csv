@@ -1,0 +1,7 @@
+override_id,shipment_id,timestamp,dispatcher,previous_plan,new_plan,reason,override_status
+OVR-3133B1AF,SHP0001,2026-08-30T11:37:56,Dispatcher_01,Normal,Delayed,Traffic delay requires route adjustment,Approved
+OVR-27A87C5A,SHP0002,2026-08-30T11:37:56,Dispatcher_01,Normal,Normal,Alternate route available with lower delay,Approved
+OVR-4E834063,SHP0003,2026-08-30T11:37:56,Dispatcher_02,Delayed,Deviation,Route deviation approved due to road closure,Approved
+OVR-F141DFAA,SHP0001,2026-09-07T10:25:35,Dispatcher_01,Normal,Delayed,Traffic delay requires route adjustment,Approved
+OVR-F00604DA,SHP0002,2026-09-07T10:25:35,Dispatcher_01,Normal,Normal,Alternate route available with lower delay,Approved
+OVR-60728A30,SHP0003,2026-09-07T10:25:35,Dispatcher_02,Delayed,Deviation,Route deviation approved due to road closure,Approved

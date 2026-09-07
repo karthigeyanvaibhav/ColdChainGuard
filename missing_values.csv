@@ -1,0 +1,2 @@
+dataset,column,missing_count,missing_pct
+sensor_logs,temperature_c,46,0.22

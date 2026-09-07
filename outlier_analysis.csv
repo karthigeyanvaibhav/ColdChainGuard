@@ -1,0 +1,8 @@
+dataset,column,q1,q3,iqr,lower_fence,upper_fence,outlier_count,outlier_pct
+sensor_logs,temperature_c,-20.98,5.03,26.01,-59.995,44.045,0,0.0
+sensor_logs,battery_level,77.49,92.55,15.06,54.9,115.14,0,0.0
+sensor_logs,signal_strength,77.0,93.0,16.0,53.0,117.0,124,0.59
+master_shipments,journey_duration_min,130.0,287.0,157.0,-105.5,522.5,0,0.0
+master_shipments,avg_temperature_c,-20.971,5.025,25.996,-59.965,44.019,0,0.0
+master_shipments,total_delay_minutes,0.0,13.0,13.0,-19.5,32.5,85,17.0
+master_shipments,missing_signatures,0.0,0.0,0.0,0.0,0.0,114,22.8

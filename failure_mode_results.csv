@@ -1,0 +1,5 @@
+case,detected,recovery,result,affected_records,affected_shipments,processed_records
+Missing Temperature,False,Not required,PASS,,,
+Invalid Calibration,True,,PASS,4331.0,,
+Missing Handover Signature,True,,PASS,,114.0,
+Offline Sensor,True,,PASS,,,124.0

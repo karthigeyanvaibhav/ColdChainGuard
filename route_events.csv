@@ -1,0 +1,3290 @@
+event_id,shipment_id,event_type,location,event_time,duration_minutes
+1,SHP0001,Departure,Kochi,2026-08-01 08:41:00,0
+2,SHP0001,Checkpoint,Fuel Station,2026-08-01 08:56:00,0
+3,SHP0001,Checkpoint,City Entry,2026-08-01 09:34:00,0
+4,SHP0001,Cold Storage Stop,Fuel Station,2026-08-01 09:04:00,19
+5,SHP0001,Cold Storage Stop,Highway Checkpoint,2026-08-01 08:57:00,19
+6,SHP0001,Checkpoint,City Entry,2026-08-01 09:47:00,0
+7,SHP0001,Checkpoint,Highway Checkpoint,2026-08-01 08:58:00,0
+8,SHP0001,Arrival,Hyderabad,2026-08-01 10:27:00,0
+9,SHP0002,Departure,Bangalore,2026-08-07 06:30:00,0
+10,SHP0002,Checkpoint,Distribution Center,2026-08-07 07:53:00,0
+11,SHP0002,Checkpoint,Highway Checkpoint,2026-08-07 07:59:00,0
+12,SHP0002,Checkpoint,City Entry,2026-08-07 06:47:00,0
+13,SHP0002,Arrival,Chennai,2026-08-07 08:09:00,0
+14,SHP0003,Departure,Coimbatore,2026-08-04 06:33:00,0
+15,SHP0003,Checkpoint,Rest Area,2026-08-04 09:40:00,0
+16,SHP0003,Traffic Delay,Distribution Center,2026-08-04 10:01:00,17
+17,SHP0003,Traffic Delay,Cold Storage Facility,2026-08-04 09:34:00,43
+18,SHP0003,Cold Storage Stop,Highway Checkpoint,2026-08-04 09:02:00,9
+19,SHP0003,Checkpoint,Cold Storage Facility,2026-08-04 10:06:00,0
+20,SHP0003,Checkpoint,Distribution Center,2026-08-04 07:19:00,0
+21,SHP0003,Arrival,Bengaluru,2026-08-04 11:20:00,0
+22,SHP0004,Departure,Chennai,2026-08-05 05:55:00,0
+23,SHP0004,Rest Stop,Highway Checkpoint,2026-08-05 06:22:00,31
+24,SHP0004,Checkpoint,Fuel Station,2026-08-05 06:21:00,0
+25,SHP0004,Checkpoint,City Entry,2026-08-05 10:16:00,0
+26,SHP0004,Arrival,Madurai,2026-08-05 10:31:00,0
+27,SHP0005,Departure,Coimbatore,2026-08-04 05:14:00,0
+28,SHP0005,Traffic Delay,Highway Checkpoint,2026-08-04 05:38:00,36
+29,SHP0005,Traffic Delay,Cold Storage Facility,2026-08-04 06:26:00,16
+30,SHP0005,Cold Storage Stop,Cold Storage Facility,2026-08-04 05:54:00,19
+31,SHP0005,Cold Storage Stop,Rest Area,2026-08-04 05:55:00,20
+32,SHP0005,Checkpoint,Rest Area,2026-08-04 08:46:00,0
+33,SHP0005,Arrival,Pune,2026-08-04 09:30:00,0
+34,SHP0006,Departure,Bangalore,2026-08-06 07:56:00,0
+35,SHP0006,Checkpoint,Fuel Station,2026-08-06 08:13:00,0
+36,SHP0006,Checkpoint,Cold Storage Facility,2026-08-06 09:36:00,0
+37,SHP0006,Rest Stop,Highway Checkpoint,2026-08-06 10:59:00,18
+38,SHP0006,Checkpoint,City Entry,2026-08-06 08:51:00,0
+39,SHP0006,Checkpoint,Distribution Center,2026-08-06 09:19:00,0
+40,SHP0006,Traffic Delay,Highway Checkpoint,2026-08-06 08:17:00,39
+41,SHP0006,Arrival,Madurai,2026-08-06 11:29:00,0
+42,SHP0007,Departure,Coimbatore,2026-08-04 06:41:00,0
+43,SHP0007,Checkpoint,Cold Storage Facility,2026-08-04 07:09:00,0
+44,SHP0007,Traffic Delay,Cold Storage Facility,2026-08-04 08:10:00,48
+45,SHP0007,Checkpoint,Distribution Center,2026-08-04 07:55:00,0
+46,SHP0007,Checkpoint,Cold Storage Facility,2026-08-04 07:42:00,0
+47,SHP0007,Arrival,Salem,2026-08-04 08:54:00,0
+48,SHP0008,Departure,Bangalore,2026-08-05 09:00:00,0
+49,SHP0008,Cold Storage Stop,City Entry,2026-08-05 10:19:00,6
+50,SHP0008,Rest Stop,Distribution Center,2026-08-05 10:12:00,38
+51,SHP0008,Checkpoint,Rest Area,2026-08-05 10:32:00,0
+52,SHP0008,Traffic Delay,Rest Area,2026-08-05 10:07:00,42
+53,SHP0008,Arrival,Mumbai,2026-08-05 11:24:00,0
+54,SHP0009,Departure,Pune,2026-08-07 10:13:00,0
+55,SHP0009,Checkpoint,Highway Checkpoint,2026-08-07 10:38:00,0
+56,SHP0009,Cold Storage Stop,Distribution Center,2026-08-07 10:27:00,10
+57,SHP0009,Checkpoint,Highway Checkpoint,2026-08-07 11:37:00,0
+58,SHP0009,Arrival,Madurai,2026-08-07 12:30:00,0
+59,SHP0010,Departure,Salem,2026-08-03 10:28:00,0
+60,SHP0010,Traffic Delay,Highway Checkpoint,2026-08-03 12:11:00,20
+61,SHP0010,Checkpoint,Cold Storage Facility,2026-08-03 11:31:00,0
+62,SHP0010,Checkpoint,Rest Area,2026-08-03 10:49:00,0
+63,SHP0010,Checkpoint,Highway Checkpoint,2026-08-03 10:45:00,0
+64,SHP0010,Arrival,Bengaluru,2026-08-03 13:19:00,0
+65,SHP0011,Departure,Bangalore,2026-08-07 05:37:00,0
+66,SHP0011,Checkpoint,Distribution Center,2026-08-07 06:54:00,0
+67,SHP0011,Checkpoint,Cold Storage Facility,2026-08-07 08:23:00,0
+68,SHP0011,Checkpoint,City Entry,2026-08-07 07:31:00,0
+69,SHP0011,Checkpoint,City Entry,2026-08-07 08:49:00,0
+70,SHP0011,Arrival,Coimbatore,2026-08-07 09:53:00,0
+71,SHP0012,Departure,Madurai,2026-08-02 07:50:00,0
+72,SHP0012,Cold Storage Stop,Distribution Center,2026-08-02 09:32:00,15
+73,SHP0012,Checkpoint,Rest Area,2026-08-02 08:39:00,0
+74,SHP0012,Checkpoint,Rest Area,2026-08-02 08:31:00,0
+75,SHP0012,Checkpoint,Highway Checkpoint,2026-08-02 09:13:00,0
+76,SHP0012,Rest Stop,Distribution Center,2026-08-02 08:15:00,19
+77,SHP0012,Checkpoint,Fuel Station,2026-08-02 08:48:00,0
+78,SHP0012,Arrival,Salem,2026-08-02 10:01:00,0
+79,SHP0013,Departure,Hyderabad,2026-08-02 10:05:00,0
+80,SHP0013,Checkpoint,Fuel Station,2026-08-02 11:34:00,0
+81,SHP0013,Checkpoint,Rest Area,2026-08-02 10:33:00,0
+82,SHP0013,Cold Storage Stop,Cold Storage Facility,2026-08-02 12:04:00,16
+83,SHP0013,Arrival,Kochi,2026-08-02 13:12:00,0
+84,SHP0014,Departure,Mumbai,2026-08-03 09:46:00,0
+85,SHP0014,Checkpoint,City Entry,2026-08-03 10:17:00,0
+86,SHP0014,Checkpoint,Fuel Station,2026-08-03 11:03:00,0
+87,SHP0014,Checkpoint,Distribution Center,2026-08-03 10:04:00,0
+88,SHP0014,Checkpoint,City Entry,2026-08-03 11:42:00,0
+89,SHP0014,Checkpoint,Cold Storage Facility,2026-08-03 11:20:00,0
+90,SHP0014,Arrival,Bengaluru,2026-08-03 13:11:00,0
+91,SHP0015,Departure,Chennai,2026-08-05 06:33:00,0
+92,SHP0015,Checkpoint,Fuel Station,2026-08-05 08:09:00,0
+93,SHP0015,Route Deviation,Fuel Station,2026-08-05 08:18:00,50
+94,SHP0015,Rest Stop,Fuel Station,2026-08-05 09:00:00,35
+95,SHP0015,Checkpoint,Cold Storage Facility,2026-08-05 06:47:00,0
+96,SHP0015,Checkpoint,Rest Area,2026-08-05 07:27:00,0
+97,SHP0015,Traffic Delay,Fuel Station,2026-08-05 06:59:00,30
+98,SHP0015,Arrival,Kochi,2026-08-05 11:53:00,0
+99,SHP0016,Departure,Hyderabad,2026-08-06 07:41:00,0
+100,SHP0016,Rest Stop,Fuel Station,2026-08-06 08:13:00,31
+101,SHP0016,Cold Storage Stop,City Entry,2026-08-06 08:53:00,8
+102,SHP0016,Checkpoint,City Entry,2026-08-06 08:53:00,0
+103,SHP0016,Checkpoint,Distribution Center,2026-08-06 08:14:00,0
+104,SHP0016,Arrival,Salem,2026-08-06 09:08:00,0
+105,SHP0017,Departure,Hyderabad,2026-08-06 08:07:00,0
+106,SHP0017,Checkpoint,Rest Area,2026-08-06 10:13:00,0
+107,SHP0017,Checkpoint,Cold Storage Facility,2026-08-06 08:36:00,0
+108,SHP0017,Rest Stop,Rest Area,2026-08-06 08:52:00,14
+109,SHP0017,Traffic Delay,Rest Area,2026-08-06 08:53:00,25
+110,SHP0017,Arrival,Pune,2026-08-06 11:10:00,0
+111,SHP0018,Departure,Pune,2026-08-07 05:33:00,0
+112,SHP0018,Checkpoint,Cold Storage Facility,2026-08-07 05:47:00,0
+113,SHP0018,Traffic Delay,City Entry,2026-08-07 06:13:00,34
+114,SHP0018,Checkpoint,Distribution Center,2026-08-07 06:14:00,0
+115,SHP0018,Checkpoint,Distribution Center,2026-08-07 06:14:00,0
+116,SHP0018,Rest Stop,Cold Storage Facility,2026-08-07 05:59:00,39
+117,SHP0018,Arrival,Bengaluru,2026-08-07 06:39:00,0
+118,SHP0019,Departure,Madurai,2026-08-01 08:55:00,0
+119,SHP0019,Checkpoint,Fuel Station,2026-08-01 12:48:00,0
+120,SHP0019,Checkpoint,Highway Checkpoint,2026-08-01 14:04:00,0
+121,SHP0019,Checkpoint,Highway Checkpoint,2026-08-01 11:29:00,0
+122,SHP0019,Checkpoint,Highway Checkpoint,2026-08-01 10:44:00,0
+123,SHP0019,Arrival,Coimbatore,2026-08-01 14:46:00,0
+124,SHP0020,Departure,Salem,2026-08-06 09:43:00,0
+125,SHP0020,Checkpoint,Distribution Center,2026-08-06 10:21:00,0
+126,SHP0020,Rest Stop,Rest Area,2026-08-06 10:39:00,23
+127,SHP0020,Checkpoint,Rest Area,2026-08-06 11:36:00,0
+128,SHP0020,Checkpoint,City Entry,2026-08-06 09:59:00,0
+129,SHP0020,Checkpoint,Fuel Station,2026-08-06 11:56:00,0
+130,SHP0020,Checkpoint,City Entry,2026-08-06 11:18:00,0
+131,SHP0020,Arrival,Madurai,2026-08-06 12:11:00,0
+132,SHP0021,Departure,Pune,2026-08-01 05:37:00,0
+133,SHP0021,Rest Stop,Cold Storage Facility,2026-08-01 06:10:00,25
+134,SHP0021,Cold Storage Stop,Distribution Center,2026-08-01 05:48:00,18
+135,SHP0021,Checkpoint,City Entry,2026-08-01 05:49:00,0
+136,SHP0021,Arrival,Bangalore,2026-08-01 07:11:00,0
+137,SHP0022,Departure,Chennai,2026-08-03 06:02:00,0
+138,SHP0022,Checkpoint,Highway Checkpoint,2026-08-03 06:16:00,0
+139,SHP0022,Rest Stop,Highway Checkpoint,2026-08-03 07:09:00,18
+140,SHP0022,Checkpoint,Fuel Station,2026-08-03 06:26:00,0
+141,SHP0022,Checkpoint,Highway Checkpoint,2026-08-03 06:48:00,0
+142,SHP0022,Arrival,Kochi,2026-08-03 07:32:00,0
+143,SHP0023,Departure,Salem,2026-08-04 07:40:00,0
+144,SHP0023,Checkpoint,Highway Checkpoint,2026-08-04 12:41:00,0
+145,SHP0023,Cold Storage Stop,Rest Area,2026-08-04 09:03:00,13
+146,SHP0023,Checkpoint,Fuel Station,2026-08-04 10:37:00,0
+147,SHP0023,Cold Storage Stop,Rest Area,2026-08-04 11:23:00,9
+148,SHP0023,Cold Storage Stop,Fuel Station,2026-08-04 09:56:00,12
+149,SHP0023,Rest Stop,Highway Checkpoint,2026-08-04 12:43:00,26
+150,SHP0023,Arrival,Mumbai,2026-08-04 12:56:00,0
+151,SHP0024,Departure,Salem,2026-08-04 10:34:00,0
+152,SHP0024,Checkpoint,Fuel Station,2026-08-04 13:22:00,0
+153,SHP0024,Rest Stop,City Entry,2026-08-04 12:13:00,26
+154,SHP0024,Rest Stop,Rest Area,2026-08-04 15:59:00,29
+155,SHP0024,Cold Storage Stop,City Entry,2026-08-04 11:37:00,18
+156,SHP0024,Arrival,Bangalore,2026-08-04 16:09:00,0
+157,SHP0025,Departure,Bengaluru,2026-08-06 07:05:00,0
+158,SHP0025,Rest Stop,City Entry,2026-08-06 09:45:00,36
+159,SHP0025,Checkpoint,Distribution Center,2026-08-06 09:48:00,0
+160,SHP0025,Checkpoint,Rest Area,2026-08-06 07:30:00,0
+161,SHP0025,Arrival,Coimbatore,2026-08-06 10:43:00,0
+162,SHP0026,Departure,Bangalore,2026-08-07 06:51:00,0
+163,SHP0026,Checkpoint,Highway Checkpoint,2026-08-07 07:30:00,0
+164,SHP0026,Checkpoint,Cold Storage Facility,2026-08-07 07:57:00,0
+165,SHP0026,Checkpoint,Highway Checkpoint,2026-08-07 08:40:00,0
+166,SHP0026,Checkpoint,Rest Area,2026-08-07 07:24:00,0
+167,SHP0026,Arrival,Mumbai,2026-08-07 09:10:00,0
+168,SHP0027,Departure,Mumbai,2026-08-05 08:37:00,0
+169,SHP0027,Checkpoint,Highway Checkpoint,2026-08-05 09:04:00,0
+170,SHP0027,Cold Storage Stop,Highway Checkpoint,2026-08-05 09:04:00,20
+171,SHP0027,Rest Stop,Cold Storage Facility,2026-08-05 09:10:00,13
+172,SHP0027,Checkpoint,Cold Storage Facility,2026-08-05 09:31:00,0
+173,SHP0027,Rest Stop,Rest Area,2026-08-05 08:53:00,22
+174,SHP0027,Arrival,Madurai,2026-08-05 10:10:00,0
+175,SHP0028,Departure,Kochi,2026-08-06 10:54:00,0
+176,SHP0028,Checkpoint,Fuel Station,2026-08-06 11:51:00,0
+177,SHP0028,Checkpoint,City Entry,2026-08-06 12:08:00,0
+178,SHP0028,Checkpoint,Distribution Center,2026-08-06 12:45:00,0
+179,SHP0028,Checkpoint,Rest Area,2026-08-06 11:21:00,0
+180,SHP0028,Arrival,Salem,2026-08-06 13:56:00,0
+181,SHP0029,Departure,Chennai,2026-08-01 05:59:00,0
+182,SHP0029,Rest Stop,Rest Area,2026-08-01 07:37:00,19
+183,SHP0029,Rest Stop,Highway Checkpoint,2026-08-01 08:55:00,17
+184,SHP0029,Checkpoint,Distribution Center,2026-08-01 09:46:00,0
+185,SHP0029,Traffic Delay,Fuel Station,2026-08-01 06:11:00,31
+186,SHP0029,Rest Stop,Rest Area,2026-08-01 08:54:00,30
+187,SHP0029,Checkpoint,Cold Storage Facility,2026-08-01 09:36:00,0
+188,SHP0029,Arrival,Hyderabad,2026-08-01 10:41:00,0
+189,SHP0030,Departure,Bangalore,2026-08-06 09:38:00,0
+190,SHP0030,Route Deviation,Rest Area,2026-08-06 09:56:00,26
+191,SHP0030,Checkpoint,Highway Checkpoint,2026-08-06 09:58:00,0
+192,SHP0030,Checkpoint,Highway Checkpoint,2026-08-06 09:48:00,0
+193,SHP0030,Checkpoint,City Entry,2026-08-06 10:03:00,0
+194,SHP0030,Checkpoint,Fuel Station,2026-08-06 10:56:00,0
+195,SHP0030,Traffic Delay,Fuel Station,2026-08-06 10:30:00,13
+196,SHP0030,Arrival,Pune,2026-08-06 11:06:00,0
+197,SHP0031,Departure,Kochi,2026-08-07 05:00:00,0
+198,SHP0031,Checkpoint,Distribution Center,2026-08-07 06:05:00,0
+199,SHP0031,Checkpoint,City Entry,2026-08-07 06:59:00,0
+200,SHP0031,Checkpoint,Distribution Center,2026-08-07 05:58:00,0
+201,SHP0031,Cold Storage Stop,Cold Storage Facility,2026-08-07 06:03:00,16
+202,SHP0031,Arrival,Coimbatore,2026-08-07 07:10:00,0
+203,SHP0032,Departure,Chennai,2026-08-03 08:22:00,0
+204,SHP0032,Checkpoint,Fuel Station,2026-08-03 13:37:00,0
+205,SHP0032,Checkpoint,City Entry,2026-08-03 13:31:00,0
+206,SHP0032,Checkpoint,Fuel Station,2026-08-03 10:06:00,0
+207,SHP0032,Arrival,Coimbatore,2026-08-03 13:49:00,0
+208,SHP0033,Departure,Mumbai,2026-08-01 06:23:00,0
+209,SHP0033,Checkpoint,Rest Area,2026-08-01 07:12:00,0
+210,SHP0033,Rest Stop,City Entry,2026-08-01 08:14:00,31
+211,SHP0033,Checkpoint,Distribution Center,2026-08-01 07:10:00,0
+212,SHP0033,Cold Storage Stop,Distribution Center,2026-08-01 06:33:00,11
+213,SHP0033,Route Deviation,Rest Area,2026-08-01 07:05:00,52
+214,SHP0033,Arrival,Kochi,2026-08-01 08:27:00,0
+215,SHP0034,Departure,Kochi,2026-08-05 05:21:00,0
+216,SHP0034,Checkpoint,Highway Checkpoint,2026-08-05 09:05:00,0
+217,SHP0034,Checkpoint,Fuel Station,2026-08-05 06:32:00,0
+218,SHP0034,Cold Storage Stop,Highway Checkpoint,2026-08-05 07:50:00,13
+219,SHP0034,Arrival,Bangalore,2026-08-05 10:00:00,0
+220,SHP0035,Departure,Kochi,2026-08-06 05:16:00,0
+221,SHP0035,Checkpoint,Highway Checkpoint,2026-08-06 06:40:00,0
+222,SHP0035,Checkpoint,Distribution Center,2026-08-06 08:00:00,0
+223,SHP0035,Rest Stop,Rest Area,2026-08-06 06:21:00,35
+224,SHP0035,Checkpoint,Rest Area,2026-08-06 09:31:00,0
+225,SHP0035,Arrival,Mumbai,2026-08-06 11:11:00,0
+226,SHP0036,Departure,Bangalore,2026-08-05 08:32:00,0
+227,SHP0036,Cold Storage Stop,Highway Checkpoint,2026-08-05 11:33:00,5
+228,SHP0036,Checkpoint,City Entry,2026-08-05 09:47:00,0
+229,SHP0036,Checkpoint,City Entry,2026-08-05 10:38:00,0
+230,SHP0036,Arrival,Pune,2026-08-05 12:36:00,0
+231,SHP0037,Departure,Chennai,2026-08-01 09:10:00,0
+232,SHP0037,Traffic Delay,Highway Checkpoint,2026-08-01 11:51:00,44
+233,SHP0037,Checkpoint,City Entry,2026-08-01 12:26:00,0
+234,SHP0037,Cold Storage Stop,Highway Checkpoint,2026-08-01 11:29:00,12
+235,SHP0037,Checkpoint,Cold Storage Facility,2026-08-01 11:21:00,0
+236,SHP0037,Arrival,Pune,2026-08-01 13:18:00,0
+237,SHP0038,Departure,Coimbatore,2026-08-06 05:57:00,0
+238,SHP0038,Cold Storage Stop,City Entry,2026-08-06 07:53:00,15
+239,SHP0038,Checkpoint,Fuel Station,2026-08-06 07:58:00,0
+240,SHP0038,Route Deviation,Highway Checkpoint,2026-08-06 07:50:00,52
+241,SHP0038,Cold Storage Stop,Rest Area,2026-08-06 06:40:00,7
+242,SHP0038,Traffic Delay,Highway Checkpoint,2026-08-06 11:30:00,34
+243,SHP0038,Arrival,Kochi,2026-08-06 11:50:00,0
+244,SHP0039,Departure,Bangalore,2026-08-05 10:32:00,0
+245,SHP0039,Checkpoint,Distribution Center,2026-08-05 11:04:00,0
+246,SHP0039,Cold Storage Stop,Highway Checkpoint,2026-08-05 10:47:00,13
+247,SHP0039,Traffic Delay,Rest Area,2026-08-05 10:57:00,50
+248,SHP0039,Checkpoint,City Entry,2026-08-05 10:52:00,0
+249,SHP0039,Arrival,Hyderabad,2026-08-05 11:33:00,0
+250,SHP0040,Departure,Chennai,2026-08-02 05:30:00,0
+251,SHP0040,Checkpoint,Rest Area,2026-08-02 09:05:00,0
+252,SHP0040,Cold Storage Stop,City Entry,2026-08-02 06:16:00,9
+253,SHP0040,Traffic Delay,Rest Area,2026-08-02 07:21:00,18
+254,SHP0040,Checkpoint,Distribution Center,2026-08-02 08:25:00,0
+255,SHP0040,Checkpoint,Rest Area,2026-08-02 06:45:00,0
+256,SHP0040,Checkpoint,Rest Area,2026-08-02 08:36:00,0
+257,SHP0040,Arrival,Hyderabad,2026-08-02 09:36:00,0
+258,SHP0041,Departure,Salem,2026-08-01 06:59:00,0
+259,SHP0041,Checkpoint,Distribution Center,2026-08-01 07:31:00,0
+260,SHP0041,Checkpoint,Distribution Center,2026-08-01 07:44:00,0
+261,SHP0041,Rest Stop,Distribution Center,2026-08-01 07:15:00,31
+262,SHP0041,Route Deviation,Distribution Center,2026-08-01 07:41:00,69
+263,SHP0041,Checkpoint,Cold Storage Facility,2026-08-01 07:20:00,0
+264,SHP0041,Arrival,Coimbatore,2026-08-01 08:17:00,0
+265,SHP0042,Departure,Mumbai,2026-08-06 06:20:00,0
+266,SHP0042,Traffic Delay,Highway Checkpoint,2026-08-06 06:57:00,30
+267,SHP0042,Checkpoint,Highway Checkpoint,2026-08-06 08:17:00,0
+268,SHP0042,Traffic Delay,City Entry,2026-08-06 07:25:00,37
+269,SHP0042,Checkpoint,Distribution Center,2026-08-06 07:27:00,0
+270,SHP0042,Arrival,Salem,2026-08-06 09:27:00,0
+271,SHP0043,Departure,Salem,2026-08-01 07:52:00,0
+272,SHP0043,Checkpoint,City Entry,2026-08-01 08:51:00,0
+273,SHP0043,Rest Stop,Cold Storage Facility,2026-08-01 08:56:00,20
+274,SHP0043,Checkpoint,Distribution Center,2026-08-01 08:32:00,0
+275,SHP0043,Checkpoint,Distribution Center,2026-08-01 08:04:00,0
+276,SHP0043,Checkpoint,City Entry,2026-08-01 08:32:00,0
+277,SHP0043,Arrival,Madurai,2026-08-01 09:31:00,0
+278,SHP0044,Departure,Bengaluru,2026-08-03 05:32:00,0
+279,SHP0044,Cold Storage Stop,City Entry,2026-08-03 06:45:00,20
+280,SHP0044,Cold Storage Stop,Highway Checkpoint,2026-08-03 06:35:00,16
+281,SHP0044,Checkpoint,Fuel Station,2026-08-03 05:51:00,0
+282,SHP0044,Rest Stop,Distribution Center,2026-08-03 06:20:00,31
+283,SHP0044,Arrival,Madurai,2026-08-03 06:58:00,0
+284,SHP0045,Departure,Coimbatore,2026-08-01 09:02:00,0
+285,SHP0045,Rest Stop,Rest Area,2026-08-01 11:51:00,14
+286,SHP0045,Checkpoint,Highway Checkpoint,2026-08-01 11:01:00,0
+287,SHP0045,Checkpoint,City Entry,2026-08-01 12:50:00,0
+288,SHP0045,Checkpoint,Rest Area,2026-08-01 11:33:00,0
+289,SHP0045,Checkpoint,City Entry,2026-08-01 10:02:00,0
+290,SHP0045,Checkpoint,Fuel Station,2026-08-01 11:57:00,0
+291,SHP0045,Arrival,Hyderabad,2026-08-01 13:27:00,0
+292,SHP0046,Departure,Bangalore,2026-08-04 07:49:00,0
+293,SHP0046,Cold Storage Stop,Distribution Center,2026-08-04 09:19:00,17
+294,SHP0046,Checkpoint,Cold Storage Facility,2026-08-04 09:05:00,0
+295,SHP0046,Rest Stop,City Entry,2026-08-04 08:02:00,38
+296,SHP0046,Rest Stop,Cold Storage Facility,2026-08-04 10:34:00,30
+297,SHP0046,Checkpoint,City Entry,2026-08-04 09:27:00,0
+298,SHP0046,Route Deviation,City Entry,2026-08-04 09:54:00,56
+299,SHP0046,Arrival,Pune,2026-08-04 11:28:00,0
+300,SHP0047,Departure,Madurai,2026-08-02 09:29:00,0
+301,SHP0047,Rest Stop,City Entry,2026-08-02 10:04:00,23
+302,SHP0047,Cold Storage Stop,City Entry,2026-08-02 09:57:00,13
+303,SHP0047,Cold Storage Stop,Highway Checkpoint,2026-08-02 09:53:00,19
+304,SHP0047,Checkpoint,Cold Storage Facility,2026-08-02 10:03:00,0
+305,SHP0047,Checkpoint,Rest Area,2026-08-02 10:01:00,0
+306,SHP0047,Arrival,Bangalore,2026-08-02 10:33:00,0
+307,SHP0048,Departure,Madurai,2026-08-06 07:36:00,0
+308,SHP0048,Checkpoint,Cold Storage Facility,2026-08-06 10:14:00,0
+309,SHP0048,Checkpoint,Distribution Center,2026-08-06 08:19:00,0
+310,SHP0048,Checkpoint,Cold Storage Facility,2026-08-06 10:58:00,0
+311,SHP0048,Arrival,Hyderabad,2026-08-06 11:11:00,0
+312,SHP0049,Departure,Bengaluru,2026-08-01 08:23:00,0
+313,SHP0049,Checkpoint,Distribution Center,2026-08-01 10:13:00,0
+314,SHP0049,Checkpoint,Cold Storage Facility,2026-08-01 09:01:00,0
+315,SHP0049,Checkpoint,Rest Area,2026-08-01 11:17:00,0
+316,SHP0049,Checkpoint,Highway Checkpoint,2026-08-01 10:08:00,0
+317,SHP0049,Cold Storage Stop,Fuel Station,2026-08-01 09:49:00,18
+318,SHP0049,Checkpoint,Cold Storage Facility,2026-08-01 12:55:00,0
+319,SHP0049,Arrival,Hyderabad,2026-08-01 13:35:00,0
+320,SHP0050,Departure,Hyderabad,2026-08-04 06:09:00,0
+321,SHP0050,Checkpoint,Distribution Center,2026-08-04 06:41:00,0
+322,SHP0050,Checkpoint,Rest Area,2026-08-04 07:01:00,0
+323,SHP0050,Rest Stop,Fuel Station,2026-08-04 06:25:00,24
+324,SHP0050,Checkpoint,Cold Storage Facility,2026-08-04 06:45:00,0
+325,SHP0050,Arrival,Mumbai,2026-08-04 07:12:00,0
+326,SHP0051,Departure,Salem,2026-08-02 06:34:00,0
+327,SHP0051,Rest Stop,Highway Checkpoint,2026-08-02 09:44:00,28
+328,SHP0051,Checkpoint,Distribution Center,2026-08-02 07:20:00,0
+329,SHP0051,Route Deviation,Fuel Station,2026-08-02 09:42:00,44
+330,SHP0051,Checkpoint,Fuel Station,2026-08-02 09:41:00,0
+331,SHP0051,Checkpoint,Fuel Station,2026-08-02 08:27:00,0
+332,SHP0051,Checkpoint,City Entry,2026-08-02 07:08:00,0
+333,SHP0051,Arrival,Chennai,2026-08-02 10:31:00,0
+334,SHP0052,Departure,Chennai,2026-08-06 05:48:00,0
+335,SHP0052,Rest Stop,Distribution Center,2026-08-06 07:32:00,40
+336,SHP0052,Checkpoint,Cold Storage Facility,2026-08-06 07:25:00,0
+337,SHP0052,Route Deviation,Cold Storage Facility,2026-08-06 07:26:00,49
+338,SHP0052,Checkpoint,Distribution Center,2026-08-06 09:24:00,0
+339,SHP0052,Checkpoint,Cold Storage Facility,2026-08-06 08:23:00,0
+340,SHP0052,Rest Stop,Rest Area,2026-08-06 08:06:00,14
+341,SHP0052,Arrival,Madurai,2026-08-06 10:00:00,0
+342,SHP0053,Departure,Kochi,2026-08-06 06:33:00,0
+343,SHP0053,Checkpoint,City Entry,2026-08-06 09:00:00,0
+344,SHP0053,Checkpoint,Fuel Station,2026-08-06 09:18:00,0
+345,SHP0053,Checkpoint,Cold Storage Facility,2026-08-06 07:21:00,0
+346,SHP0053,Checkpoint,Fuel Station,2026-08-06 09:23:00,0
+347,SHP0053,Checkpoint,Rest Area,2026-08-06 09:11:00,0
+348,SHP0053,Arrival,Bangalore,2026-08-06 09:34:00,0
+349,SHP0054,Departure,Salem,2026-08-07 05:09:00,0
+350,SHP0054,Checkpoint,Rest Area,2026-08-07 06:15:00,0
+351,SHP0054,Checkpoint,Highway Checkpoint,2026-08-07 08:19:00,0
+352,SHP0054,Checkpoint,Cold Storage Facility,2026-08-07 05:37:00,0
+353,SHP0054,Checkpoint,Fuel Station,2026-08-07 05:27:00,0
+354,SHP0054,Checkpoint,Highway Checkpoint,2026-08-07 06:58:00,0
+355,SHP0054,Arrival,Pune,2026-08-07 08:32:00,0
+356,SHP0055,Departure,Bangalore,2026-08-01 06:57:00,0
+357,SHP0055,Checkpoint,Cold Storage Facility,2026-08-01 11:20:00,0
+358,SHP0055,Traffic Delay,Highway Checkpoint,2026-08-01 07:18:00,33
+359,SHP0055,Cold Storage Stop,City Entry,2026-08-01 11:15:00,19
+360,SHP0055,Checkpoint,Fuel Station,2026-08-01 08:49:00,0
+361,SHP0055,Checkpoint,Highway Checkpoint,2026-08-01 10:47:00,0
+362,SHP0055,Arrival,Chennai,2026-08-01 12:23:00,0
+363,SHP0056,Departure,Salem,2026-08-02 08:47:00,0
+364,SHP0056,Rest Stop,Fuel Station,2026-08-02 09:54:00,31
+365,SHP0056,Rest Stop,Cold Storage Facility,2026-08-02 10:10:00,25
+366,SHP0056,Cold Storage Stop,Rest Area,2026-08-02 09:06:00,5
+367,SHP0056,Arrival,Madurai,2026-08-02 10:30:00,0
+368,SHP0057,Departure,Bengaluru,2026-08-01 09:08:00,0
+369,SHP0057,Cold Storage Stop,City Entry,2026-08-01 10:59:00,16
+370,SHP0057,Rest Stop,Fuel Station,2026-08-01 11:57:00,10
+371,SHP0057,Rest Stop,Highway Checkpoint,2026-08-01 10:01:00,40
+372,SHP0057,Arrival,Bangalore,2026-08-01 13:29:00,0
+373,SHP0058,Departure,Bangalore,2026-08-05 09:03:00,0
+374,SHP0058,Checkpoint,Distribution Center,2026-08-05 12:41:00,0
+375,SHP0058,Checkpoint,Distribution Center,2026-08-05 09:34:00,0
+376,SHP0058,Checkpoint,Rest Area,2026-08-05 09:45:00,0
+377,SHP0058,Checkpoint,Highway Checkpoint,2026-08-05 10:31:00,0
+378,SHP0058,Checkpoint,Cold Storage Facility,2026-08-05 09:39:00,0
+379,SHP0058,Arrival,Bengaluru,2026-08-05 13:45:00,0
+380,SHP0059,Departure,Coimbatore,2026-08-02 07:16:00,0
+381,SHP0059,Cold Storage Stop,City Entry,2026-08-02 10:39:00,5
+382,SHP0059,Checkpoint,Cold Storage Facility,2026-08-02 08:11:00,0
+383,SHP0059,Checkpoint,Distribution Center,2026-08-02 07:37:00,0
+384,SHP0059,Arrival,Hyderabad,2026-08-02 10:57:00,0
+385,SHP0060,Departure,Salem,2026-08-01 07:28:00,0
+386,SHP0060,Checkpoint,Distribution Center,2026-08-01 08:55:00,0
+387,SHP0060,Checkpoint,Rest Area,2026-08-01 09:32:00,0
+388,SHP0060,Cold Storage Stop,Cold Storage Facility,2026-08-01 07:52:00,16
+389,SHP0060,Arrival,Madurai,2026-08-01 10:47:00,0
+390,SHP0061,Departure,Hyderabad,2026-08-02 06:08:00,0
+391,SHP0061,Checkpoint,Highway Checkpoint,2026-08-02 08:21:00,0
+392,SHP0061,Checkpoint,Rest Area,2026-08-02 11:34:00,0
+393,SHP0061,Checkpoint,Distribution Center,2026-08-02 10:31:00,0
+394,SHP0061,Checkpoint,Rest Area,2026-08-02 08:47:00,0
+395,SHP0061,Arrival,Bangalore,2026-08-02 12:07:00,0
+396,SHP0062,Departure,Bangalore,2026-08-04 05:10:00,0
+397,SHP0062,Checkpoint,Fuel Station,2026-08-04 07:45:00,0
+398,SHP0062,Checkpoint,Highway Checkpoint,2026-08-04 07:18:00,0
+399,SHP0062,Rest Stop,Fuel Station,2026-08-04 07:57:00,37
+400,SHP0062,Checkpoint,City Entry,2026-08-04 08:15:00,0
+401,SHP0062,Cold Storage Stop,City Entry,2026-08-04 07:06:00,11
+402,SHP0062,Arrival,Coimbatore,2026-08-04 10:00:00,0
+403,SHP0063,Departure,Pune,2026-08-02 08:07:00,0
+404,SHP0063,Checkpoint,City Entry,2026-08-02 10:47:00,0
+405,SHP0063,Checkpoint,City Entry,2026-08-02 09:17:00,0
+406,SHP0063,Cold Storage Stop,Distribution Center,2026-08-02 11:44:00,13
+407,SHP0063,Rest Stop,Highway Checkpoint,2026-08-02 10:31:00,11
+408,SHP0063,Arrival,Madurai,2026-08-02 13:41:00,0
+409,SHP0064,Departure,Madurai,2026-08-04 08:19:00,0
+410,SHP0064,Rest Stop,City Entry,2026-08-04 10:33:00,19
+411,SHP0064,Cold Storage Stop,Highway Checkpoint,2026-08-04 12:37:00,11
+412,SHP0064,Cold Storage Stop,Distribution Center,2026-08-04 10:54:00,12
+413,SHP0064,Traffic Delay,Fuel Station,2026-08-04 08:50:00,55
+414,SHP0064,Checkpoint,Highway Checkpoint,2026-08-04 09:25:00,0
+415,SHP0064,Arrival,Hyderabad,2026-08-04 13:16:00,0
+416,SHP0065,Departure,Kochi,2026-08-01 05:10:00,0
+417,SHP0065,Rest Stop,City Entry,2026-08-01 08:00:00,15
+418,SHP0065,Cold Storage Stop,Distribution Center,2026-08-01 06:58:00,18
+419,SHP0065,Checkpoint,Highway Checkpoint,2026-08-01 06:08:00,0
+420,SHP0065,Arrival,Bangalore,2026-08-01 08:45:00,0
+421,SHP0066,Departure,Bengaluru,2026-08-02 06:53:00,0
+422,SHP0066,Traffic Delay,Distribution Center,2026-08-02 09:18:00,39
+423,SHP0066,Checkpoint,Distribution Center,2026-08-02 09:53:00,0
+424,SHP0066,Cold Storage Stop,Rest Area,2026-08-02 07:24:00,5
+425,SHP0066,Arrival,Chennai,2026-08-02 10:40:00,0
+426,SHP0067,Departure,Coimbatore,2026-08-01 10:15:00,0
+427,SHP0067,Traffic Delay,Rest Area,2026-08-01 11:04:00,25
+428,SHP0067,Checkpoint,Fuel Station,2026-08-01 12:47:00,0
+429,SHP0067,Cold Storage Stop,Distribution Center,2026-08-01 12:52:00,5
+430,SHP0067,Arrival,Bangalore,2026-08-01 14:17:00,0
+431,SHP0068,Departure,Salem,2026-08-06 05:43:00,0
+432,SHP0068,Rest Stop,Rest Area,2026-08-06 08:44:00,24
+433,SHP0068,Checkpoint,Cold Storage Facility,2026-08-06 07:14:00,0
+434,SHP0068,Checkpoint,Distribution Center,2026-08-06 07:41:00,0
+435,SHP0068,Traffic Delay,Distribution Center,2026-08-06 06:09:00,48
+436,SHP0068,Arrival,Mumbai,2026-08-06 09:16:00,0
+437,SHP0069,Departure,Kochi,2026-08-01 05:25:00,0
+438,SHP0069,Checkpoint,Fuel Station,2026-08-01 08:33:00,0
+439,SHP0069,Checkpoint,Highway Checkpoint,2026-08-01 07:09:00,0
+440,SHP0069,Checkpoint,City Entry,2026-08-01 08:55:00,0
+441,SHP0069,Checkpoint,Distribution Center,2026-08-01 06:55:00,0
+442,SHP0069,Arrival,Coimbatore,2026-08-01 10:16:00,0
+443,SHP0070,Departure,Mumbai,2026-08-05 05:29:00,0
+444,SHP0070,Checkpoint,Highway Checkpoint,2026-08-05 06:58:00,0
+445,SHP0070,Checkpoint,Cold Storage Facility,2026-08-05 05:48:00,0
+446,SHP0070,Checkpoint,Cold Storage Facility,2026-08-05 06:58:00,0
+447,SHP0070,Cold Storage Stop,Distribution Center,2026-08-05 05:40:00,5
+448,SHP0070,Cold Storage Stop,Fuel Station,2026-08-05 06:03:00,16
+449,SHP0070,Arrival,Hyderabad,2026-08-05 07:21:00,0
+450,SHP0071,Departure,Coimbatore,2026-08-06 05:03:00,0
+451,SHP0071,Rest Stop,Highway Checkpoint,2026-08-06 07:26:00,29
+452,SHP0071,Checkpoint,Distribution Center,2026-08-06 06:40:00,0
+453,SHP0071,Checkpoint,Distribution Center,2026-08-06 05:35:00,0
+454,SHP0071,Checkpoint,Highway Checkpoint,2026-08-06 07:16:00,0
+455,SHP0071,Arrival,Bangalore,2026-08-06 07:56:00,0
+456,SHP0072,Departure,Coimbatore,2026-08-03 08:23:00,0
+457,SHP0072,Checkpoint,Cold Storage Facility,2026-08-03 09:29:00,0
+458,SHP0072,Traffic Delay,Rest Area,2026-08-03 09:00:00,28
+459,SHP0072,Rest Stop,Cold Storage Facility,2026-08-03 08:39:00,32
+460,SHP0072,Checkpoint,Rest Area,2026-08-03 09:46:00,0
+461,SHP0072,Arrival,Hyderabad,2026-08-03 10:06:00,0
+462,SHP0073,Departure,Bengaluru,2026-08-01 05:01:00,0
+463,SHP0073,Traffic Delay,Rest Area,2026-08-01 05:41:00,33
+464,SHP0073,Cold Storage Stop,City Entry,2026-08-01 05:55:00,10
+465,SHP0073,Checkpoint,City Entry,2026-08-01 05:20:00,0
+466,SHP0073,Cold Storage Stop,Cold Storage Facility,2026-08-01 05:57:00,14
+467,SHP0073,Arrival,Kochi,2026-08-01 06:34:00,0
+468,SHP0074,Departure,Hyderabad,2026-08-05 06:05:00,0
+469,SHP0074,Checkpoint,City Entry,2026-08-05 08:20:00,0
+470,SHP0074,Checkpoint,Cold Storage Facility,2026-08-05 08:09:00,0
+471,SHP0074,Rest Stop,Distribution Center,2026-08-05 06:41:00,36
+472,SHP0074,Rest Stop,City Entry,2026-08-05 08:35:00,24
+473,SHP0074,Cold Storage Stop,City Entry,2026-08-05 07:03:00,10
+474,SHP0074,Arrival,Pune,2026-08-05 09:54:00,0
+475,SHP0075,Departure,Bangalore,2026-08-06 08:03:00,0
+476,SHP0075,Checkpoint,Rest Area,2026-08-06 09:11:00,0
+477,SHP0075,Checkpoint,Cold Storage Facility,2026-08-06 08:19:00,0
+478,SHP0075,Rest Stop,Rest Area,2026-08-06 09:48:00,29
+479,SHP0075,Checkpoint,City Entry,2026-08-06 08:43:00,0
+480,SHP0075,Route Deviation,City Entry,2026-08-06 10:16:00,37
+481,SHP0075,Checkpoint,Distribution Center,2026-08-06 09:41:00,0
+482,SHP0075,Arrival,Chennai,2026-08-06 10:29:00,0
+483,SHP0076,Departure,Bengaluru,2026-08-02 10:25:00,0
+484,SHP0076,Cold Storage Stop,Rest Area,2026-08-02 12:32:00,9
+485,SHP0076,Checkpoint,Highway Checkpoint,2026-08-02 11:09:00,0
+486,SHP0076,Checkpoint,Cold Storage Facility,2026-08-02 14:27:00,0
+487,SHP0076,Arrival,Salem,2026-08-02 15:39:00,0
+488,SHP0077,Departure,Chennai,2026-08-07 10:27:00,0
+489,SHP0077,Route Deviation,Highway Checkpoint,2026-08-07 12:00:00,29
+490,SHP0077,Checkpoint,City Entry,2026-08-07 12:27:00,0
+491,SHP0077,Checkpoint,Rest Area,2026-08-07 10:51:00,0
+492,SHP0077,Rest Stop,Distribution Center,2026-08-07 12:26:00,39
+493,SHP0077,Checkpoint,City Entry,2026-08-07 11:31:00,0
+494,SHP0077,Checkpoint,City Entry,2026-08-07 11:23:00,0
+495,SHP0077,Arrival,Salem,2026-08-07 12:55:00,0
+496,SHP0078,Departure,Madurai,2026-08-01 06:17:00,0
+497,SHP0078,Checkpoint,Rest Area,2026-08-01 08:06:00,0
+498,SHP0078,Cold Storage Stop,Highway Checkpoint,2026-08-01 09:06:00,8
+499,SHP0078,Checkpoint,Highway Checkpoint,2026-08-01 08:32:00,0
+500,SHP0078,Rest Stop,Cold Storage Facility,2026-08-01 06:52:00,16
+501,SHP0078,Checkpoint,Distribution Center,2026-08-01 08:00:00,0
+502,SHP0078,Checkpoint,Distribution Center,2026-08-01 07:55:00,0
+503,SHP0078,Arrival,Hyderabad,2026-08-01 09:40:00,0
+504,SHP0079,Departure,Pune,2026-08-02 05:39:00,0
+505,SHP0079,Traffic Delay,Highway Checkpoint,2026-08-02 07:30:00,35
+506,SHP0079,Checkpoint,Highway Checkpoint,2026-08-02 06:05:00,0
+507,SHP0079,Traffic Delay,Rest Area,2026-08-02 08:22:00,30
+508,SHP0079,Checkpoint,Distribution Center,2026-08-02 05:57:00,0
+509,SHP0079,Checkpoint,Cold Storage Facility,2026-08-02 08:14:00,0
+510,SHP0079,Arrival,Coimbatore,2026-08-02 08:44:00,0
+511,SHP0080,Departure,Kochi,2026-08-04 08:56:00,0
+512,SHP0080,Checkpoint,Highway Checkpoint,2026-08-04 11:38:00,0
+513,SHP0080,Checkpoint,Highway Checkpoint,2026-08-04 12:50:00,0
+514,SHP0080,Rest Stop,Distribution Center,2026-08-04 12:57:00,39
+515,SHP0080,Arrival,Pune,2026-08-04 14:37:00,0
+516,SHP0081,Departure,Pune,2026-08-02 05:17:00,0
+517,SHP0081,Traffic Delay,Rest Area,2026-08-02 06:56:00,28
+518,SHP0081,Checkpoint,Cold Storage Facility,2026-08-02 06:57:00,0
+519,SHP0081,Checkpoint,Rest Area,2026-08-02 07:34:00,0
+520,SHP0081,Rest Stop,Distribution Center,2026-08-02 06:58:00,20
+521,SHP0081,Arrival,Chennai,2026-08-02 09:33:00,0
+522,SHP0082,Departure,Coimbatore,2026-08-06 06:41:00,0
+523,SHP0082,Cold Storage Stop,City Entry,2026-08-06 10:59:00,15
+524,SHP0082,Checkpoint,Cold Storage Facility,2026-08-06 11:38:00,0
+525,SHP0082,Checkpoint,Rest Area,2026-08-06 07:17:00,0
+526,SHP0082,Checkpoint,Cold Storage Facility,2026-08-06 11:48:00,0
+527,SHP0082,Checkpoint,Cold Storage Facility,2026-08-06 09:43:00,0
+528,SHP0082,Cold Storage Stop,Rest Area,2026-08-06 11:50:00,15
+529,SHP0082,Arrival,Salem,2026-08-06 12:10:00,0
+530,SHP0083,Departure,Hyderabad,2026-08-04 05:24:00,0
+531,SHP0083,Route Deviation,Fuel Station,2026-08-04 09:17:00,57
+532,SHP0083,Checkpoint,Cold Storage Facility,2026-08-04 07:42:00,0
+533,SHP0083,Checkpoint,Cold Storage Facility,2026-08-04 09:17:00,0
+534,SHP0083,Traffic Delay,Rest Area,2026-08-04 07:10:00,41
+535,SHP0083,Arrival,Mumbai,2026-08-04 09:27:00,0
+536,SHP0084,Departure,Pune,2026-08-05 08:22:00,0
+537,SHP0084,Rest Stop,City Entry,2026-08-05 08:55:00,27
+538,SHP0084,Cold Storage Stop,City Entry,2026-08-05 11:05:00,18
+539,SHP0084,Checkpoint,Rest Area,2026-08-05 13:53:00,0
+540,SHP0084,Checkpoint,City Entry,2026-08-05 10:05:00,0
+541,SHP0084,Checkpoint,Highway Checkpoint,2026-08-05 11:03:00,0
+542,SHP0084,Arrival,Mumbai,2026-08-05 14:11:00,0
+543,SHP0085,Departure,Mumbai,2026-08-07 08:17:00,0
+544,SHP0085,Checkpoint,Distribution Center,2026-08-07 09:51:00,0
+545,SHP0085,Checkpoint,Rest Area,2026-08-07 09:08:00,0
+546,SHP0085,Checkpoint,Highway Checkpoint,2026-08-07 09:07:00,0
+547,SHP0085,Checkpoint,Highway Checkpoint,2026-08-07 08:55:00,0
+548,SHP0085,Checkpoint,Distribution Center,2026-08-07 08:30:00,0
+549,SHP0085,Checkpoint,Fuel Station,2026-08-07 09:39:00,0
+550,SHP0085,Arrival,Madurai,2026-08-07 10:49:00,0
+551,SHP0086,Departure,Chennai,2026-08-01 09:14:00,0
+552,SHP0086,Checkpoint,Cold Storage Facility,2026-08-01 09:55:00,0
+553,SHP0086,Checkpoint,Cold Storage Facility,2026-08-01 10:10:00,0
+554,SHP0086,Checkpoint,Rest Area,2026-08-01 09:56:00,0
+555,SHP0086,Checkpoint,City Entry,2026-08-01 10:18:00,0
+556,SHP0086,Arrival,Madurai,2026-08-01 10:29:00,0
+557,SHP0087,Departure,Kochi,2026-08-03 08:33:00,0
+558,SHP0087,Checkpoint,Distribution Center,2026-08-03 11:34:00,0
+559,SHP0087,Traffic Delay,Cold Storage Facility,2026-08-03 11:15:00,27
+560,SHP0087,Rest Stop,Highway Checkpoint,2026-08-03 11:55:00,29
+561,SHP0087,Route Deviation,Highway Checkpoint,2026-08-03 11:49:00,55
+562,SHP0087,Route Deviation,Cold Storage Facility,2026-08-03 11:24:00,44
+563,SHP0087,Arrival,Chennai,2026-08-03 12:36:00,0
+564,SHP0088,Departure,Bengaluru,2026-08-03 06:06:00,0
+565,SHP0088,Cold Storage Stop,Fuel Station,2026-08-03 08:42:00,7
+566,SHP0088,Checkpoint,Cold Storage Facility,2026-08-03 08:47:00,0
+567,SHP0088,Cold Storage Stop,Highway Checkpoint,2026-08-03 09:01:00,15
+568,SHP0088,Checkpoint,Fuel Station,2026-08-03 06:50:00,0
+569,SHP0088,Cold Storage Stop,Highway Checkpoint,2026-08-03 09:02:00,7
+570,SHP0088,Arrival,Hyderabad,2026-08-03 09:12:00,0
+571,SHP0089,Departure,Hyderabad,2026-08-03 09:52:00,0
+572,SHP0089,Checkpoint,City Entry,2026-08-03 10:07:00,0
+573,SHP0089,Cold Storage Stop,Highway Checkpoint,2026-08-03 11:05:00,19
+574,SHP0089,Checkpoint,Cold Storage Facility,2026-08-03 10:10:00,0
+575,SHP0089,Arrival,Kochi,2026-08-03 11:20:00,0
+576,SHP0090,Departure,Hyderabad,2026-08-06 08:22:00,0
+577,SHP0090,Checkpoint,City Entry,2026-08-06 09:33:00,0
+578,SHP0090,Traffic Delay,Cold Storage Facility,2026-08-06 08:56:00,13
+579,SHP0090,Checkpoint,Cold Storage Facility,2026-08-06 08:32:00,0
+580,SHP0090,Cold Storage Stop,Rest Area,2026-08-06 10:11:00,8
+581,SHP0090,Rest Stop,Cold Storage Facility,2026-08-06 10:27:00,40
+582,SHP0090,Checkpoint,Distribution Center,2026-08-06 08:47:00,0
+583,SHP0090,Arrival,Bengaluru,2026-08-06 10:50:00,0
+584,SHP0091,Departure,Coimbatore,2026-08-01 09:20:00,0
+585,SHP0091,Checkpoint,Rest Area,2026-08-01 12:07:00,0
+586,SHP0091,Checkpoint,Distribution Center,2026-08-01 10:23:00,0
+587,SHP0091,Checkpoint,Distribution Center,2026-08-01 10:44:00,0
+588,SHP0091,Checkpoint,City Entry,2026-08-01 10:39:00,0
+589,SHP0091,Checkpoint,City Entry,2026-08-01 12:33:00,0
+590,SHP0091,Arrival,Hyderabad,2026-08-01 13:23:00,0
+591,SHP0092,Departure,Bengaluru,2026-08-02 10:44:00,0
+592,SHP0092,Checkpoint,Rest Area,2026-08-02 14:22:00,0
+593,SHP0092,Checkpoint,Fuel Station,2026-08-02 11:41:00,0
+594,SHP0092,Checkpoint,City Entry,2026-08-02 12:16:00,0
+595,SHP0092,Checkpoint,Fuel Station,2026-08-02 14:27:00,0
+596,SHP0092,Checkpoint,City Entry,2026-08-02 11:38:00,0
+597,SHP0092,Arrival,Chennai,2026-08-02 14:44:00,0
+598,SHP0093,Departure,Bengaluru,2026-08-03 09:12:00,0
+599,SHP0093,Checkpoint,City Entry,2026-08-03 12:01:00,0
+600,SHP0093,Checkpoint,Fuel Station,2026-08-03 09:46:00,0
+601,SHP0093,Rest Stop,Fuel Station,2026-08-03 12:31:00,34
+602,SHP0093,Route Deviation,Rest Area,2026-08-03 09:23:00,71
+603,SHP0093,Cold Storage Stop,Distribution Center,2026-08-03 12:36:00,5
+604,SHP0093,Arrival,Coimbatore,2026-08-03 14:24:00,0
+605,SHP0094,Departure,Mumbai,2026-08-06 06:31:00,0
+606,SHP0094,Traffic Delay,Rest Area,2026-08-06 06:46:00,37
+607,SHP0094,Checkpoint,Cold Storage Facility,2026-08-06 06:58:00,0
+608,SHP0094,Checkpoint,Rest Area,2026-08-06 07:33:00,0
+609,SHP0094,Rest Stop,Highway Checkpoint,2026-08-06 06:57:00,27
+610,SHP0094,Rest Stop,Cold Storage Facility,2026-08-06 07:05:00,20
+611,SHP0094,Rest Stop,Highway Checkpoint,2026-08-06 07:18:00,27
+612,SHP0094,Arrival,Kochi,2026-08-06 07:50:00,0
+613,SHP0095,Departure,Bangalore,2026-08-03 06:38:00,0
+614,SHP0095,Cold Storage Stop,Rest Area,2026-08-03 08:46:00,18
+615,SHP0095,Rest Stop,Rest Area,2026-08-03 07:21:00,23
+616,SHP0095,Rest Stop,Rest Area,2026-08-03 07:16:00,22
+617,SHP0095,Checkpoint,Fuel Station,2026-08-03 07:52:00,0
+618,SHP0095,Rest Stop,Highway Checkpoint,2026-08-03 06:53:00,30
+619,SHP0095,Checkpoint,City Entry,2026-08-03 08:55:00,0
+620,SHP0095,Arrival,Chennai,2026-08-03 09:30:00,0
+621,SHP0096,Departure,Chennai,2026-08-02 08:00:00,0
+622,SHP0096,Cold Storage Stop,City Entry,2026-08-02 08:53:00,16
+623,SHP0096,Checkpoint,Rest Area,2026-08-02 10:58:00,0
+624,SHP0096,Rest Stop,Rest Area,2026-08-02 11:25:00,21
+625,SHP0096,Arrival,Mumbai,2026-08-02 11:49:00,0
+626,SHP0097,Departure,Bengaluru,2026-08-06 06:21:00,0
+627,SHP0097,Checkpoint,Fuel Station,2026-08-06 06:59:00,0
+628,SHP0097,Cold Storage Stop,Highway Checkpoint,2026-08-06 07:23:00,13
+629,SHP0097,Traffic Delay,Fuel Station,2026-08-06 07:59:00,52
+630,SHP0097,Checkpoint,Cold Storage Facility,2026-08-06 07:22:00,0
+631,SHP0097,Checkpoint,City Entry,2026-08-06 07:39:00,0
+632,SHP0097,Cold Storage Stop,Distribution Center,2026-08-06 07:33:00,20
+633,SHP0097,Arrival,Hyderabad,2026-08-06 08:51:00,0
+634,SHP0098,Departure,Madurai,2026-08-06 05:09:00,0
+635,SHP0098,Checkpoint,Rest Area,2026-08-06 05:20:00,0
+636,SHP0098,Cold Storage Stop,City Entry,2026-08-06 06:04:00,7
+637,SHP0098,Checkpoint,Fuel Station,2026-08-06 07:17:00,0
+638,SHP0098,Checkpoint,Distribution Center,2026-08-06 10:31:00,0
+639,SHP0098,Checkpoint,City Entry,2026-08-06 06:40:00,0
+640,SHP0098,Checkpoint,Cold Storage Facility,2026-08-06 07:35:00,0
+641,SHP0098,Arrival,Chennai,2026-08-06 11:09:00,0
+642,SHP0099,Departure,Coimbatore,2026-08-03 09:55:00,0
+643,SHP0099,Traffic Delay,Distribution Center,2026-08-03 12:46:00,10
+644,SHP0099,Rest Stop,City Entry,2026-08-03 12:04:00,34
+645,SHP0099,Checkpoint,Fuel Station,2026-08-03 10:42:00,0
+646,SHP0099,Arrival,Bangalore,2026-08-03 14:01:00,0
+647,SHP0100,Departure,Bangalore,2026-08-04 10:42:00,0
+648,SHP0100,Checkpoint,Rest Area,2026-08-04 11:53:00,0
+649,SHP0100,Rest Stop,Distribution Center,2026-08-04 12:56:00,29
+650,SHP0100,Rest Stop,City Entry,2026-08-04 11:02:00,33
+651,SHP0100,Cold Storage Stop,Highway Checkpoint,2026-08-04 11:41:00,10
+652,SHP0100,Checkpoint,Rest Area,2026-08-04 14:00:00,0
+653,SHP0100,Checkpoint,City Entry,2026-08-04 14:52:00,0
+654,SHP0100,Arrival,Madurai,2026-08-04 15:04:00,0
+655,SHP0101,Departure,Bengaluru,2026-08-02 07:19:00,0
+656,SHP0101,Checkpoint,Distribution Center,2026-08-02 08:41:00,0
+657,SHP0101,Checkpoint,Cold Storage Facility,2026-08-02 10:32:00,0
+658,SHP0101,Cold Storage Stop,Fuel Station,2026-08-02 07:57:00,8
+659,SHP0101,Checkpoint,Fuel Station,2026-08-02 08:34:00,0
+660,SHP0101,Rest Stop,Cold Storage Facility,2026-08-02 07:57:00,11
+661,SHP0101,Arrival,Bangalore,2026-08-02 11:04:00,0
+662,SHP0102,Departure,Coimbatore,2026-08-05 10:31:00,0
+663,SHP0102,Rest Stop,Rest Area,2026-08-05 13:32:00,29
+664,SHP0102,Checkpoint,Distribution Center,2026-08-05 10:45:00,0
+665,SHP0102,Checkpoint,Highway Checkpoint,2026-08-05 11:28:00,0
+666,SHP0102,Checkpoint,City Entry,2026-08-05 11:15:00,0
+667,SHP0102,Arrival,Salem,2026-08-05 14:13:00,0
+668,SHP0103,Departure,Coimbatore,2026-08-01 10:56:00,0
+669,SHP0103,Cold Storage Stop,Distribution Center,2026-08-01 11:17:00,12
+670,SHP0103,Checkpoint,Fuel Station,2026-08-01 14:27:00,0
+671,SHP0103,Cold Storage Stop,Cold Storage Facility,2026-08-01 13:12:00,11
+672,SHP0103,Checkpoint,City Entry,2026-08-01 11:14:00,0
+673,SHP0103,Checkpoint,Distribution Center,2026-08-01 14:40:00,0
+674,SHP0103,Checkpoint,Cold Storage Facility,2026-08-01 13:07:00,0
+675,SHP0103,Arrival,Mumbai,2026-08-01 14:58:00,0
+676,SHP0104,Departure,Hyderabad,2026-08-05 06:24:00,0
+677,SHP0104,Checkpoint,Highway Checkpoint,2026-08-05 08:41:00,0
+678,SHP0104,Checkpoint,Highway Checkpoint,2026-08-05 08:02:00,0
+679,SHP0104,Checkpoint,Highway Checkpoint,2026-08-05 08:18:00,0
+680,SHP0104,Arrival,Bengaluru,2026-08-05 10:01:00,0
+681,SHP0105,Departure,Kochi,2026-08-04 06:46:00,0
+682,SHP0105,Cold Storage Stop,Highway Checkpoint,2026-08-04 07:01:00,15
+683,SHP0105,Traffic Delay,Fuel Station,2026-08-04 07:35:00,54
+684,SHP0105,Checkpoint,Cold Storage Facility,2026-08-04 07:35:00,0
+685,SHP0105,Arrival,Coimbatore,2026-08-04 07:46:00,0
+686,SHP0106,Departure,Bengaluru,2026-08-04 09:02:00,0
+687,SHP0106,Checkpoint,City Entry,2026-08-04 10:55:00,0
+688,SHP0106,Traffic Delay,Distribution Center,2026-08-04 10:50:00,10
+689,SHP0106,Checkpoint,City Entry,2026-08-04 09:25:00,0
+690,SHP0106,Checkpoint,City Entry,2026-08-04 11:23:00,0
+691,SHP0106,Checkpoint,Fuel Station,2026-08-04 09:45:00,0
+692,SHP0106,Arrival,Salem,2026-08-04 11:35:00,0
+693,SHP0107,Departure,Bengaluru,2026-08-05 09:14:00,0
+694,SHP0107,Checkpoint,Distribution Center,2026-08-05 13:05:00,0
+695,SHP0107,Checkpoint,Highway Checkpoint,2026-08-05 14:49:00,0
+696,SHP0107,Checkpoint,Rest Area,2026-08-05 12:43:00,0
+697,SHP0107,Checkpoint,Distribution Center,2026-08-05 10:29:00,0
+698,SHP0107,Rest Stop,City Entry,2026-08-05 11:29:00,20
+699,SHP0107,Rest Stop,Highway Checkpoint,2026-08-05 14:48:00,13
+700,SHP0107,Arrival,Madurai,2026-08-05 15:03:00,0
+701,SHP0108,Departure,Bangalore,2026-08-07 06:21:00,0
+702,SHP0108,Traffic Delay,Rest Area,2026-08-07 07:03:00,34
+703,SHP0108,Checkpoint,Rest Area,2026-08-07 07:45:00,0
+704,SHP0108,Rest Stop,Rest Area,2026-08-07 06:47:00,12
+705,SHP0108,Checkpoint,Rest Area,2026-08-07 07:07:00,0
+706,SHP0108,Checkpoint,Cold Storage Facility,2026-08-07 07:46:00,0
+707,SHP0108,Arrival,Pune,2026-08-07 08:00:00,0
+708,SHP0109,Departure,Hyderabad,2026-08-05 07:10:00,0
+709,SHP0109,Checkpoint,Cold Storage Facility,2026-08-05 08:36:00,0
+710,SHP0109,Checkpoint,Highway Checkpoint,2026-08-05 07:57:00,0
+711,SHP0109,Rest Stop,Cold Storage Facility,2026-08-05 08:44:00,11
+712,SHP0109,Checkpoint,Cold Storage Facility,2026-08-05 08:22:00,0
+713,SHP0109,Cold Storage Stop,Cold Storage Facility,2026-08-05 07:36:00,19
+714,SHP0109,Arrival,Madurai,2026-08-05 08:55:00,0
+715,SHP0110,Departure,Madurai,2026-08-05 05:16:00,0
+716,SHP0110,Checkpoint,Rest Area,2026-08-05 06:25:00,0
+717,SHP0110,Traffic Delay,Cold Storage Facility,2026-08-05 05:26:00,34
+718,SHP0110,Rest Stop,Cold Storage Facility,2026-08-05 05:51:00,19
+719,SHP0110,Checkpoint,Cold Storage Facility,2026-08-05 06:44:00,0
+720,SHP0110,Checkpoint,City Entry,2026-08-05 07:30:00,0
+721,SHP0110,Cold Storage Stop,Cold Storage Facility,2026-08-05 06:40:00,10
+722,SHP0110,Arrival,Pune,2026-08-05 08:03:00,0
+723,SHP0111,Departure,Hyderabad,2026-08-02 07:16:00,0
+724,SHP0111,Rest Stop,Rest Area,2026-08-02 08:56:00,34
+725,SHP0111,Cold Storage Stop,Cold Storage Facility,2026-08-02 08:34:00,17
+726,SHP0111,Checkpoint,City Entry,2026-08-02 08:14:00,0
+727,SHP0111,Cold Storage Stop,Cold Storage Facility,2026-08-02 08:37:00,5
+728,SHP0111,Arrival,Bangalore,2026-08-02 09:11:00,0
+729,SHP0112,Departure,Chennai,2026-08-01 08:46:00,0
+730,SHP0112,Checkpoint,Rest Area,2026-08-01 13:07:00,0
+731,SHP0112,Checkpoint,Highway Checkpoint,2026-08-01 10:11:00,0
+732,SHP0112,Checkpoint,Highway Checkpoint,2026-08-01 12:56:00,0
+733,SHP0112,Checkpoint,Rest Area,2026-08-01 12:14:00,0
+734,SHP0112,Arrival,Salem,2026-08-01 13:20:00,0
+735,SHP0113,Departure,Coimbatore,2026-08-05 08:56:00,0
+736,SHP0113,Checkpoint,Highway Checkpoint,2026-08-05 10:33:00,0
+737,SHP0113,Checkpoint,Fuel Station,2026-08-05 11:43:00,0
+738,SHP0113,Rest Stop,Distribution Center,2026-08-05 11:09:00,14
+739,SHP0113,Route Deviation,Cold Storage Facility,2026-08-05 12:24:00,30
+740,SHP0113,Rest Stop,Cold Storage Facility,2026-08-05 10:10:00,15
+741,SHP0113,Checkpoint,Cold Storage Facility,2026-08-05 09:35:00,0
+742,SHP0113,Arrival,Salem,2026-08-05 13:09:00,0
+743,SHP0114,Departure,Madurai,2026-08-07 08:06:00,0
+744,SHP0114,Rest Stop,Highway Checkpoint,2026-08-07 10:00:00,31
+745,SHP0114,Rest Stop,Cold Storage Facility,2026-08-07 10:36:00,15
+746,SHP0114,Checkpoint,Highway Checkpoint,2026-08-07 12:19:00,0
+747,SHP0114,Arrival,Mumbai,2026-08-07 13:11:00,0
+748,SHP0115,Departure,Bengaluru,2026-08-02 06:28:00,0
+749,SHP0115,Checkpoint,Cold Storage Facility,2026-08-02 06:56:00,0
+750,SHP0115,Checkpoint,Cold Storage Facility,2026-08-02 06:46:00,0
+751,SHP0115,Rest Stop,Distribution Center,2026-08-02 07:05:00,11
+752,SHP0115,Rest Stop,Highway Checkpoint,2026-08-02 06:44:00,17
+753,SHP0115,Checkpoint,Rest Area,2026-08-02 07:08:00,0
+754,SHP0115,Cold Storage Stop,Fuel Station,2026-08-02 07:49:00,20
+755,SHP0115,Arrival,Hyderabad,2026-08-02 08:05:00,0
+756,SHP0116,Departure,Chennai,2026-08-05 05:20:00,0
+757,SHP0116,Traffic Delay,City Entry,2026-08-05 06:27:00,20
+758,SHP0116,Checkpoint,Rest Area,2026-08-05 05:30:00,0
+759,SHP0116,Traffic Delay,Cold Storage Facility,2026-08-05 06:18:00,39
+760,SHP0116,Cold Storage Stop,Fuel Station,2026-08-05 07:01:00,10
+761,SHP0116,Arrival,Kochi,2026-08-05 08:33:00,0
+762,SHP0117,Departure,Bangalore,2026-08-02 06:56:00,0
+763,SHP0117,Traffic Delay,Rest Area,2026-08-02 07:46:00,43
+764,SHP0117,Rest Stop,Cold Storage Facility,2026-08-02 08:17:00,34
+765,SHP0117,Checkpoint,City Entry,2026-08-02 10:51:00,0
+766,SHP0117,Checkpoint,Rest Area,2026-08-02 09:28:00,0
+767,SHP0117,Arrival,Madurai,2026-08-02 11:08:00,0
+768,SHP0118,Departure,Coimbatore,2026-08-07 09:57:00,0
+769,SHP0118,Checkpoint,City Entry,2026-08-07 11:14:00,0
+770,SHP0118,Cold Storage Stop,Rest Area,2026-08-07 11:24:00,10
+771,SHP0118,Checkpoint,Distribution Center,2026-08-07 10:22:00,0
+772,SHP0118,Arrival,Bangalore,2026-08-07 11:44:00,0
+773,SHP0119,Departure,Madurai,2026-08-01 09:57:00,0
+774,SHP0119,Checkpoint,Distribution Center,2026-08-01 12:33:00,0
+775,SHP0119,Checkpoint,Highway Checkpoint,2026-08-01 10:08:00,0
+776,SHP0119,Cold Storage Stop,Cold Storage Facility,2026-08-01 11:49:00,15
+777,SHP0119,Rest Stop,Highway Checkpoint,2026-08-01 11:43:00,16
+778,SHP0119,Arrival,Bengaluru,2026-08-01 15:04:00,0
+779,SHP0120,Departure,Chennai,2026-08-06 10:10:00,0
+780,SHP0120,Cold Storage Stop,Highway Checkpoint,2026-08-06 14:12:00,19
+781,SHP0120,Checkpoint,Rest Area,2026-08-06 10:26:00,0
+782,SHP0120,Checkpoint,Highway Checkpoint,2026-08-06 12:10:00,0
+783,SHP0120,Rest Stop,Distribution Center,2026-08-06 12:41:00,36
+784,SHP0120,Rest Stop,Distribution Center,2026-08-06 10:36:00,29
+785,SHP0120,Arrival,Salem,2026-08-06 14:52:00,0
+786,SHP0121,Departure,Coimbatore,2026-08-03 05:21:00,0
+787,SHP0121,Checkpoint,Fuel Station,2026-08-03 07:28:00,0
+788,SHP0121,Checkpoint,Cold Storage Facility,2026-08-03 06:20:00,0
+789,SHP0121,Checkpoint,Rest Area,2026-08-03 06:29:00,0
+790,SHP0121,Arrival,Chennai,2026-08-03 08:06:00,0
+791,SHP0122,Departure,Hyderabad,2026-08-05 10:35:00,0
+792,SHP0122,Checkpoint,Fuel Station,2026-08-05 12:12:00,0
+793,SHP0122,Checkpoint,Rest Area,2026-08-05 15:02:00,0
+794,SHP0122,Traffic Delay,Highway Checkpoint,2026-08-05 10:59:00,17
+795,SHP0122,Traffic Delay,Cold Storage Facility,2026-08-05 11:27:00,20
+796,SHP0122,Cold Storage Stop,Rest Area,2026-08-05 14:58:00,18
+797,SHP0122,Checkpoint,Cold Storage Facility,2026-08-05 11:24:00,0
+798,SHP0122,Arrival,Salem,2026-08-05 16:11:00,0
+799,SHP0123,Departure,Kochi,2026-08-04 05:03:00,0
+800,SHP0123,Route Deviation,Fuel Station,2026-08-04 07:38:00,37
+801,SHP0123,Checkpoint,Cold Storage Facility,2026-08-04 08:28:00,0
+802,SHP0123,Cold Storage Stop,Highway Checkpoint,2026-08-04 06:27:00,16
+803,SHP0123,Arrival,Hyderabad,2026-08-04 09:24:00,0
+804,SHP0124,Departure,Bengaluru,2026-08-02 08:09:00,0
+805,SHP0124,Checkpoint,Rest Area,2026-08-02 09:15:00,0
+806,SHP0124,Checkpoint,Rest Area,2026-08-02 08:28:00,0
+807,SHP0124,Checkpoint,Rest Area,2026-08-02 08:45:00,0
+808,SHP0124,Arrival,Mumbai,2026-08-02 09:36:00,0
+809,SHP0125,Departure,Madurai,2026-08-03 08:05:00,0
+810,SHP0125,Checkpoint,Cold Storage Facility,2026-08-03 10:21:00,0
+811,SHP0125,Checkpoint,Cold Storage Facility,2026-08-03 08:42:00,0
+812,SHP0125,Traffic Delay,City Entry,2026-08-03 08:29:00,44
+813,SHP0125,Checkpoint,Cold Storage Facility,2026-08-03 08:28:00,0
+814,SHP0125,Rest Stop,Fuel Station,2026-08-03 08:20:00,24
+815,SHP0125,Checkpoint,Distribution Center,2026-08-03 09:54:00,0
+816,SHP0125,Arrival,Chennai,2026-08-03 11:35:00,0
+817,SHP0126,Departure,Bengaluru,2026-08-01 06:06:00,0
+818,SHP0126,Checkpoint,Highway Checkpoint,2026-08-01 06:30:00,0
+819,SHP0126,Rest Stop,City Entry,2026-08-01 06:37:00,21
+820,SHP0126,Route Deviation,Highway Checkpoint,2026-08-01 06:17:00,17
+821,SHP0126,Rest Stop,Rest Area,2026-08-01 06:40:00,34
+822,SHP0126,Arrival,Pune,2026-08-01 07:19:00,0
+823,SHP0127,Departure,Hyderabad,2026-08-02 10:18:00,0
+824,SHP0127,Rest Stop,Rest Area,2026-08-02 11:28:00,17
+825,SHP0127,Route Deviation,Rest Area,2026-08-02 11:28:00,45
+826,SHP0127,Rest Stop,Distribution Center,2026-08-02 11:02:00,24
+827,SHP0127,Cold Storage Stop,Cold Storage Facility,2026-08-02 10:39:00,13
+828,SHP0127,Checkpoint,Fuel Station,2026-08-02 11:32:00,0
+829,SHP0127,Arrival,Coimbatore,2026-08-02 11:59:00,0
+830,SHP0128,Departure,Pune,2026-08-02 07:50:00,0
+831,SHP0128,Checkpoint,Highway Checkpoint,2026-08-02 11:40:00,0
+832,SHP0128,Checkpoint,City Entry,2026-08-02 08:27:00,0
+833,SHP0128,Checkpoint,Fuel Station,2026-08-02 10:17:00,0
+834,SHP0128,Route Deviation,Highway Checkpoint,2026-08-02 08:49:00,75
+835,SHP0128,Arrival,Bangalore,2026-08-02 12:13:00,0
+836,SHP0129,Departure,Pune,2026-08-04 05:41:00,0
+837,SHP0129,Checkpoint,Rest Area,2026-08-04 06:48:00,0
+838,SHP0129,Traffic Delay,Highway Checkpoint,2026-08-04 10:17:00,57
+839,SHP0129,Checkpoint,Fuel Station,2026-08-04 06:35:00,0
+840,SHP0129,Checkpoint,City Entry,2026-08-04 07:09:00,0
+841,SHP0129,Checkpoint,Fuel Station,2026-08-04 08:56:00,0
+842,SHP0129,Arrival,Kochi,2026-08-04 11:19:00,0
+843,SHP0130,Departure,Salem,2026-08-01 07:56:00,0
+844,SHP0130,Cold Storage Stop,Distribution Center,2026-08-01 10:28:00,10
+845,SHP0130,Checkpoint,Highway Checkpoint,2026-08-01 09:35:00,0
+846,SHP0130,Checkpoint,Cold Storage Facility,2026-08-01 10:33:00,0
+847,SHP0130,Rest Stop,Cold Storage Facility,2026-08-01 11:43:00,22
+848,SHP0130,Rest Stop,Cold Storage Facility,2026-08-01 11:35:00,31
+849,SHP0130,Arrival,Coimbatore,2026-08-01 12:11:00,0
+850,SHP0131,Departure,Madurai,2026-08-04 08:02:00,0
+851,SHP0131,Checkpoint,City Entry,2026-08-04 09:48:00,0
+852,SHP0131,Cold Storage Stop,Cold Storage Facility,2026-08-04 10:02:00,14
+853,SHP0131,Rest Stop,City Entry,2026-08-04 09:42:00,40
+854,SHP0131,Checkpoint,Highway Checkpoint,2026-08-04 09:04:00,0
+855,SHP0131,Route Deviation,Highway Checkpoint,2026-08-04 09:42:00,51
+856,SHP0131,Checkpoint,Cold Storage Facility,2026-08-04 09:04:00,0
+857,SHP0131,Arrival,Coimbatore,2026-08-04 11:16:00,0
+858,SHP0132,Departure,Pune,2026-08-05 06:53:00,0
+859,SHP0132,Checkpoint,Fuel Station,2026-08-05 08:51:00,0
+860,SHP0132,Checkpoint,Distribution Center,2026-08-05 07:35:00,0
+861,SHP0132,Checkpoint,Fuel Station,2026-08-05 09:06:00,0
+862,SHP0132,Cold Storage Stop,Cold Storage Facility,2026-08-05 08:20:00,5
+863,SHP0132,Route Deviation,Highway Checkpoint,2026-08-05 08:34:00,57
+864,SHP0132,Checkpoint,Highway Checkpoint,2026-08-05 07:39:00,0
+865,SHP0132,Arrival,Kochi,2026-08-05 10:10:00,0
+866,SHP0133,Departure,Bengaluru,2026-08-04 06:48:00,0
+867,SHP0133,Checkpoint,Fuel Station,2026-08-04 07:44:00,0
+868,SHP0133,Route Deviation,Cold Storage Facility,2026-08-04 07:31:00,33
+869,SHP0133,Cold Storage Stop,Fuel Station,2026-08-04 07:34:00,6
+870,SHP0133,Arrival,Chennai,2026-08-04 08:37:00,0
+871,SHP0134,Departure,Bangalore,2026-08-02 09:26:00,0
+872,SHP0134,Checkpoint,Rest Area,2026-08-02 10:34:00,0
+873,SHP0134,Checkpoint,Distribution Center,2026-08-02 11:17:00,0
+874,SHP0134,Checkpoint,Rest Area,2026-08-02 10:24:00,0
+875,SHP0134,Traffic Delay,City Entry,2026-08-02 11:40:00,24
+876,SHP0134,Checkpoint,City Entry,2026-08-02 10:03:00,0
+877,SHP0134,Arrival,Madurai,2026-08-02 12:22:00,0
+878,SHP0135,Departure,Mumbai,2026-08-01 08:52:00,0
+879,SHP0135,Rest Stop,Rest Area,2026-08-01 12:16:00,17
+880,SHP0135,Checkpoint,City Entry,2026-08-01 12:11:00,0
+881,SHP0135,Rest Stop,Distribution Center,2026-08-01 09:51:00,30
+882,SHP0135,Checkpoint,Highway Checkpoint,2026-08-01 11:44:00,0
+883,SHP0135,Checkpoint,Cold Storage Facility,2026-08-01 11:12:00,0
+884,SHP0135,Arrival,Chennai,2026-08-01 14:19:00,0
+885,SHP0136,Departure,Salem,2026-08-04 10:55:00,0
+886,SHP0136,Checkpoint,Distribution Center,2026-08-04 13:18:00,0
+887,SHP0136,Cold Storage Stop,Distribution Center,2026-08-04 15:03:00,6
+888,SHP0136,Checkpoint,Rest Area,2026-08-04 15:33:00,0
+889,SHP0136,Arrival,Mumbai,2026-08-04 15:58:00,0
+890,SHP0137,Departure,Bengaluru,2026-08-01 08:19:00,0
+891,SHP0137,Rest Stop,Cold Storage Facility,2026-08-01 09:36:00,17
+892,SHP0137,Cold Storage Stop,Cold Storage Facility,2026-08-01 09:36:00,16
+893,SHP0137,Cold Storage Stop,Fuel Station,2026-08-01 09:33:00,12
+894,SHP0137,Arrival,Hyderabad,2026-08-01 09:59:00,0
+895,SHP0138,Departure,Salem,2026-08-06 09:36:00,0
+896,SHP0138,Checkpoint,Rest Area,2026-08-06 12:30:00,0
+897,SHP0138,Checkpoint,Rest Area,2026-08-06 13:35:00,0
+898,SHP0138,Checkpoint,Distribution Center,2026-08-06 13:35:00,0
+899,SHP0138,Checkpoint,Cold Storage Facility,2026-08-06 13:53:00,0
+900,SHP0138,Traffic Delay,Rest Area,2026-08-06 12:15:00,50
+901,SHP0138,Arrival,Chennai,2026-08-06 15:00:00,0
+902,SHP0139,Departure,Bengaluru,2026-08-01 05:48:00,0
+903,SHP0139,Checkpoint,Rest Area,2026-08-01 08:33:00,0
+904,SHP0139,Rest Stop,Fuel Station,2026-08-01 07:23:00,20
+905,SHP0139,Checkpoint,Fuel Station,2026-08-01 10:21:00,0
+906,SHP0139,Arrival,Coimbatore,2026-08-01 10:37:00,0
+907,SHP0140,Departure,Coimbatore,2026-08-05 06:08:00,0
+908,SHP0140,Rest Stop,Fuel Station,2026-08-05 06:21:00,38
+909,SHP0140,Rest Stop,Fuel Station,2026-08-05 06:51:00,37
+910,SHP0140,Rest Stop,Highway Checkpoint,2026-08-05 07:16:00,39
+911,SHP0140,Checkpoint,City Entry,2026-08-05 07:06:00,0
+912,SHP0140,Checkpoint,Cold Storage Facility,2026-08-05 07:06:00,0
+913,SHP0140,Arrival,Hyderabad,2026-08-05 07:29:00,0
+914,SHP0141,Departure,Salem,2026-08-02 10:27:00,0
+915,SHP0141,Rest Stop,Fuel Station,2026-08-02 12:56:00,40
+916,SHP0141,Cold Storage Stop,Cold Storage Facility,2026-08-02 12:50:00,13
+917,SHP0141,Checkpoint,Rest Area,2026-08-02 11:04:00,0
+918,SHP0141,Arrival,Bangalore,2026-08-02 13:10:00,0
+919,SHP0142,Departure,Coimbatore,2026-08-06 07:20:00,0
+920,SHP0142,Rest Stop,Fuel Station,2026-08-06 07:50:00,23
+921,SHP0142,Cold Storage Stop,Fuel Station,2026-08-06 07:39:00,9
+922,SHP0142,Checkpoint,Fuel Station,2026-08-06 08:13:00,0
+923,SHP0142,Checkpoint,City Entry,2026-08-06 07:43:00,0
+924,SHP0142,Arrival,Bengaluru,2026-08-06 08:54:00,0
+925,SHP0143,Departure,Bangalore,2026-08-06 09:25:00,0
+926,SHP0143,Traffic Delay,Rest Area,2026-08-06 14:53:00,33
+927,SHP0143,Checkpoint,City Entry,2026-08-06 12:52:00,0
+928,SHP0143,Rest Stop,Fuel Station,2026-08-06 14:21:00,21
+929,SHP0143,Checkpoint,Highway Checkpoint,2026-08-06 10:03:00,0
+930,SHP0143,Arrival,Salem,2026-08-06 15:07:00,0
+931,SHP0144,Departure,Madurai,2026-08-05 09:29:00,0
+932,SHP0144,Cold Storage Stop,City Entry,2026-08-05 10:15:00,17
+933,SHP0144,Cold Storage Stop,City Entry,2026-08-05 09:53:00,5
+934,SHP0144,Checkpoint,Fuel Station,2026-08-05 09:57:00,0
+935,SHP0144,Arrival,Kochi,2026-08-05 10:35:00,0
+936,SHP0145,Departure,Bengaluru,2026-08-07 08:07:00,0
+937,SHP0145,Traffic Delay,Fuel Station,2026-08-07 11:39:00,49
+938,SHP0145,Cold Storage Stop,City Entry,2026-08-07 08:57:00,14
+939,SHP0145,Checkpoint,Fuel Station,2026-08-07 11:05:00,0
+940,SHP0145,Checkpoint,City Entry,2026-08-07 10:23:00,0
+941,SHP0145,Checkpoint,Distribution Center,2026-08-07 09:56:00,0
+942,SHP0145,Arrival,Mumbai,2026-08-07 12:39:00,0
+943,SHP0146,Departure,Coimbatore,2026-08-07 09:37:00,0
+944,SHP0146,Cold Storage Stop,City Entry,2026-08-07 10:06:00,13
+945,SHP0146,Traffic Delay,City Entry,2026-08-07 09:56:00,39
+946,SHP0146,Rest Stop,Highway Checkpoint,2026-08-07 10:11:00,34
+947,SHP0146,Checkpoint,Rest Area,2026-08-07 11:17:00,0
+948,SHP0146,Arrival,Bengaluru,2026-08-07 11:28:00,0
+949,SHP0147,Departure,Bangalore,2026-08-01 05:50:00,0
+950,SHP0147,Checkpoint,Fuel Station,2026-08-01 06:25:00,0
+951,SHP0147,Checkpoint,Rest Area,2026-08-01 07:57:00,0
+952,SHP0147,Checkpoint,Distribution Center,2026-08-01 07:59:00,0
+953,SHP0147,Checkpoint,Distribution Center,2026-08-01 06:59:00,0
+954,SHP0147,Route Deviation,Highway Checkpoint,2026-08-01 06:27:00,88
+955,SHP0147,Checkpoint,Highway Checkpoint,2026-08-01 07:54:00,0
+956,SHP0147,Arrival,Bengaluru,2026-08-01 09:16:00,0
+957,SHP0148,Departure,Mumbai,2026-08-01 08:16:00,0
+958,SHP0148,Checkpoint,City Entry,2026-08-01 09:45:00,0
+959,SHP0148,Checkpoint,Fuel Station,2026-08-01 08:47:00,0
+960,SHP0148,Cold Storage Stop,Fuel Station,2026-08-01 11:09:00,19
+961,SHP0148,Checkpoint,Rest Area,2026-08-01 09:40:00,0
+962,SHP0148,Checkpoint,City Entry,2026-08-01 11:22:00,0
+963,SHP0148,Checkpoint,Cold Storage Facility,2026-08-01 10:37:00,0
+964,SHP0148,Arrival,Madurai,2026-08-01 12:32:00,0
+965,SHP0149,Departure,Pune,2026-08-01 09:30:00,0
+966,SHP0149,Cold Storage Stop,Rest Area,2026-08-01 10:04:00,7
+967,SHP0149,Checkpoint,City Entry,2026-08-01 09:40:00,0
+968,SHP0149,Traffic Delay,Highway Checkpoint,2026-08-01 10:13:00,60
+969,SHP0149,Checkpoint,City Entry,2026-08-01 10:31:00,0
+970,SHP0149,Checkpoint,City Entry,2026-08-01 10:11:00,0
+971,SHP0149,Checkpoint,Highway Checkpoint,2026-08-01 09:46:00,0
+972,SHP0149,Arrival,Bengaluru,2026-08-01 10:49:00,0
+973,SHP0150,Departure,Coimbatore,2026-08-06 08:09:00,0
+974,SHP0150,Cold Storage Stop,Distribution Center,2026-08-06 08:52:00,10
+975,SHP0150,Checkpoint,Highway Checkpoint,2026-08-06 10:00:00,0
+976,SHP0150,Route Deviation,Cold Storage Facility,2026-08-06 12:02:00,20
+977,SHP0150,Rest Stop,City Entry,2026-08-06 08:43:00,11
+978,SHP0150,Arrival,Kochi,2026-08-06 12:34:00,0
+979,SHP0151,Departure,Chennai,2026-08-01 07:44:00,0
+980,SHP0151,Traffic Delay,Fuel Station,2026-08-01 10:13:00,56
+981,SHP0151,Checkpoint,Cold Storage Facility,2026-08-01 10:18:00,0
+982,SHP0151,Checkpoint,Fuel Station,2026-08-01 10:24:00,0
+983,SHP0151,Arrival,Salem,2026-08-01 10:45:00,0
+984,SHP0152,Departure,Chennai,2026-08-01 07:57:00,0
+985,SHP0152,Cold Storage Stop,City Entry,2026-08-01 09:58:00,20
+986,SHP0152,Rest Stop,Cold Storage Facility,2026-08-01 08:17:00,13
+987,SHP0152,Checkpoint,City Entry,2026-08-01 10:44:00,0
+988,SHP0152,Rest Stop,Fuel Station,2026-08-01 11:29:00,34
+989,SHP0152,Rest Stop,Highway Checkpoint,2026-08-01 09:05:00,27
+990,SHP0152,Checkpoint,City Entry,2026-08-01 11:17:00,0
+991,SHP0152,Arrival,Pune,2026-08-01 12:07:00,0
+992,SHP0153,Departure,Chennai,2026-08-02 07:19:00,0
+993,SHP0153,Rest Stop,Rest Area,2026-08-02 08:34:00,39
+994,SHP0153,Checkpoint,Fuel Station,2026-08-02 08:53:00,0
+995,SHP0153,Checkpoint,Highway Checkpoint,2026-08-02 08:00:00,0
+996,SHP0153,Checkpoint,Fuel Station,2026-08-02 07:56:00,0
+997,SHP0153,Rest Stop,Cold Storage Facility,2026-08-02 07:34:00,14
+998,SHP0153,Rest Stop,Rest Area,2026-08-02 08:33:00,35
+999,SHP0153,Arrival,Madurai,2026-08-02 10:42:00,0
+1000,SHP0154,Departure,Pune,2026-08-07 06:08:00,0
+1001,SHP0154,Checkpoint,Highway Checkpoint,2026-08-07 07:38:00,0
+1002,SHP0154,Checkpoint,Distribution Center,2026-08-07 09:18:00,0
+1003,SHP0154,Traffic Delay,Rest Area,2026-08-07 06:58:00,15
+1004,SHP0154,Traffic Delay,Cold Storage Facility,2026-08-07 09:07:00,19
+1005,SHP0154,Cold Storage Stop,Cold Storage Facility,2026-08-07 07:25:00,6
+1006,SHP0154,Checkpoint,Cold Storage Facility,2026-08-07 09:16:00,0
+1007,SHP0154,Arrival,Bangalore,2026-08-07 09:41:00,0
+1008,SHP0155,Departure,Pune,2026-08-05 07:46:00,0
+1009,SHP0155,Route Deviation,Cold Storage Facility,2026-08-05 07:56:00,36
+1010,SHP0155,Traffic Delay,Highway Checkpoint,2026-08-05 08:32:00,51
+1011,SHP0155,Checkpoint,Cold Storage Facility,2026-08-05 09:43:00,0
+1012,SHP0155,Checkpoint,Distribution Center,2026-08-05 08:41:00,0
+1013,SHP0155,Cold Storage Stop,Rest Area,2026-08-05 09:54:00,14
+1014,SHP0155,Arrival,Madurai,2026-08-05 12:19:00,0
+1015,SHP0156,Departure,Bengaluru,2026-08-06 06:28:00,0
+1016,SHP0156,Traffic Delay,Highway Checkpoint,2026-08-06 08:45:00,53
+1017,SHP0156,Checkpoint,City Entry,2026-08-06 07:17:00,0
+1018,SHP0156,Checkpoint,Highway Checkpoint,2026-08-06 08:20:00,0
+1019,SHP0156,Checkpoint,City Entry,2026-08-06 07:11:00,0
+1020,SHP0156,Checkpoint,Fuel Station,2026-08-06 08:52:00,0
+1021,SHP0156,Checkpoint,Rest Area,2026-08-06 08:36:00,0
+1022,SHP0156,Arrival,Bangalore,2026-08-06 09:16:00,0
+1023,SHP0157,Departure,Salem,2026-08-06 09:55:00,0
+1024,SHP0157,Checkpoint,Fuel Station,2026-08-06 10:50:00,0
+1025,SHP0157,Checkpoint,Highway Checkpoint,2026-08-06 12:26:00,0
+1026,SHP0157,Checkpoint,Cold Storage Facility,2026-08-06 12:42:00,0
+1027,SHP0157,Checkpoint,City Entry,2026-08-06 12:41:00,0
+1028,SHP0157,Arrival,Pune,2026-08-06 14:06:00,0
+1029,SHP0158,Departure,Chennai,2026-08-02 06:04:00,0
+1030,SHP0158,Checkpoint,Fuel Station,2026-08-02 08:00:00,0
+1031,SHP0158,Rest Stop,Rest Area,2026-08-02 09:27:00,15
+1032,SHP0158,Checkpoint,Highway Checkpoint,2026-08-02 07:50:00,0
+1033,SHP0158,Cold Storage Stop,Distribution Center,2026-08-02 09:15:00,18
+1034,SHP0158,Rest Stop,City Entry,2026-08-02 07:33:00,29
+1035,SHP0158,Checkpoint,Distribution Center,2026-08-02 08:57:00,0
+1036,SHP0158,Arrival,Mumbai,2026-08-02 09:43:00,0
+1037,SHP0159,Departure,Mumbai,2026-08-04 06:49:00,0
+1038,SHP0159,Route Deviation,Rest Area,2026-08-04 08:01:00,53
+1039,SHP0159,Rest Stop,Cold Storage Facility,2026-08-04 09:46:00,36
+1040,SHP0159,Rest Stop,Cold Storage Facility,2026-08-04 11:16:00,33
+1041,SHP0159,Checkpoint,Fuel Station,2026-08-04 10:27:00,0
+1042,SHP0159,Checkpoint,Distribution Center,2026-08-04 07:59:00,0
+1043,SHP0159,Checkpoint,Highway Checkpoint,2026-08-04 10:49:00,0
+1044,SHP0159,Arrival,Salem,2026-08-04 12:17:00,0
+1045,SHP0160,Departure,Bengaluru,2026-08-02 06:12:00,0
+1046,SHP0160,Checkpoint,Distribution Center,2026-08-02 07:04:00,0
+1047,SHP0160,Cold Storage Stop,Rest Area,2026-08-02 07:16:00,10
+1048,SHP0160,Rest Stop,Highway Checkpoint,2026-08-02 08:20:00,14
+1049,SHP0160,Rest Stop,Cold Storage Facility,2026-08-02 08:21:00,23
+1050,SHP0160,Rest Stop,Distribution Center,2026-08-02 07:27:00,27
+1051,SHP0160,Arrival,Chennai,2026-08-02 08:54:00,0
+1052,SHP0161,Departure,Chennai,2026-08-06 05:29:00,0
+1053,SHP0161,Checkpoint,Cold Storage Facility,2026-08-06 05:55:00,0
+1054,SHP0161,Route Deviation,Cold Storage Facility,2026-08-06 06:16:00,54
+1055,SHP0161,Cold Storage Stop,Distribution Center,2026-08-06 06:14:00,11
+1056,SHP0161,Cold Storage Stop,Distribution Center,2026-08-06 05:42:00,9
+1057,SHP0161,Rest Stop,Fuel Station,2026-08-06 05:51:00,17
+1058,SHP0161,Arrival,Hyderabad,2026-08-06 06:54:00,0
+1059,SHP0162,Departure,Madurai,2026-08-05 07:23:00,0
+1060,SHP0162,Rest Stop,Rest Area,2026-08-05 10:20:00,38
+1061,SHP0162,Checkpoint,Highway Checkpoint,2026-08-05 10:03:00,0
+1062,SHP0162,Route Deviation,Highway Checkpoint,2026-08-05 09:01:00,42
+1063,SHP0162,Checkpoint,Cold Storage Facility,2026-08-05 09:40:00,0
+1064,SHP0162,Checkpoint,Fuel Station,2026-08-05 09:38:00,0
+1065,SHP0162,Checkpoint,Highway Checkpoint,2026-08-05 11:06:00,0
+1066,SHP0162,Arrival,Hyderabad,2026-08-05 12:20:00,0
+1067,SHP0163,Departure,Mumbai,2026-08-05 10:59:00,0
+1068,SHP0163,Rest Stop,Distribution Center,2026-08-05 12:48:00,29
+1069,SHP0163,Checkpoint,Cold Storage Facility,2026-08-05 12:46:00,0
+1070,SHP0163,Checkpoint,Cold Storage Facility,2026-08-05 12:47:00,0
+1071,SHP0163,Cold Storage Stop,Distribution Center,2026-08-05 11:47:00,9
+1072,SHP0163,Arrival,Salem,2026-08-05 13:02:00,0
+1073,SHP0164,Departure,Chennai,2026-08-03 07:31:00,0
+1074,SHP0164,Rest Stop,Rest Area,2026-08-03 09:34:00,29
+1075,SHP0164,Checkpoint,Highway Checkpoint,2026-08-03 07:41:00,0
+1076,SHP0164,Cold Storage Stop,Rest Area,2026-08-03 11:39:00,7
+1077,SHP0164,Arrival,Hyderabad,2026-08-03 12:19:00,0
+1078,SHP0165,Departure,Coimbatore,2026-08-04 09:35:00,0
+1079,SHP0165,Cold Storage Stop,City Entry,2026-08-04 11:18:00,20
+1080,SHP0165,Traffic Delay,City Entry,2026-08-04 10:10:00,15
+1081,SHP0165,Checkpoint,Rest Area,2026-08-04 10:05:00,0
+1082,SHP0165,Arrival,Pune,2026-08-04 13:34:00,0
+1083,SHP0166,Departure,Madurai,2026-08-07 07:47:00,0
+1084,SHP0166,Checkpoint,Highway Checkpoint,2026-08-07 09:18:00,0
+1085,SHP0166,Checkpoint,Highway Checkpoint,2026-08-07 08:24:00,0
+1086,SHP0166,Checkpoint,Rest Area,2026-08-07 09:15:00,0
+1087,SHP0166,Arrival,Coimbatore,2026-08-07 09:33:00,0
+1088,SHP0167,Departure,Kochi,2026-08-06 08:03:00,0
+1089,SHP0167,Checkpoint,Fuel Station,2026-08-06 08:27:00,0
+1090,SHP0167,Cold Storage Stop,Cold Storage Facility,2026-08-06 10:05:00,17
+1091,SHP0167,Checkpoint,City Entry,2026-08-06 08:17:00,0
+1092,SHP0167,Arrival,Chennai,2026-08-06 10:26:00,0
+1093,SHP0168,Departure,Bengaluru,2026-08-07 06:41:00,0
+1094,SHP0168,Rest Stop,Distribution Center,2026-08-07 07:42:00,24
+1095,SHP0168,Checkpoint,Fuel Station,2026-08-07 08:24:00,0
+1096,SHP0168,Rest Stop,Highway Checkpoint,2026-08-07 09:26:00,34
+1097,SHP0168,Rest Stop,City Entry,2026-08-07 07:21:00,21
+1098,SHP0168,Cold Storage Stop,City Entry,2026-08-07 07:00:00,7
+1099,SHP0168,Cold Storage Stop,Cold Storage Facility,2026-08-07 06:58:00,13
+1100,SHP0168,Arrival,Hyderabad,2026-08-07 09:36:00,0
+1101,SHP0169,Departure,Hyderabad,2026-08-02 10:26:00,0
+1102,SHP0169,Checkpoint,Fuel Station,2026-08-02 10:43:00,0
+1103,SHP0169,Checkpoint,City Entry,2026-08-02 14:45:00,0
+1104,SHP0169,Checkpoint,Rest Area,2026-08-02 13:48:00,0
+1105,SHP0169,Checkpoint,Distribution Center,2026-08-02 13:04:00,0
+1106,SHP0169,Arrival,Kochi,2026-08-02 15:48:00,0
+1107,SHP0170,Departure,Chennai,2026-08-07 06:41:00,0
+1108,SHP0170,Checkpoint,Distribution Center,2026-08-07 07:39:00,0
+1109,SHP0170,Checkpoint,Highway Checkpoint,2026-08-07 07:35:00,0
+1110,SHP0170,Rest Stop,Fuel Station,2026-08-07 07:33:00,35
+1111,SHP0170,Cold Storage Stop,City Entry,2026-08-07 08:37:00,8
+1112,SHP0170,Checkpoint,Distribution Center,2026-08-07 08:10:00,0
+1113,SHP0170,Checkpoint,Highway Checkpoint,2026-08-07 07:06:00,0
+1114,SHP0170,Arrival,Pune,2026-08-07 09:09:00,0
+1115,SHP0171,Departure,Bengaluru,2026-08-05 06:16:00,0
+1116,SHP0171,Checkpoint,Cold Storage Facility,2026-08-05 06:46:00,0
+1117,SHP0171,Checkpoint,Cold Storage Facility,2026-08-05 07:13:00,0
+1118,SHP0171,Checkpoint,City Entry,2026-08-05 07:00:00,0
+1119,SHP0171,Cold Storage Stop,Distribution Center,2026-08-05 08:02:00,13
+1120,SHP0171,Rest Stop,Highway Checkpoint,2026-08-05 08:03:00,19
+1121,SHP0171,Cold Storage Stop,Fuel Station,2026-08-05 08:35:00,7
+1122,SHP0171,Arrival,Chennai,2026-08-05 09:52:00,0
+1123,SHP0172,Departure,Kochi,2026-08-02 08:54:00,0
+1124,SHP0172,Cold Storage Stop,Distribution Center,2026-08-02 10:20:00,9
+1125,SHP0172,Cold Storage Stop,Cold Storage Facility,2026-08-02 11:22:00,15
+1126,SHP0172,Checkpoint,Cold Storage Facility,2026-08-02 09:17:00,0
+1127,SHP0172,Checkpoint,Highway Checkpoint,2026-08-02 11:52:00,0
+1128,SHP0172,Rest Stop,Fuel Station,2026-08-02 11:26:00,19
+1129,SHP0172,Checkpoint,Rest Area,2026-08-02 10:30:00,0
+1130,SHP0172,Arrival,Salem,2026-08-02 12:52:00,0
+1131,SHP0173,Departure,Pune,2026-08-04 06:29:00,0
+1132,SHP0173,Cold Storage Stop,Rest Area,2026-08-04 07:20:00,15
+1133,SHP0173,Traffic Delay,Rest Area,2026-08-04 08:36:00,45
+1134,SHP0173,Checkpoint,Cold Storage Facility,2026-08-04 08:58:00,0
+1135,SHP0173,Checkpoint,Cold Storage Facility,2026-08-04 08:06:00,0
+1136,SHP0173,Cold Storage Stop,Highway Checkpoint,2026-08-04 06:45:00,13
+1137,SHP0173,Checkpoint,City Entry,2026-08-04 07:10:00,0
+1138,SHP0173,Arrival,Kochi,2026-08-04 10:03:00,0
+1139,SHP0174,Departure,Mumbai,2026-08-03 08:37:00,0
+1140,SHP0174,Checkpoint,Fuel Station,2026-08-03 10:08:00,0
+1141,SHP0174,Checkpoint,Fuel Station,2026-08-03 09:02:00,0
+1142,SHP0174,Checkpoint,Cold Storage Facility,2026-08-03 09:44:00,0
+1143,SHP0174,Checkpoint,Distribution Center,2026-08-03 09:34:00,0
+1144,SHP0174,Checkpoint,Cold Storage Facility,2026-08-03 10:10:00,0
+1145,SHP0174,Arrival,Bengaluru,2026-08-03 10:29:00,0
+1146,SHP0175,Departure,Chennai,2026-08-03 10:53:00,0
+1147,SHP0175,Cold Storage Stop,Fuel Station,2026-08-03 14:03:00,17
+1148,SHP0175,Route Deviation,Rest Area,2026-08-03 11:35:00,70
+1149,SHP0175,Rest Stop,Highway Checkpoint,2026-08-03 11:48:00,16
+1150,SHP0175,Checkpoint,Highway Checkpoint,2026-08-03 13:28:00,0
+1151,SHP0175,Rest Stop,Distribution Center,2026-08-03 14:10:00,11
+1152,SHP0175,Cold Storage Stop,Distribution Center,2026-08-03 13:54:00,9
+1153,SHP0175,Arrival,Mumbai,2026-08-03 15:04:00,0
+1154,SHP0176,Departure,Mumbai,2026-08-01 09:18:00,0
+1155,SHP0176,Checkpoint,Highway Checkpoint,2026-08-01 12:36:00,0
+1156,SHP0176,Checkpoint,Distribution Center,2026-08-01 12:00:00,0
+1157,SHP0176,Rest Stop,Fuel Station,2026-08-01 10:14:00,21
+1158,SHP0176,Checkpoint,Fuel Station,2026-08-01 12:25:00,0
+1159,SHP0176,Cold Storage Stop,Highway Checkpoint,2026-08-01 12:19:00,8
+1160,SHP0176,Arrival,Bengaluru,2026-08-01 12:50:00,0
+1161,SHP0177,Departure,Bangalore,2026-08-07 05:21:00,0
+1162,SHP0177,Checkpoint,Rest Area,2026-08-07 06:11:00,0
+1163,SHP0177,Rest Stop,Highway Checkpoint,2026-08-07 07:36:00,13
+1164,SHP0177,Cold Storage Stop,City Entry,2026-08-07 05:55:00,8
+1165,SHP0177,Checkpoint,Fuel Station,2026-08-07 07:24:00,0
+1166,SHP0177,Cold Storage Stop,Rest Area,2026-08-07 06:31:00,16
+1167,SHP0177,Arrival,Pune,2026-08-07 08:42:00,0
+1168,SHP0178,Departure,Madurai,2026-08-07 07:41:00,0
+1169,SHP0178,Checkpoint,Cold Storage Facility,2026-08-07 09:36:00,0
+1170,SHP0178,Cold Storage Stop,Cold Storage Facility,2026-08-07 10:15:00,8
+1171,SHP0178,Checkpoint,Rest Area,2026-08-07 08:13:00,0
+1172,SHP0178,Checkpoint,Rest Area,2026-08-07 09:10:00,0
+1173,SHP0178,Arrival,Kochi,2026-08-07 11:13:00,0
+1174,SHP0179,Departure,Hyderabad,2026-08-02 09:48:00,0
+1175,SHP0179,Checkpoint,Fuel Station,2026-08-02 12:18:00,0
+1176,SHP0179,Checkpoint,Distribution Center,2026-08-02 10:15:00,0
+1177,SHP0179,Checkpoint,Distribution Center,2026-08-02 12:33:00,0
+1178,SHP0179,Cold Storage Stop,City Entry,2026-08-02 12:09:00,7
+1179,SHP0179,Rest Stop,Rest Area,2026-08-02 11:27:00,18
+1180,SHP0179,Checkpoint,Highway Checkpoint,2026-08-02 10:42:00,0
+1181,SHP0179,Arrival,Coimbatore,2026-08-02 12:51:00,0
+1182,SHP0180,Departure,Chennai,2026-08-03 08:42:00,0
+1183,SHP0180,Cold Storage Stop,Highway Checkpoint,2026-08-03 09:46:00,13
+1184,SHP0180,Rest Stop,City Entry,2026-08-03 11:44:00,37
+1185,SHP0180,Checkpoint,Highway Checkpoint,2026-08-03 10:42:00,0
+1186,SHP0180,Cold Storage Stop,Rest Area,2026-08-03 08:52:00,9
+1187,SHP0180,Cold Storage Stop,Rest Area,2026-08-03 10:39:00,20
+1188,SHP0180,Checkpoint,Distribution Center,2026-08-03 10:07:00,0
+1189,SHP0180,Arrival,Bengaluru,2026-08-03 12:25:00,0
+1190,SHP0181,Departure,Coimbatore,2026-08-03 10:31:00,0
+1191,SHP0181,Checkpoint,Cold Storage Facility,2026-08-03 12:44:00,0
+1192,SHP0181,Checkpoint,Fuel Station,2026-08-03 11:37:00,0
+1193,SHP0181,Checkpoint,Rest Area,2026-08-03 11:16:00,0
+1194,SHP0181,Rest Stop,Cold Storage Facility,2026-08-03 12:33:00,33
+1195,SHP0181,Rest Stop,Rest Area,2026-08-03 10:50:00,22
+1196,SHP0181,Checkpoint,Distribution Center,2026-08-03 13:12:00,0
+1197,SHP0181,Arrival,Chennai,2026-08-03 14:02:00,0
+1198,SHP0182,Departure,Kochi,2026-08-03 08:24:00,0
+1199,SHP0182,Checkpoint,Distribution Center,2026-08-03 09:20:00,0
+1200,SHP0182,Checkpoint,Rest Area,2026-08-03 08:59:00,0
+1201,SHP0182,Checkpoint,City Entry,2026-08-03 09:29:00,0
+1202,SHP0182,Checkpoint,Rest Area,2026-08-03 09:00:00,0
+1203,SHP0182,Arrival,Salem,2026-08-03 09:42:00,0
+1204,SHP0183,Departure,Bengaluru,2026-08-05 07:46:00,0
+1205,SHP0183,Checkpoint,City Entry,2026-08-05 08:48:00,0
+1206,SHP0183,Checkpoint,Distribution Center,2026-08-05 08:18:00,0
+1207,SHP0183,Checkpoint,City Entry,2026-08-05 10:14:00,0
+1208,SHP0183,Checkpoint,Highway Checkpoint,2026-08-05 08:39:00,0
+1209,SHP0183,Arrival,Hyderabad,2026-08-05 10:39:00,0
+1210,SHP0184,Departure,Mumbai,2026-08-07 10:22:00,0
+1211,SHP0184,Checkpoint,Distribution Center,2026-08-07 14:57:00,0
+1212,SHP0184,Cold Storage Stop,Highway Checkpoint,2026-08-07 10:37:00,18
+1213,SHP0184,Checkpoint,Cold Storage Facility,2026-08-07 11:58:00,0
+1214,SHP0184,Arrival,Pune,2026-08-07 15:41:00,0
+1215,SHP0185,Departure,Kochi,2026-08-04 10:56:00,0
+1216,SHP0185,Checkpoint,Highway Checkpoint,2026-08-04 15:47:00,0
+1217,SHP0185,Checkpoint,City Entry,2026-08-04 12:20:00,0
+1218,SHP0185,Rest Stop,City Entry,2026-08-04 14:44:00,22
+1219,SHP0185,Arrival,Coimbatore,2026-08-04 16:41:00,0
+1220,SHP0186,Departure,Coimbatore,2026-08-04 05:30:00,0
+1221,SHP0186,Rest Stop,Fuel Station,2026-08-04 07:08:00,36
+1222,SHP0186,Rest Stop,Rest Area,2026-08-04 07:14:00,35
+1223,SHP0186,Traffic Delay,Distribution Center,2026-08-04 06:45:00,15
+1224,SHP0186,Checkpoint,Cold Storage Facility,2026-08-04 07:05:00,0
+1225,SHP0186,Arrival,Kochi,2026-08-04 07:35:00,0
+1226,SHP0187,Departure,Kochi,2026-08-02 06:43:00,0
+1227,SHP0187,Checkpoint,Highway Checkpoint,2026-08-02 08:02:00,0
+1228,SHP0187,Checkpoint,Distribution Center,2026-08-02 07:00:00,0
+1229,SHP0187,Rest Stop,Distribution Center,2026-08-02 08:07:00,36
+1230,SHP0187,Rest Stop,Distribution Center,2026-08-02 10:08:00,24
+1231,SHP0187,Checkpoint,Cold Storage Facility,2026-08-02 08:58:00,0
+1232,SHP0187,Arrival,Mumbai,2026-08-02 10:34:00,0
+1233,SHP0188,Departure,Bangalore,2026-08-02 07:14:00,0
+1234,SHP0188,Rest Stop,Fuel Station,2026-08-02 10:09:00,38
+1235,SHP0188,Rest Stop,City Entry,2026-08-02 10:35:00,21
+1236,SHP0188,Checkpoint,Fuel Station,2026-08-02 09:32:00,0
+1237,SHP0188,Arrival,Hyderabad,2026-08-02 10:51:00,0
+1238,SHP0189,Departure,Salem,2026-08-04 07:16:00,0
+1239,SHP0189,Rest Stop,Cold Storage Facility,2026-08-04 09:08:00,38
+1240,SHP0189,Rest Stop,Highway Checkpoint,2026-08-04 09:19:00,40
+1241,SHP0189,Checkpoint,Cold Storage Facility,2026-08-04 11:07:00,0
+1242,SHP0189,Cold Storage Stop,Distribution Center,2026-08-04 11:19:00,19
+1243,SHP0189,Arrival,Madurai,2026-08-04 13:15:00,0
+1244,SHP0190,Departure,Kochi,2026-08-05 05:30:00,0
+1245,SHP0190,Rest Stop,City Entry,2026-08-05 06:31:00,24
+1246,SHP0190,Rest Stop,Cold Storage Facility,2026-08-05 06:03:00,37
+1247,SHP0190,Checkpoint,Fuel Station,2026-08-05 05:42:00,0
+1248,SHP0190,Checkpoint,Fuel Station,2026-08-05 06:34:00,0
+1249,SHP0190,Checkpoint,Cold Storage Facility,2026-08-05 06:25:00,0
+1250,SHP0190,Checkpoint,City Entry,2026-08-05 05:58:00,0
+1251,SHP0190,Arrival,Pune,2026-08-05 06:57:00,0
+1252,SHP0191,Departure,Bengaluru,2026-08-04 08:56:00,0
+1253,SHP0191,Cold Storage Stop,Cold Storage Facility,2026-08-04 11:17:00,16
+1254,SHP0191,Checkpoint,Cold Storage Facility,2026-08-04 09:59:00,0
+1255,SHP0191,Checkpoint,City Entry,2026-08-04 11:13:00,0
+1256,SHP0191,Checkpoint,Distribution Center,2026-08-04 10:12:00,0
+1257,SHP0191,Checkpoint,Cold Storage Facility,2026-08-04 10:15:00,0
+1258,SHP0191,Checkpoint,Rest Area,2026-08-04 09:56:00,0
+1259,SHP0191,Arrival,Bangalore,2026-08-04 11:35:00,0
+1260,SHP0192,Departure,Mumbai,2026-08-05 10:24:00,0
+1261,SHP0192,Rest Stop,Rest Area,2026-08-05 14:57:00,20
+1262,SHP0192,Checkpoint,City Entry,2026-08-05 13:52:00,0
+1263,SHP0192,Checkpoint,Distribution Center,2026-08-05 11:08:00,0
+1264,SHP0192,Checkpoint,Rest Area,2026-08-05 11:53:00,0
+1265,SHP0192,Checkpoint,Distribution Center,2026-08-05 14:43:00,0
+1266,SHP0192,Arrival,Bangalore,2026-08-05 15:55:00,0
+1267,SHP0193,Departure,Kochi,2026-08-06 05:55:00,0
+1268,SHP0193,Rest Stop,Rest Area,2026-08-06 07:12:00,13
+1269,SHP0193,Cold Storage Stop,Fuel Station,2026-08-06 06:32:00,9
+1270,SHP0193,Checkpoint,Rest Area,2026-08-06 06:15:00,0
+1271,SHP0193,Checkpoint,Highway Checkpoint,2026-08-06 07:20:00,0
+1272,SHP0193,Arrival,Salem,2026-08-06 08:12:00,0
+1273,SHP0194,Departure,Coimbatore,2026-08-02 07:26:00,0
+1274,SHP0194,Checkpoint,Rest Area,2026-08-02 12:48:00,0
+1275,SHP0194,Checkpoint,Cold Storage Facility,2026-08-02 08:41:00,0
+1276,SHP0194,Checkpoint,Rest Area,2026-08-02 07:37:00,0
+1277,SHP0194,Arrival,Hyderabad,2026-08-02 13:17:00,0
+1278,SHP0195,Departure,Pune,2026-08-01 07:55:00,0
+1279,SHP0195,Cold Storage Stop,Fuel Station,2026-08-01 10:04:00,19
+1280,SHP0195,Checkpoint,City Entry,2026-08-01 08:07:00,0
+1281,SHP0195,Cold Storage Stop,Distribution Center,2026-08-01 09:55:00,15
+1282,SHP0195,Arrival,Coimbatore,2026-08-01 10:27:00,0
+1283,SHP0196,Departure,Bangalore,2026-08-03 07:40:00,0
+1284,SHP0196,Checkpoint,Cold Storage Facility,2026-08-03 08:22:00,0
+1285,SHP0196,Checkpoint,Distribution Center,2026-08-03 08:12:00,0
+1286,SHP0196,Checkpoint,City Entry,2026-08-03 08:47:00,0
+1287,SHP0196,Rest Stop,Distribution Center,2026-08-03 09:33:00,20
+1288,SHP0196,Arrival,Pune,2026-08-03 10:10:00,0
+1289,SHP0197,Departure,Madurai,2026-08-04 05:28:00,0
+1290,SHP0197,Traffic Delay,City Entry,2026-08-04 07:42:00,22
+1291,SHP0197,Checkpoint,Rest Area,2026-08-04 06:30:00,0
+1292,SHP0197,Traffic Delay,Highway Checkpoint,2026-08-04 07:35:00,46
+1293,SHP0197,Arrival,Chennai,2026-08-04 08:48:00,0
+1294,SHP0198,Departure,Hyderabad,2026-08-07 09:48:00,0
+1295,SHP0198,Checkpoint,Distribution Center,2026-08-07 10:28:00,0
+1296,SHP0198,Cold Storage Stop,Highway Checkpoint,2026-08-07 11:39:00,18
+1297,SHP0198,Rest Stop,Rest Area,2026-08-07 11:38:00,20
+1298,SHP0198,Arrival,Coimbatore,2026-08-07 12:09:00,0
+1299,SHP0199,Departure,Pune,2026-08-05 06:39:00,0
+1300,SHP0199,Checkpoint,Cold Storage Facility,2026-08-05 11:00:00,0
+1301,SHP0199,Checkpoint,Rest Area,2026-08-05 07:21:00,0
+1302,SHP0199,Checkpoint,Fuel Station,2026-08-05 07:54:00,0
+1303,SHP0199,Checkpoint,Highway Checkpoint,2026-08-05 09:41:00,0
+1304,SHP0199,Arrival,Bangalore,2026-08-05 11:21:00,0
+1305,SHP0200,Departure,Salem,2026-08-05 08:00:00,0
+1306,SHP0200,Checkpoint,City Entry,2026-08-05 08:39:00,0
+1307,SHP0200,Checkpoint,Rest Area,2026-08-05 08:59:00,0
+1308,SHP0200,Checkpoint,Highway Checkpoint,2026-08-05 08:54:00,0
+1309,SHP0200,Arrival,Pune,2026-08-05 09:19:00,0
+1310,SHP0201,Departure,Mumbai,2026-08-01 10:23:00,0
+1311,SHP0201,Route Deviation,Cold Storage Facility,2026-08-01 11:20:00,39
+1312,SHP0201,Checkpoint,Cold Storage Facility,2026-08-01 10:40:00,0
+1313,SHP0201,Checkpoint,Cold Storage Facility,2026-08-01 10:34:00,0
+1314,SHP0201,Arrival,Hyderabad,2026-08-01 11:30:00,0
+1315,SHP0202,Departure,Madurai,2026-08-07 06:01:00,0
+1316,SHP0202,Cold Storage Stop,Rest Area,2026-08-07 06:11:00,14
+1317,SHP0202,Rest Stop,Rest Area,2026-08-07 06:37:00,40
+1318,SHP0202,Checkpoint,Cold Storage Facility,2026-08-07 06:39:00,0
+1319,SHP0202,Cold Storage Stop,Distribution Center,2026-08-07 06:52:00,18
+1320,SHP0202,Checkpoint,Cold Storage Facility,2026-08-07 06:31:00,0
+1321,SHP0202,Checkpoint,Rest Area,2026-08-07 06:45:00,0
+1322,SHP0202,Arrival,Mumbai,2026-08-07 07:03:00,0
+1323,SHP0203,Departure,Hyderabad,2026-08-07 07:08:00,0
+1324,SHP0203,Cold Storage Stop,City Entry,2026-08-07 07:45:00,10
+1325,SHP0203,Rest Stop,Cold Storage Facility,2026-08-07 07:34:00,38
+1326,SHP0203,Checkpoint,Fuel Station,2026-08-07 08:23:00,0
+1327,SHP0203,Checkpoint,City Entry,2026-08-07 08:18:00,0
+1328,SHP0203,Checkpoint,City Entry,2026-08-07 08:02:00,0
+1329,SHP0203,Checkpoint,Cold Storage Facility,2026-08-07 08:01:00,0
+1330,SHP0203,Arrival,Madurai,2026-08-07 09:00:00,0
+1331,SHP0204,Departure,Salem,2026-08-05 09:19:00,0
+1332,SHP0204,Checkpoint,Distribution Center,2026-08-05 10:16:00,0
+1333,SHP0204,Checkpoint,Distribution Center,2026-08-05 10:53:00,0
+1334,SHP0204,Cold Storage Stop,Distribution Center,2026-08-05 10:22:00,18
+1335,SHP0204,Checkpoint,Fuel Station,2026-08-05 11:04:00,0
+1336,SHP0204,Checkpoint,Fuel Station,2026-08-05 11:10:00,0
+1337,SHP0204,Checkpoint,Highway Checkpoint,2026-08-05 11:22:00,0
+1338,SHP0204,Arrival,Mumbai,2026-08-05 11:44:00,0
+1339,SHP0205,Departure,Bangalore,2026-08-07 07:18:00,0
+1340,SHP0205,Checkpoint,Distribution Center,2026-08-07 08:12:00,0
+1341,SHP0205,Cold Storage Stop,Cold Storage Facility,2026-08-07 09:30:00,12
+1342,SHP0205,Checkpoint,Cold Storage Facility,2026-08-07 08:12:00,0
+1343,SHP0205,Rest Stop,Rest Area,2026-08-07 11:22:00,14
+1344,SHP0205,Checkpoint,Fuel Station,2026-08-07 11:16:00,0
+1345,SHP0205,Arrival,Chennai,2026-08-07 12:11:00,0
+1346,SHP0206,Departure,Mumbai,2026-08-01 09:21:00,0
+1347,SHP0206,Rest Stop,Distribution Center,2026-08-01 13:06:00,40
+1348,SHP0206,Rest Stop,Fuel Station,2026-08-01 09:52:00,36
+1349,SHP0206,Rest Stop,Rest Area,2026-08-01 09:56:00,38
+1350,SHP0206,Checkpoint,Fuel Station,2026-08-01 11:30:00,0
+1351,SHP0206,Rest Stop,Fuel Station,2026-08-01 13:16:00,25
+1352,SHP0206,Arrival,Bengaluru,2026-08-01 14:03:00,0
+1353,SHP0207,Departure,Coimbatore,2026-08-04 08:22:00,0
+1354,SHP0207,Rest Stop,Distribution Center,2026-08-04 09:51:00,11
+1355,SHP0207,Checkpoint,Fuel Station,2026-08-04 09:36:00,0
+1356,SHP0207,Cold Storage Stop,Rest Area,2026-08-04 09:03:00,8
+1357,SHP0207,Route Deviation,City Entry,2026-08-04 09:19:00,22
+1358,SHP0207,Cold Storage Stop,City Entry,2026-08-04 09:27:00,13
+1359,SHP0207,Arrival,Madurai,2026-08-04 10:58:00,0
+1360,SHP0208,Departure,Coimbatore,2026-08-07 05:14:00,0
+1361,SHP0208,Cold Storage Stop,Fuel Station,2026-08-07 06:49:00,10
+1362,SHP0208,Traffic Delay,Highway Checkpoint,2026-08-07 05:53:00,41
+1363,SHP0208,Rest Stop,City Entry,2026-08-07 05:58:00,39
+1364,SHP0208,Checkpoint,City Entry,2026-08-07 06:18:00,0
+1365,SHP0208,Arrival,Salem,2026-08-07 08:08:00,0
+1366,SHP0209,Departure,Coimbatore,2026-08-02 10:01:00,0
+1367,SHP0209,Checkpoint,Fuel Station,2026-08-02 13:34:00,0
+1368,SHP0209,Checkpoint,Rest Area,2026-08-02 13:15:00,0
+1369,SHP0209,Checkpoint,Rest Area,2026-08-02 12:27:00,0
+1370,SHP0209,Cold Storage Stop,Rest Area,2026-08-02 14:26:00,19
+1371,SHP0209,Checkpoint,Cold Storage Facility,2026-08-02 14:52:00,0
+1372,SHP0209,Rest Stop,Distribution Center,2026-08-02 13:10:00,30
+1373,SHP0209,Arrival,Hyderabad,2026-08-02 15:19:00,0
+1374,SHP0210,Departure,Coimbatore,2026-08-04 07:45:00,0
+1375,SHP0210,Cold Storage Stop,Fuel Station,2026-08-04 08:34:00,16
+1376,SHP0210,Checkpoint,City Entry,2026-08-04 08:39:00,0
+1377,SHP0210,Checkpoint,Rest Area,2026-08-04 08:01:00,0
+1378,SHP0210,Checkpoint,Rest Area,2026-08-04 08:00:00,0
+1379,SHP0210,Checkpoint,City Entry,2026-08-04 08:48:00,0
+1380,SHP0210,Rest Stop,Fuel Station,2026-08-04 08:36:00,11
+1381,SHP0210,Arrival,Bangalore,2026-08-04 09:04:00,0
+1382,SHP0211,Departure,Salem,2026-08-05 09:39:00,0
+1383,SHP0211,Cold Storage Stop,City Entry,2026-08-05 10:17:00,16
+1384,SHP0211,Checkpoint,Distribution Center,2026-08-05 09:51:00,0
+1385,SHP0211,Traffic Delay,Fuel Station,2026-08-05 10:15:00,58
+1386,SHP0211,Checkpoint,Fuel Station,2026-08-05 10:39:00,0
+1387,SHP0211,Arrival,Kochi,2026-08-05 11:03:00,0
+1388,SHP0212,Departure,Bengaluru,2026-08-03 10:06:00,0
+1389,SHP0212,Checkpoint,Highway Checkpoint,2026-08-03 10:25:00,0
+1390,SHP0212,Traffic Delay,City Entry,2026-08-03 10:27:00,31
+1391,SHP0212,Checkpoint,City Entry,2026-08-03 10:57:00,0
+1392,SHP0212,Traffic Delay,City Entry,2026-08-03 10:36:00,26
+1393,SHP0212,Checkpoint,Highway Checkpoint,2026-08-03 10:22:00,0
+1394,SHP0212,Arrival,Chennai,2026-08-03 11:16:00,0
+1395,SHP0213,Departure,Chennai,2026-08-07 08:28:00,0
+1396,SHP0213,Checkpoint,Fuel Station,2026-08-07 11:45:00,0
+1397,SHP0213,Rest Stop,Highway Checkpoint,2026-08-07 10:13:00,35
+1398,SHP0213,Checkpoint,Rest Area,2026-08-07 09:33:00,0
+1399,SHP0213,Arrival,Bangalore,2026-08-07 12:42:00,0
+1400,SHP0214,Departure,Bangalore,2026-08-07 07:30:00,0
+1401,SHP0214,Checkpoint,Fuel Station,2026-08-07 08:56:00,0
+1402,SHP0214,Checkpoint,Distribution Center,2026-08-07 07:46:00,0
+1403,SHP0214,Checkpoint,Distribution Center,2026-08-07 09:16:00,0
+1404,SHP0214,Route Deviation,Cold Storage Facility,2026-08-07 07:49:00,84
+1405,SHP0214,Route Deviation,Highway Checkpoint,2026-08-07 09:20:00,87
+1406,SHP0214,Arrival,Mumbai,2026-08-07 09:48:00,0
+1407,SHP0215,Departure,Hyderabad,2026-08-03 07:26:00,0
+1408,SHP0215,Checkpoint,Cold Storage Facility,2026-08-03 07:42:00,0
+1409,SHP0215,Checkpoint,Fuel Station,2026-08-03 08:02:00,0
+1410,SHP0215,Checkpoint,City Entry,2026-08-03 08:45:00,0
+1411,SHP0215,Cold Storage Stop,Fuel Station,2026-08-03 07:54:00,19
+1412,SHP0215,Checkpoint,City Entry,2026-08-03 08:38:00,0
+1413,SHP0215,Traffic Delay,Cold Storage Facility,2026-08-03 08:57:00,22
+1414,SHP0215,Arrival,Chennai,2026-08-03 09:17:00,0
+1415,SHP0216,Departure,Mumbai,2026-08-04 09:38:00,0
+1416,SHP0216,Checkpoint,City Entry,2026-08-04 11:08:00,0
+1417,SHP0216,Cold Storage Stop,Cold Storage Facility,2026-08-04 10:23:00,8
+1418,SHP0216,Checkpoint,Distribution Center,2026-08-04 11:22:00,0
+1419,SHP0216,Cold Storage Stop,Rest Area,2026-08-04 10:53:00,14
+1420,SHP0216,Rest Stop,Rest Area,2026-08-04 11:33:00,28
+1421,SHP0216,Arrival,Kochi,2026-08-04 11:48:00,0
+1422,SHP0217,Departure,Salem,2026-08-06 09:46:00,0
+1423,SHP0217,Route Deviation,Highway Checkpoint,2026-08-06 10:27:00,23
+1424,SHP0217,Checkpoint,Cold Storage Facility,2026-08-06 10:02:00,0
+1425,SHP0217,Traffic Delay,City Entry,2026-08-06 11:09:00,29
+1426,SHP0217,Checkpoint,Highway Checkpoint,2026-08-06 11:35:00,0
+1427,SHP0217,Checkpoint,Distribution Center,2026-08-06 10:31:00,0
+1428,SHP0217,Arrival,Bangalore,2026-08-06 11:46:00,0
+1429,SHP0218,Departure,Kochi,2026-08-04 05:31:00,0
+1430,SHP0218,Checkpoint,Distribution Center,2026-08-04 05:49:00,0
+1431,SHP0218,Checkpoint,Highway Checkpoint,2026-08-04 06:45:00,0
+1432,SHP0218,Cold Storage Stop,City Entry,2026-08-04 07:46:00,11
+1433,SHP0218,Checkpoint,Distribution Center,2026-08-04 06:33:00,0
+1434,SHP0218,Checkpoint,Cold Storage Facility,2026-08-04 06:19:00,0
+1435,SHP0218,Checkpoint,Rest Area,2026-08-04 07:33:00,0
+1436,SHP0218,Arrival,Bangalore,2026-08-04 08:12:00,0
+1437,SHP0219,Departure,Bengaluru,2026-08-04 07:53:00,0
+1438,SHP0219,Checkpoint,City Entry,2026-08-04 11:24:00,0
+1439,SHP0219,Rest Stop,Rest Area,2026-08-04 12:08:00,25
+1440,SHP0219,Cold Storage Stop,City Entry,2026-08-04 10:33:00,10
+1441,SHP0219,Rest Stop,Highway Checkpoint,2026-08-04 08:20:00,25
+1442,SHP0219,Rest Stop,Highway Checkpoint,2026-08-04 12:16:00,27
+1443,SHP0219,Cold Storage Stop,Fuel Station,2026-08-04 08:44:00,7
+1444,SHP0219,Arrival,Hyderabad,2026-08-04 13:20:00,0
+1445,SHP0220,Departure,Hyderabad,2026-08-02 10:26:00,0
+1446,SHP0220,Cold Storage Stop,Distribution Center,2026-08-02 10:41:00,20
+1447,SHP0220,Checkpoint,City Entry,2026-08-02 13:01:00,0
+1448,SHP0220,Checkpoint,Distribution Center,2026-08-02 11:33:00,0
+1449,SHP0220,Cold Storage Stop,Rest Area,2026-08-02 10:51:00,13
+1450,SHP0220,Rest Stop,Fuel Station,2026-08-02 12:15:00,29
+1451,SHP0220,Arrival,Madurai,2026-08-02 13:57:00,0
+1452,SHP0221,Departure,Coimbatore,2026-08-06 09:31:00,0
+1453,SHP0221,Cold Storage Stop,Highway Checkpoint,2026-08-06 10:04:00,17
+1454,SHP0221,Checkpoint,Cold Storage Facility,2026-08-06 11:44:00,0
+1455,SHP0221,Checkpoint,Fuel Station,2026-08-06 11:44:00,0
+1456,SHP0221,Traffic Delay,Distribution Center,2026-08-06 11:02:00,44
+1457,SHP0221,Rest Stop,Highway Checkpoint,2026-08-06 11:31:00,23
+1458,SHP0221,Arrival,Chennai,2026-08-06 12:17:00,0
+1459,SHP0222,Departure,Pune,2026-08-03 06:00:00,0
+1460,SHP0222,Checkpoint,Distribution Center,2026-08-03 06:38:00,0
+1461,SHP0222,Checkpoint,Distribution Center,2026-08-03 06:38:00,0
+1462,SHP0222,Checkpoint,City Entry,2026-08-03 06:39:00,0
+1463,SHP0222,Checkpoint,Highway Checkpoint,2026-08-03 06:46:00,0
+1464,SHP0222,Arrival,Madurai,2026-08-03 07:06:00,0
+1465,SHP0223,Departure,Bangalore,2026-08-06 10:31:00,0
+1466,SHP0223,Checkpoint,Distribution Center,2026-08-06 11:44:00,0
+1467,SHP0223,Checkpoint,Fuel Station,2026-08-06 11:42:00,0
+1468,SHP0223,Checkpoint,Highway Checkpoint,2026-08-06 12:02:00,0
+1469,SHP0223,Arrival,Bengaluru,2026-08-06 12:47:00,0
+1470,SHP0224,Departure,Bangalore,2026-08-03 05:46:00,0
+1471,SHP0224,Checkpoint,Fuel Station,2026-08-03 07:18:00,0
+1472,SHP0224,Cold Storage Stop,Cold Storage Facility,2026-08-03 06:16:00,14
+1473,SHP0224,Checkpoint,Cold Storage Facility,2026-08-03 06:19:00,0
+1474,SHP0224,Checkpoint,City Entry,2026-08-03 06:21:00,0
+1475,SHP0224,Arrival,Mumbai,2026-08-03 07:37:00,0
+1476,SHP0225,Departure,Kochi,2026-08-07 08:18:00,0
+1477,SHP0225,Checkpoint,Rest Area,2026-08-07 11:03:00,0
+1478,SHP0225,Rest Stop,Cold Storage Facility,2026-08-07 11:11:00,23
+1479,SHP0225,Rest Stop,Rest Area,2026-08-07 10:16:00,20
+1480,SHP0225,Cold Storage Stop,Distribution Center,2026-08-07 09:46:00,7
+1481,SHP0225,Arrival,Hyderabad,2026-08-07 11:33:00,0
+1482,SHP0226,Departure,Pune,2026-08-05 05:52:00,0
+1483,SHP0226,Cold Storage Stop,Distribution Center,2026-08-05 07:19:00,20
+1484,SHP0226,Cold Storage Stop,Distribution Center,2026-08-05 07:11:00,11
+1485,SHP0226,Checkpoint,Distribution Center,2026-08-05 06:47:00,0
+1486,SHP0226,Checkpoint,Rest Area,2026-08-05 06:38:00,0
+1487,SHP0226,Checkpoint,City Entry,2026-08-05 07:45:00,0
+1488,SHP0226,Checkpoint,Cold Storage Facility,2026-08-05 06:54:00,0
+1489,SHP0226,Arrival,Chennai,2026-08-05 08:21:00,0
+1490,SHP0227,Departure,Chennai,2026-08-02 07:51:00,0
+1491,SHP0227,Checkpoint,Cold Storage Facility,2026-08-02 10:17:00,0
+1492,SHP0227,Checkpoint,Distribution Center,2026-08-02 09:24:00,0
+1493,SHP0227,Rest Stop,City Entry,2026-08-02 09:39:00,16
+1494,SHP0227,Checkpoint,Distribution Center,2026-08-02 10:29:00,0
+1495,SHP0227,Checkpoint,City Entry,2026-08-02 09:48:00,0
+1496,SHP0227,Checkpoint,Highway Checkpoint,2026-08-02 10:10:00,0
+1497,SHP0227,Arrival,Kochi,2026-08-02 11:31:00,0
+1498,SHP0228,Departure,Salem,2026-08-02 05:54:00,0
+1499,SHP0228,Checkpoint,Fuel Station,2026-08-02 06:26:00,0
+1500,SHP0228,Checkpoint,City Entry,2026-08-02 06:51:00,0
+1501,SHP0228,Checkpoint,Fuel Station,2026-08-02 06:21:00,0
+1502,SHP0228,Rest Stop,Cold Storage Facility,2026-08-02 06:43:00,32
+1503,SHP0228,Arrival,Bangalore,2026-08-02 07:17:00,0
+1504,SHP0229,Departure,Chennai,2026-08-05 10:41:00,0
+1505,SHP0229,Rest Stop,Cold Storage Facility,2026-08-05 12:02:00,20
+1506,SHP0229,Checkpoint,Cold Storage Facility,2026-08-05 12:44:00,0
+1507,SHP0229,Cold Storage Stop,Fuel Station,2026-08-05 11:29:00,18
+1508,SHP0229,Arrival,Coimbatore,2026-08-05 13:08:00,0
+1509,SHP0230,Departure,Madurai,2026-08-06 09:17:00,0
+1510,SHP0230,Rest Stop,Fuel Station,2026-08-06 09:45:00,18
+1511,SHP0230,Checkpoint,Highway Checkpoint,2026-08-06 10:23:00,0
+1512,SHP0230,Checkpoint,Distribution Center,2026-08-06 10:38:00,0
+1513,SHP0230,Checkpoint,City Entry,2026-08-06 10:31:00,0
+1514,SHP0230,Arrival,Pune,2026-08-06 11:04:00,0
+1515,SHP0231,Departure,Madurai,2026-08-07 05:25:00,0
+1516,SHP0231,Checkpoint,Cold Storage Facility,2026-08-07 05:47:00,0
+1517,SHP0231,Rest Stop,Rest Area,2026-08-07 07:49:00,32
+1518,SHP0231,Rest Stop,City Entry,2026-08-07 08:28:00,18
+1519,SHP0231,Arrival,Coimbatore,2026-08-07 09:49:00,0
+1520,SHP0232,Departure,Pune,2026-08-01 08:44:00,0
+1521,SHP0232,Checkpoint,Fuel Station,2026-08-01 10:56:00,0
+1522,SHP0232,Cold Storage Stop,Rest Area,2026-08-01 12:58:00,12
+1523,SHP0232,Checkpoint,Highway Checkpoint,2026-08-01 10:37:00,0
+1524,SHP0232,Checkpoint,Fuel Station,2026-08-01 10:34:00,0
+1525,SHP0232,Checkpoint,Rest Area,2026-08-01 13:37:00,0
+1526,SHP0232,Checkpoint,Rest Area,2026-08-01 12:18:00,0
+1527,SHP0232,Arrival,Kochi,2026-08-01 13:48:00,0
+1528,SHP0233,Departure,Salem,2026-08-02 05:08:00,0
+1529,SHP0233,Checkpoint,Fuel Station,2026-08-02 06:02:00,0
+1530,SHP0233,Checkpoint,Distribution Center,2026-08-02 05:44:00,0
+1531,SHP0233,Traffic Delay,Fuel Station,2026-08-02 06:13:00,16
+1532,SHP0233,Checkpoint,Highway Checkpoint,2026-08-02 06:02:00,0
+1533,SHP0233,Arrival,Coimbatore,2026-08-02 06:38:00,0
+1534,SHP0234,Departure,Coimbatore,2026-08-07 08:58:00,0
+1535,SHP0234,Checkpoint,Distribution Center,2026-08-07 11:58:00,0
+1536,SHP0234,Checkpoint,Fuel Station,2026-08-07 11:08:00,0
+1537,SHP0234,Cold Storage Stop,Highway Checkpoint,2026-08-07 11:07:00,16
+1538,SHP0234,Checkpoint,Rest Area,2026-08-07 10:06:00,0
+1539,SHP0234,Arrival,Bangalore,2026-08-07 14:05:00,0
+1540,SHP0235,Departure,Bengaluru,2026-08-02 06:39:00,0
+1541,SHP0235,Traffic Delay,Rest Area,2026-08-02 08:25:00,26
+1542,SHP0235,Checkpoint,Highway Checkpoint,2026-08-02 08:32:00,0
+1543,SHP0235,Traffic Delay,Rest Area,2026-08-02 07:42:00,21
+1544,SHP0235,Arrival,Pune,2026-08-02 10:53:00,0
+1545,SHP0236,Departure,Madurai,2026-08-02 05:55:00,0
+1546,SHP0236,Checkpoint,Fuel Station,2026-08-02 06:12:00,0
+1547,SHP0236,Route Deviation,Fuel Station,2026-08-02 06:24:00,34
+1548,SHP0236,Cold Storage Stop,Rest Area,2026-08-02 07:29:00,10
+1549,SHP0236,Rest Stop,Fuel Station,2026-08-02 06:16:00,24
+1550,SHP0236,Checkpoint,Fuel Station,2026-08-02 07:01:00,0
+1551,SHP0236,Arrival,Bengaluru,2026-08-02 08:01:00,0
+1552,SHP0237,Departure,Pune,2026-08-07 08:28:00,0
+1553,SHP0237,Cold Storage Stop,Distribution Center,2026-08-07 09:34:00,12
+1554,SHP0237,Checkpoint,City Entry,2026-08-07 09:39:00,0
+1555,SHP0237,Checkpoint,Rest Area,2026-08-07 08:43:00,0
+1556,SHP0237,Checkpoint,Fuel Station,2026-08-07 09:34:00,0
+1557,SHP0237,Checkpoint,Cold Storage Facility,2026-08-07 09:07:00,0
+1558,SHP0237,Cold Storage Stop,City Entry,2026-08-07 09:05:00,13
+1559,SHP0237,Arrival,Bangalore,2026-08-07 09:51:00,0
+1560,SHP0238,Departure,Bangalore,2026-08-06 10:20:00,0
+1561,SHP0238,Route Deviation,Fuel Station,2026-08-06 10:40:00,32
+1562,SHP0238,Checkpoint,Highway Checkpoint,2026-08-06 10:37:00,0
+1563,SHP0238,Checkpoint,Rest Area,2026-08-06 10:45:00,0
+1564,SHP0238,Checkpoint,Highway Checkpoint,2026-08-06 11:14:00,0
+1565,SHP0238,Checkpoint,Rest Area,2026-08-06 10:54:00,0
+1566,SHP0238,Checkpoint,Rest Area,2026-08-06 11:04:00,0
+1567,SHP0238,Arrival,Kochi,2026-08-06 11:26:00,0
+1568,SHP0239,Departure,Mumbai,2026-08-03 10:36:00,0
+1569,SHP0239,Rest Stop,Fuel Station,2026-08-03 13:03:00,34
+1570,SHP0239,Checkpoint,Rest Area,2026-08-03 11:06:00,0
+1571,SHP0239,Checkpoint,Highway Checkpoint,2026-08-03 12:03:00,0
+1572,SHP0239,Arrival,Bengaluru,2026-08-03 13:30:00,0
+1573,SHP0240,Departure,Madurai,2026-08-05 09:44:00,0
+1574,SHP0240,Checkpoint,Fuel Station,2026-08-05 10:54:00,0
+1575,SHP0240,Rest Stop,Rest Area,2026-08-05 10:45:00,29
+1576,SHP0240,Checkpoint,Highway Checkpoint,2026-08-05 10:38:00,0
+1577,SHP0240,Cold Storage Stop,City Entry,2026-08-05 10:44:00,15
+1578,SHP0240,Checkpoint,Rest Area,2026-08-05 09:55:00,0
+1579,SHP0240,Arrival,Mumbai,2026-08-05 11:32:00,0
+1580,SHP0241,Departure,Salem,2026-08-01 08:22:00,0
+1581,SHP0241,Checkpoint,Distribution Center,2026-08-01 12:07:00,0
+1582,SHP0241,Cold Storage Stop,City Entry,2026-08-01 11:34:00,5
+1583,SHP0241,Cold Storage Stop,Fuel Station,2026-08-01 11:00:00,18
+1584,SHP0241,Cold Storage Stop,Distribution Center,2026-08-01 12:22:00,10
+1585,SHP0241,Cold Storage Stop,Distribution Center,2026-08-01 09:40:00,15
+1586,SHP0241,Arrival,Hyderabad,2026-08-01 12:39:00,0
+1587,SHP0242,Departure,Coimbatore,2026-08-02 09:03:00,0
+1588,SHP0242,Checkpoint,Cold Storage Facility,2026-08-02 09:33:00,0
+1589,SHP0242,Checkpoint,Rest Area,2026-08-02 09:52:00,0
+1590,SHP0242,Cold Storage Stop,Distribution Center,2026-08-02 09:42:00,16
+1591,SHP0242,Arrival,Mumbai,2026-08-02 10:08:00,0
+1592,SHP0243,Departure,Coimbatore,2026-08-01 08:54:00,0
+1593,SHP0243,Checkpoint,Cold Storage Facility,2026-08-01 12:15:00,0
+1594,SHP0243,Checkpoint,Fuel Station,2026-08-01 11:48:00,0
+1595,SHP0243,Cold Storage Stop,City Entry,2026-08-01 11:34:00,17
+1596,SHP0243,Checkpoint,Distribution Center,2026-08-01 09:35:00,0
+1597,SHP0243,Cold Storage Stop,Fuel Station,2026-08-01 13:57:00,19
+1598,SHP0243,Checkpoint,Highway Checkpoint,2026-08-01 10:16:00,0
+1599,SHP0243,Arrival,Mumbai,2026-08-01 14:07:00,0
+1600,SHP0244,Departure,Coimbatore,2026-08-06 08:20:00,0
+1601,SHP0244,Rest Stop,Distribution Center,2026-08-06 09:48:00,22
+1602,SHP0244,Rest Stop,Highway Checkpoint,2026-08-06 08:51:00,20
+1603,SHP0244,Traffic Delay,Highway Checkpoint,2026-08-06 09:30:00,10
+1604,SHP0244,Checkpoint,Fuel Station,2026-08-06 10:37:00,0
+1605,SHP0244,Cold Storage Stop,Fuel Station,2026-08-06 10:03:00,20
+1606,SHP0244,Checkpoint,Distribution Center,2026-08-06 11:06:00,0
+1607,SHP0244,Arrival,Bangalore,2026-08-06 11:23:00,0
+1608,SHP0245,Departure,Madurai,2026-08-07 05:32:00,0
+1609,SHP0245,Checkpoint,Rest Area,2026-08-07 08:06:00,0
+1610,SHP0245,Rest Stop,Cold Storage Facility,2026-08-07 05:51:00,13
+1611,SHP0245,Checkpoint,Rest Area,2026-08-07 07:13:00,0
+1612,SHP0245,Cold Storage Stop,City Entry,2026-08-07 07:18:00,5
+1613,SHP0245,Checkpoint,City Entry,2026-08-07 07:33:00,0
+1614,SHP0245,Rest Stop,City Entry,2026-08-07 06:21:00,38
+1615,SHP0245,Arrival,Kochi,2026-08-07 08:26:00,0
+1616,SHP0246,Departure,Mumbai,2026-08-04 08:52:00,0
+1617,SHP0246,Rest Stop,City Entry,2026-08-04 10:29:00,11
+1618,SHP0246,Cold Storage Stop,Cold Storage Facility,2026-08-04 10:45:00,7
+1619,SHP0246,Checkpoint,Cold Storage Facility,2026-08-04 10:35:00,0
+1620,SHP0246,Checkpoint,Rest Area,2026-08-04 11:27:00,0
+1621,SHP0246,Rest Stop,Cold Storage Facility,2026-08-04 09:42:00,37
+1622,SHP0246,Checkpoint,Fuel Station,2026-08-04 10:07:00,0
+1623,SHP0246,Arrival,Salem,2026-08-04 11:52:00,0
+1624,SHP0247,Departure,Bangalore,2026-08-06 08:51:00,0
+1625,SHP0247,Checkpoint,Highway Checkpoint,2026-08-06 10:34:00,0
+1626,SHP0247,Checkpoint,Rest Area,2026-08-06 09:50:00,0
+1627,SHP0247,Checkpoint,City Entry,2026-08-06 14:15:00,0
+1628,SHP0247,Cold Storage Stop,Distribution Center,2026-08-06 10:38:00,16
+1629,SHP0247,Traffic Delay,Rest Area,2026-08-06 09:44:00,35
+1630,SHP0247,Arrival,Pune,2026-08-06 14:44:00,0
+1631,SHP0248,Departure,Pune,2026-08-05 08:28:00,0
+1632,SHP0248,Traffic Delay,Rest Area,2026-08-05 09:31:00,25
+1633,SHP0248,Checkpoint,Rest Area,2026-08-05 08:58:00,0
+1634,SHP0248,Checkpoint,City Entry,2026-08-05 10:01:00,0
+1635,SHP0248,Checkpoint,Distribution Center,2026-08-05 10:41:00,0
+1636,SHP0248,Arrival,Bangalore,2026-08-05 12:09:00,0
+1637,SHP0249,Departure,Bangalore,2026-08-07 10:41:00,0
+1638,SHP0249,Checkpoint,City Entry,2026-08-07 11:29:00,0
+1639,SHP0249,Rest Stop,Highway Checkpoint,2026-08-07 10:51:00,36
+1640,SHP0249,Traffic Delay,City Entry,2026-08-07 11:17:00,51
+1641,SHP0249,Checkpoint,Fuel Station,2026-08-07 10:59:00,0
+1642,SHP0249,Checkpoint,Rest Area,2026-08-07 11:09:00,0
+1643,SHP0249,Checkpoint,Fuel Station,2026-08-07 11:32:00,0
+1644,SHP0249,Arrival,Pune,2026-08-07 11:50:00,0
+1645,SHP0250,Departure,Bangalore,2026-08-05 08:02:00,0
+1646,SHP0250,Cold Storage Stop,Rest Area,2026-08-05 08:24:00,12
+1647,SHP0250,Checkpoint,Cold Storage Facility,2026-08-05 09:26:00,0
+1648,SHP0250,Checkpoint,Rest Area,2026-08-05 09:19:00,0
+1649,SHP0250,Cold Storage Stop,Highway Checkpoint,2026-08-05 13:10:00,17
+1650,SHP0250,Arrival,Salem,2026-08-05 13:47:00,0
+1651,SHP0251,Departure,Mumbai,2026-08-03 05:50:00,0
+1652,SHP0251,Rest Stop,Rest Area,2026-08-03 06:01:00,15
+1653,SHP0251,Checkpoint,Highway Checkpoint,2026-08-03 07:13:00,0
+1654,SHP0251,Checkpoint,City Entry,2026-08-03 06:19:00,0
+1655,SHP0251,Checkpoint,City Entry,2026-08-03 07:22:00,0
+1656,SHP0251,Arrival,Chennai,2026-08-03 09:25:00,0
+1657,SHP0252,Departure,Mumbai,2026-08-01 10:42:00,0
+1658,SHP0252,Checkpoint,Highway Checkpoint,2026-08-01 11:46:00,0
+1659,SHP0252,Checkpoint,Distribution Center,2026-08-01 14:21:00,0
+1660,SHP0252,Cold Storage Stop,Cold Storage Facility,2026-08-01 13:53:00,18
+1661,SHP0252,Cold Storage Stop,Rest Area,2026-08-01 13:06:00,7
+1662,SHP0252,Arrival,Hyderabad,2026-08-01 15:35:00,0
+1663,SHP0253,Departure,Madurai,2026-08-02 06:54:00,0
+1664,SHP0253,Traffic Delay,Highway Checkpoint,2026-08-02 09:23:00,48
+1665,SHP0253,Checkpoint,Cold Storage Facility,2026-08-02 10:43:00,0
+1666,SHP0253,Checkpoint,Highway Checkpoint,2026-08-02 10:59:00,0
+1667,SHP0253,Cold Storage Stop,Distribution Center,2026-08-02 11:19:00,6
+1668,SHP0253,Checkpoint,Fuel Station,2026-08-02 10:14:00,0
+1669,SHP0253,Arrival,Chennai,2026-08-02 11:46:00,0
+1670,SHP0254,Departure,Madurai,2026-08-02 09:38:00,0
+1671,SHP0254,Checkpoint,Cold Storage Facility,2026-08-02 14:19:00,0
+1672,SHP0254,Checkpoint,Highway Checkpoint,2026-08-02 13:12:00,0
+1673,SHP0254,Rest Stop,Distribution Center,2026-08-02 10:02:00,39
+1674,SHP0254,Rest Stop,City Entry,2026-08-02 10:12:00,22
+1675,SHP0254,Checkpoint,Fuel Station,2026-08-02 12:26:00,0
+1676,SHP0254,Arrival,Mumbai,2026-08-02 14:40:00,0
+1677,SHP0255,Departure,Madurai,2026-08-04 05:06:00,0
+1678,SHP0255,Checkpoint,City Entry,2026-08-04 06:48:00,0
+1679,SHP0255,Rest Stop,Distribution Center,2026-08-04 05:51:00,39
+1680,SHP0255,Traffic Delay,Fuel Station,2026-08-04 06:12:00,13
+1681,SHP0255,Arrival,Pune,2026-08-04 07:59:00,0
+1682,SHP0256,Departure,Chennai,2026-08-04 07:53:00,0
+1683,SHP0256,Checkpoint,Fuel Station,2026-08-04 10:43:00,0
+1684,SHP0256,Rest Stop,Cold Storage Facility,2026-08-04 09:53:00,37
+1685,SHP0256,Route Deviation,Rest Area,2026-08-04 08:10:00,17
+1686,SHP0256,Cold Storage Stop,Fuel Station,2026-08-04 09:35:00,19
+1687,SHP0256,Checkpoint,Rest Area,2026-08-04 09:27:00,0
+1688,SHP0256,Rest Stop,Rest Area,2026-08-04 08:57:00,25
+1689,SHP0256,Arrival,Madurai,2026-08-04 11:22:00,0
+1690,SHP0257,Departure,Mumbai,2026-08-02 10:06:00,0
+1691,SHP0257,Traffic Delay,Fuel Station,2026-08-02 10:28:00,29
+1692,SHP0257,Checkpoint,Highway Checkpoint,2026-08-02 10:50:00,0
+1693,SHP0257,Cold Storage Stop,Highway Checkpoint,2026-08-02 10:21:00,15
+1694,SHP0257,Cold Storage Stop,City Entry,2026-08-02 10:26:00,17
+1695,SHP0257,Arrival,Madurai,2026-08-02 11:29:00,0
+1696,SHP0258,Departure,Coimbatore,2026-08-01 06:52:00,0
+1697,SHP0258,Checkpoint,Fuel Station,2026-08-01 07:08:00,0
+1698,SHP0258,Rest Stop,City Entry,2026-08-01 10:54:00,25
+1699,SHP0258,Rest Stop,Cold Storage Facility,2026-08-01 10:54:00,37
+1700,SHP0258,Arrival,Pune,2026-08-01 11:21:00,0
+1701,SHP0259,Departure,Bangalore,2026-08-06 09:12:00,0
+1702,SHP0259,Cold Storage Stop,Highway Checkpoint,2026-08-06 10:26:00,12
+1703,SHP0259,Checkpoint,Distribution Center,2026-08-06 09:42:00,0
+1704,SHP0259,Checkpoint,Distribution Center,2026-08-06 09:34:00,0
+1705,SHP0259,Rest Stop,Highway Checkpoint,2026-08-06 11:08:00,14
+1706,SHP0259,Arrival,Kochi,2026-08-06 11:48:00,0
+1707,SHP0260,Departure,Bangalore,2026-08-07 06:29:00,0
+1708,SHP0260,Checkpoint,Distribution Center,2026-08-07 08:34:00,0
+1709,SHP0260,Rest Stop,Highway Checkpoint,2026-08-07 07:06:00,40
+1710,SHP0260,Cold Storage Stop,City Entry,2026-08-07 06:40:00,12
+1711,SHP0260,Checkpoint,Highway Checkpoint,2026-08-07 07:46:00,0
+1712,SHP0260,Checkpoint,City Entry,2026-08-07 07:42:00,0
+1713,SHP0260,Checkpoint,Highway Checkpoint,2026-08-07 07:32:00,0
+1714,SHP0260,Arrival,Salem,2026-08-07 09:06:00,0
+1715,SHP0261,Departure,Madurai,2026-08-07 08:02:00,0
+1716,SHP0261,Rest Stop,Fuel Station,2026-08-07 09:46:00,26
+1717,SHP0261,Cold Storage Stop,Fuel Station,2026-08-07 08:45:00,16
+1718,SHP0261,Checkpoint,Rest Area,2026-08-07 08:52:00,0
+1719,SHP0261,Checkpoint,Rest Area,2026-08-07 09:02:00,0
+1720,SHP0261,Arrival,Bangalore,2026-08-07 10:05:00,0
+1721,SHP0262,Departure,Pune,2026-08-02 09:08:00,0
+1722,SHP0262,Traffic Delay,City Entry,2026-08-02 12:08:00,12
+1723,SHP0262,Cold Storage Stop,Distribution Center,2026-08-02 09:43:00,16
+1724,SHP0262,Checkpoint,Cold Storage Facility,2026-08-02 11:08:00,0
+1725,SHP0262,Arrival,Bengaluru,2026-08-02 14:23:00,0
+1726,SHP0263,Departure,Chennai,2026-08-03 10:03:00,0
+1727,SHP0263,Rest Stop,City Entry,2026-08-03 13:23:00,11
+1728,SHP0263,Checkpoint,Distribution Center,2026-08-03 12:53:00,0
+1729,SHP0263,Route Deviation,Fuel Station,2026-08-03 14:51:00,57
+1730,SHP0263,Checkpoint,Distribution Center,2026-08-03 14:49:00,0
+1731,SHP0263,Traffic Delay,Rest Area,2026-08-03 10:38:00,39
+1732,SHP0263,Cold Storage Stop,Cold Storage Facility,2026-08-03 12:33:00,8
+1733,SHP0263,Arrival,Mumbai,2026-08-03 15:46:00,0
+1734,SHP0264,Departure,Salem,2026-08-02 08:59:00,0
+1735,SHP0264,Cold Storage Stop,Cold Storage Facility,2026-08-02 12:06:00,8
+1736,SHP0264,Checkpoint,City Entry,2026-08-02 11:27:00,0
+1737,SHP0264,Checkpoint,Fuel Station,2026-08-02 12:03:00,0
+1738,SHP0264,Arrival,Bengaluru,2026-08-02 14:19:00,0
+1739,SHP0265,Departure,Coimbatore,2026-08-05 06:46:00,0
+1740,SHP0265,Checkpoint,Fuel Station,2026-08-05 07:00:00,0
+1741,SHP0265,Checkpoint,Highway Checkpoint,2026-08-05 07:42:00,0
+1742,SHP0265,Checkpoint,Rest Area,2026-08-05 07:46:00,0
+1743,SHP0265,Arrival,Bengaluru,2026-08-05 08:51:00,0
+1744,SHP0266,Departure,Bangalore,2026-08-03 10:38:00,0
+1745,SHP0266,Rest Stop,Distribution Center,2026-08-03 12:02:00,20
+1746,SHP0266,Checkpoint,Distribution Center,2026-08-03 12:13:00,0
+1747,SHP0266,Checkpoint,Fuel Station,2026-08-03 13:43:00,0
+1748,SHP0266,Checkpoint,Cold Storage Facility,2026-08-03 12:55:00,0
+1749,SHP0266,Cold Storage Stop,Rest Area,2026-08-03 13:22:00,16
+1750,SHP0266,Arrival,Salem,2026-08-03 14:22:00,0
+1751,SHP0267,Departure,Mumbai,2026-08-06 08:38:00,0
+1752,SHP0267,Cold Storage Stop,Cold Storage Facility,2026-08-06 09:31:00,13
+1753,SHP0267,Checkpoint,Rest Area,2026-08-06 09:21:00,0
+1754,SHP0267,Rest Stop,Highway Checkpoint,2026-08-06 09:14:00,15
+1755,SHP0267,Arrival,Salem,2026-08-06 11:45:00,0
+1756,SHP0268,Departure,Kochi,2026-08-02 07:18:00,0
+1757,SHP0268,Route Deviation,Cold Storage Facility,2026-08-02 11:07:00,80
+1758,SHP0268,Checkpoint,Fuel Station,2026-08-02 08:23:00,0
+1759,SHP0268,Checkpoint,Highway Checkpoint,2026-08-02 08:17:00,0
+1760,SHP0268,Checkpoint,Highway Checkpoint,2026-08-02 11:52:00,0
+1761,SHP0268,Checkpoint,City Entry,2026-08-02 10:19:00,0
+1762,SHP0268,Rest Stop,City Entry,2026-08-02 10:39:00,16
+1763,SHP0268,Arrival,Salem,2026-08-02 12:09:00,0
+1764,SHP0269,Departure,Coimbatore,2026-08-02 09:44:00,0
+1765,SHP0269,Cold Storage Stop,Distribution Center,2026-08-02 10:36:00,7
+1766,SHP0269,Checkpoint,City Entry,2026-08-02 11:34:00,0
+1767,SHP0269,Traffic Delay,Highway Checkpoint,2026-08-02 10:49:00,10
+1768,SHP0269,Checkpoint,Fuel Station,2026-08-02 14:02:00,0
+1769,SHP0269,Checkpoint,Fuel Station,2026-08-02 11:30:00,0
+1770,SHP0269,Arrival,Salem,2026-08-02 15:06:00,0
+1771,SHP0270,Departure,Kochi,2026-08-04 07:45:00,0
+1772,SHP0270,Checkpoint,Highway Checkpoint,2026-08-04 11:43:00,0
+1773,SHP0270,Rest Stop,Distribution Center,2026-08-04 09:51:00,38
+1774,SHP0270,Checkpoint,Fuel Station,2026-08-04 08:51:00,0
+1775,SHP0270,Cold Storage Stop,Rest Area,2026-08-04 08:33:00,18
+1776,SHP0270,Arrival,Mumbai,2026-08-04 13:28:00,0
+1777,SHP0271,Departure,Hyderabad,2026-08-07 10:18:00,0
+1778,SHP0271,Checkpoint,Rest Area,2026-08-07 11:11:00,0
+1779,SHP0271,Cold Storage Stop,Distribution Center,2026-08-07 11:55:00,13
+1780,SHP0271,Checkpoint,Distribution Center,2026-08-07 11:18:00,0
+1781,SHP0271,Rest Stop,Distribution Center,2026-08-07 13:28:00,32
+1782,SHP0271,Arrival,Bengaluru,2026-08-07 14:14:00,0
+1783,SHP0272,Departure,Coimbatore,2026-08-02 09:44:00,0
+1784,SHP0272,Checkpoint,Fuel Station,2026-08-02 11:11:00,0
+1785,SHP0272,Checkpoint,City Entry,2026-08-02 11:12:00,0
+1786,SHP0272,Checkpoint,Fuel Station,2026-08-02 11:49:00,0
+1787,SHP0272,Checkpoint,Fuel Station,2026-08-02 10:32:00,0
+1788,SHP0272,Cold Storage Stop,Fuel Station,2026-08-02 10:20:00,16
+1789,SHP0272,Checkpoint,Rest Area,2026-08-02 11:21:00,0
+1790,SHP0272,Arrival,Mumbai,2026-08-02 13:29:00,0
+1791,SHP0273,Departure,Bangalore,2026-08-05 09:30:00,0
+1792,SHP0273,Checkpoint,Highway Checkpoint,2026-08-05 12:57:00,0
+1793,SHP0273,Checkpoint,Cold Storage Facility,2026-08-05 12:08:00,0
+1794,SHP0273,Checkpoint,City Entry,2026-08-05 10:43:00,0
+1795,SHP0273,Arrival,Madurai,2026-08-05 15:28:00,0
+1796,SHP0274,Departure,Bengaluru,2026-08-04 10:47:00,0
+1797,SHP0274,Checkpoint,City Entry,2026-08-04 13:10:00,0
+1798,SHP0274,Rest Stop,Highway Checkpoint,2026-08-04 15:56:00,31
+1799,SHP0274,Checkpoint,Highway Checkpoint,2026-08-04 13:25:00,0
+1800,SHP0274,Traffic Delay,Cold Storage Facility,2026-08-04 15:20:00,25
+1801,SHP0274,Checkpoint,City Entry,2026-08-04 15:37:00,0
+1802,SHP0274,Arrival,Salem,2026-08-04 16:20:00,0
+1803,SHP0275,Departure,Kochi,2026-08-01 05:33:00,0
+1804,SHP0275,Cold Storage Stop,Distribution Center,2026-08-01 05:54:00,6
+1805,SHP0275,Checkpoint,Rest Area,2026-08-01 07:08:00,0
+1806,SHP0275,Checkpoint,Cold Storage Facility,2026-08-01 05:58:00,0
+1807,SHP0275,Route Deviation,Distribution Center,2026-08-01 06:10:00,78
+1808,SHP0275,Rest Stop,City Entry,2026-08-01 06:27:00,10
+1809,SHP0275,Checkpoint,City Entry,2026-08-01 06:29:00,0
+1810,SHP0275,Arrival,Salem,2026-08-01 07:27:00,0
+1811,SHP0276,Departure,Chennai,2026-08-05 06:03:00,0
+1812,SHP0276,Traffic Delay,Fuel Station,2026-08-05 07:08:00,16
+1813,SHP0276,Route Deviation,Fuel Station,2026-08-05 06:51:00,59
+1814,SHP0276,Checkpoint,Fuel Station,2026-08-05 06:42:00,0
+1815,SHP0276,Checkpoint,Distribution Center,2026-08-05 07:19:00,0
+1816,SHP0276,Checkpoint,City Entry,2026-08-05 06:24:00,0
+1817,SHP0276,Arrival,Salem,2026-08-05 07:31:00,0
+1818,SHP0277,Departure,Hyderabad,2026-08-05 06:18:00,0
+1819,SHP0277,Checkpoint,Rest Area,2026-08-05 08:37:00,0
+1820,SHP0277,Checkpoint,Rest Area,2026-08-05 06:29:00,0
+1821,SHP0277,Checkpoint,City Entry,2026-08-05 08:03:00,0
+1822,SHP0277,Traffic Delay,City Entry,2026-08-05 09:16:00,32
+1823,SHP0277,Checkpoint,City Entry,2026-08-05 07:47:00,0
+1824,SHP0277,Checkpoint,Distribution Center,2026-08-05 07:39:00,0
+1825,SHP0277,Arrival,Kochi,2026-08-05 09:26:00,0
+1826,SHP0278,Departure,Coimbatore,2026-08-06 10:50:00,0
+1827,SHP0278,Checkpoint,Highway Checkpoint,2026-08-06 12:23:00,0
+1828,SHP0278,Checkpoint,Highway Checkpoint,2026-08-06 13:18:00,0
+1829,SHP0278,Checkpoint,Fuel Station,2026-08-06 12:38:00,0
+1830,SHP0278,Checkpoint,Fuel Station,2026-08-06 11:44:00,0
+1831,SHP0278,Checkpoint,Rest Area,2026-08-06 14:05:00,0
+1832,SHP0278,Arrival,Chennai,2026-08-06 14:21:00,0
+1833,SHP0279,Departure,Hyderabad,2026-08-01 05:22:00,0
+1834,SHP0279,Checkpoint,Rest Area,2026-08-01 07:43:00,0
+1835,SHP0279,Rest Stop,Rest Area,2026-08-01 09:57:00,22
+1836,SHP0279,Checkpoint,Fuel Station,2026-08-01 08:11:00,0
+1837,SHP0279,Arrival,Mumbai,2026-08-01 10:13:00,0
+1838,SHP0280,Departure,Bangalore,2026-08-06 10:47:00,0
+1839,SHP0280,Cold Storage Stop,Rest Area,2026-08-06 12:37:00,5
+1840,SHP0280,Checkpoint,City Entry,2026-08-06 16:06:00,0
+1841,SHP0280,Cold Storage Stop,Cold Storage Facility,2026-08-06 13:36:00,17
+1842,SHP0280,Checkpoint,Highway Checkpoint,2026-08-06 13:05:00,0
+1843,SHP0280,Arrival,Bengaluru,2026-08-06 16:34:00,0
+1844,SHP0281,Departure,Hyderabad,2026-08-04 08:15:00,0
+1845,SHP0281,Checkpoint,City Entry,2026-08-04 08:28:00,0
+1846,SHP0281,Checkpoint,Distribution Center,2026-08-04 10:38:00,0
+1847,SHP0281,Cold Storage Stop,Rest Area,2026-08-04 09:28:00,6
+1848,SHP0281,Arrival,Mumbai,2026-08-04 13:36:00,0
+1849,SHP0282,Departure,Kochi,2026-08-05 08:24:00,0
+1850,SHP0282,Checkpoint,Highway Checkpoint,2026-08-05 12:08:00,0
+1851,SHP0282,Checkpoint,Highway Checkpoint,2026-08-05 09:28:00,0
+1852,SHP0282,Cold Storage Stop,Highway Checkpoint,2026-08-05 10:40:00,17
+1853,SHP0282,Arrival,Chennai,2026-08-05 12:57:00,0
+1854,SHP0283,Departure,Madurai,2026-08-01 05:00:00,0
+1855,SHP0283,Checkpoint,Highway Checkpoint,2026-08-01 07:06:00,0
+1856,SHP0283,Checkpoint,Fuel Station,2026-08-01 07:17:00,0
+1857,SHP0283,Rest Stop,Cold Storage Facility,2026-08-01 07:46:00,11
+1858,SHP0283,Checkpoint,Distribution Center,2026-08-01 06:03:00,0
+1859,SHP0283,Arrival,Mumbai,2026-08-01 08:08:00,0
+1860,SHP0284,Departure,Hyderabad,2026-08-04 08:53:00,0
+1861,SHP0284,Checkpoint,City Entry,2026-08-04 09:14:00,0
+1862,SHP0284,Checkpoint,Cold Storage Facility,2026-08-04 10:09:00,0
+1863,SHP0284,Checkpoint,Highway Checkpoint,2026-08-04 09:56:00,0
+1864,SHP0284,Checkpoint,Distribution Center,2026-08-04 09:45:00,0
+1865,SHP0284,Checkpoint,Highway Checkpoint,2026-08-04 10:36:00,0
+1866,SHP0284,Traffic Delay,Cold Storage Facility,2026-08-04 09:16:00,58
+1867,SHP0284,Arrival,Bengaluru,2026-08-04 11:48:00,0
+1868,SHP0285,Departure,Madurai,2026-08-04 09:47:00,0
+1869,SHP0285,Rest Stop,Cold Storage Facility,2026-08-04 11:56:00,34
+1870,SHP0285,Checkpoint,Distribution Center,2026-08-04 11:31:00,0
+1871,SHP0285,Rest Stop,Fuel Station,2026-08-04 11:25:00,28
+1872,SHP0285,Checkpoint,City Entry,2026-08-04 11:12:00,0
+1873,SHP0285,Arrival,Bengaluru,2026-08-04 12:27:00,0
+1874,SHP0286,Departure,Hyderabad,2026-08-05 08:11:00,0
+1875,SHP0286,Cold Storage Stop,Highway Checkpoint,2026-08-05 08:28:00,19
+1876,SHP0286,Checkpoint,City Entry,2026-08-05 09:20:00,0
+1877,SHP0286,Checkpoint,Distribution Center,2026-08-05 09:01:00,0
+1878,SHP0286,Checkpoint,Fuel Station,2026-08-05 08:52:00,0
+1879,SHP0286,Checkpoint,City Entry,2026-08-05 08:58:00,0
+1880,SHP0286,Cold Storage Stop,Distribution Center,2026-08-05 09:38:00,7
+1881,SHP0286,Arrival,Kochi,2026-08-05 09:49:00,0
+1882,SHP0287,Departure,Coimbatore,2026-08-06 05:24:00,0
+1883,SHP0287,Checkpoint,Cold Storage Facility,2026-08-06 06:01:00,0
+1884,SHP0287,Checkpoint,Distribution Center,2026-08-06 06:19:00,0
+1885,SHP0287,Checkpoint,Cold Storage Facility,2026-08-06 06:22:00,0
+1886,SHP0287,Checkpoint,Highway Checkpoint,2026-08-06 06:33:00,0
+1887,SHP0287,Arrival,Mumbai,2026-08-06 06:44:00,0
+1888,SHP0288,Departure,Salem,2026-08-02 09:16:00,0
+1889,SHP0288,Checkpoint,Highway Checkpoint,2026-08-02 09:31:00,0
+1890,SHP0288,Rest Stop,Distribution Center,2026-08-02 10:35:00,28
+1891,SHP0288,Checkpoint,Rest Area,2026-08-02 09:49:00,0
+1892,SHP0288,Checkpoint,Fuel Station,2026-08-02 09:59:00,0
+1893,SHP0288,Traffic Delay,Rest Area,2026-08-02 10:43:00,22
+1894,SHP0288,Checkpoint,Rest Area,2026-08-02 10:48:00,0
+1895,SHP0288,Arrival,Kochi,2026-08-02 11:22:00,0
+1896,SHP0289,Departure,Coimbatore,2026-08-04 07:00:00,0
+1897,SHP0289,Rest Stop,Rest Area,2026-08-04 08:44:00,27
+1898,SHP0289,Checkpoint,City Entry,2026-08-04 07:52:00,0
+1899,SHP0289,Checkpoint,Fuel Station,2026-08-04 09:54:00,0
+1900,SHP0289,Checkpoint,Cold Storage Facility,2026-08-04 08:32:00,0
+1901,SHP0289,Checkpoint,Cold Storage Facility,2026-08-04 09:49:00,0
+1902,SHP0289,Arrival,Bengaluru,2026-08-04 10:49:00,0
+1903,SHP0290,Departure,Pune,2026-08-03 05:09:00,0
+1904,SHP0290,Checkpoint,Highway Checkpoint,2026-08-03 06:52:00,0
+1905,SHP0290,Rest Stop,Rest Area,2026-08-03 07:30:00,35
+1906,SHP0290,Rest Stop,Cold Storage Facility,2026-08-03 08:11:00,31
+1907,SHP0290,Checkpoint,Highway Checkpoint,2026-08-03 07:10:00,0
+1908,SHP0290,Checkpoint,Fuel Station,2026-08-03 07:08:00,0
+1909,SHP0290,Rest Stop,Highway Checkpoint,2026-08-03 06:47:00,11
+1910,SHP0290,Arrival,Coimbatore,2026-08-03 08:54:00,0
+1911,SHP0291,Departure,Bengaluru,2026-08-03 10:39:00,0
+1912,SHP0291,Checkpoint,Highway Checkpoint,2026-08-03 13:57:00,0
+1913,SHP0291,Cold Storage Stop,Highway Checkpoint,2026-08-03 11:21:00,12
+1914,SHP0291,Rest Stop,Rest Area,2026-08-03 13:33:00,32
+1915,SHP0291,Arrival,Chennai,2026-08-03 14:13:00,0
+1916,SHP0292,Departure,Pune,2026-08-03 09:22:00,0
+1917,SHP0292,Rest Stop,Distribution Center,2026-08-03 10:17:00,30
+1918,SHP0292,Checkpoint,Cold Storage Facility,2026-08-03 10:05:00,0
+1919,SHP0292,Cold Storage Stop,Cold Storage Facility,2026-08-03 10:08:00,11
+1920,SHP0292,Cold Storage Stop,Fuel Station,2026-08-03 10:08:00,15
+1921,SHP0292,Checkpoint,Rest Area,2026-08-03 10:08:00,0
+1922,SHP0292,Cold Storage Stop,Rest Area,2026-08-03 10:01:00,11
+1923,SHP0292,Arrival,Bengaluru,2026-08-03 10:59:00,0
+1924,SHP0293,Departure,Madurai,2026-08-01 06:11:00,0
+1925,SHP0293,Checkpoint,Cold Storage Facility,2026-08-01 09:26:00,0
+1926,SHP0293,Checkpoint,Highway Checkpoint,2026-08-01 08:11:00,0
+1927,SHP0293,Cold Storage Stop,Highway Checkpoint,2026-08-01 09:15:00,15
+1928,SHP0293,Checkpoint,Fuel Station,2026-08-01 06:53:00,0
+1929,SHP0293,Arrival,Mumbai,2026-08-01 11:37:00,0
+1930,SHP0294,Departure,Bangalore,2026-08-01 06:26:00,0
+1931,SHP0294,Rest Stop,City Entry,2026-08-01 09:02:00,23
+1932,SHP0294,Traffic Delay,Rest Area,2026-08-01 10:17:00,56
+1933,SHP0294,Rest Stop,Highway Checkpoint,2026-08-01 11:25:00,33
+1934,SHP0294,Checkpoint,Cold Storage Facility,2026-08-01 08:46:00,0
+1935,SHP0294,Arrival,Mumbai,2026-08-01 12:04:00,0
+1936,SHP0295,Departure,Mumbai,2026-08-05 05:22:00,0
+1937,SHP0295,Checkpoint,City Entry,2026-08-05 06:54:00,0
+1938,SHP0295,Checkpoint,Distribution Center,2026-08-05 05:36:00,0
+1939,SHP0295,Checkpoint,Highway Checkpoint,2026-08-05 05:51:00,0
+1940,SHP0295,Checkpoint,City Entry,2026-08-05 05:37:00,0
+1941,SHP0295,Checkpoint,Cold Storage Facility,2026-08-05 06:07:00,0
+1942,SHP0295,Checkpoint,City Entry,2026-08-05 07:05:00,0
+1943,SHP0295,Arrival,Salem,2026-08-05 08:15:00,0
+1944,SHP0296,Departure,Hyderabad,2026-08-03 07:23:00,0
+1945,SHP0296,Checkpoint,Highway Checkpoint,2026-08-03 10:05:00,0
+1946,SHP0296,Checkpoint,Cold Storage Facility,2026-08-03 08:21:00,0
+1947,SHP0296,Checkpoint,Highway Checkpoint,2026-08-03 08:39:00,0
+1948,SHP0296,Checkpoint,Highway Checkpoint,2026-08-03 08:15:00,0
+1949,SHP0296,Checkpoint,Distribution Center,2026-08-03 10:13:00,0
+1950,SHP0296,Checkpoint,Cold Storage Facility,2026-08-03 08:05:00,0
+1951,SHP0296,Arrival,Madurai,2026-08-03 10:53:00,0
+1952,SHP0297,Departure,Hyderabad,2026-08-07 09:30:00,0
+1953,SHP0297,Traffic Delay,Cold Storage Facility,2026-08-07 11:23:00,16
+1954,SHP0297,Checkpoint,City Entry,2026-08-07 09:58:00,0
+1955,SHP0297,Checkpoint,Rest Area,2026-08-07 14:56:00,0
+1956,SHP0297,Checkpoint,Rest Area,2026-08-07 13:25:00,0
+1957,SHP0297,Rest Stop,City Entry,2026-08-07 09:56:00,40
+1958,SHP0297,Arrival,Bengaluru,2026-08-07 15:17:00,0
+1959,SHP0298,Departure,Chennai,2026-08-01 10:22:00,0
+1960,SHP0298,Rest Stop,Highway Checkpoint,2026-08-01 13:32:00,13
+1961,SHP0298,Checkpoint,Cold Storage Facility,2026-08-01 12:03:00,0
+1962,SHP0298,Checkpoint,Highway Checkpoint,2026-08-01 12:07:00,0
+1963,SHP0298,Arrival,Bangalore,2026-08-01 15:10:00,0
+1964,SHP0299,Departure,Hyderabad,2026-08-06 09:15:00,0
+1965,SHP0299,Checkpoint,Cold Storage Facility,2026-08-06 09:37:00,0
+1966,SHP0299,Cold Storage Stop,Highway Checkpoint,2026-08-06 09:51:00,6
+1967,SHP0299,Cold Storage Stop,City Entry,2026-08-06 09:37:00,11
+1968,SHP0299,Rest Stop,Cold Storage Facility,2026-08-06 09:27:00,37
+1969,SHP0299,Checkpoint,Fuel Station,2026-08-06 09:53:00,0
+1970,SHP0299,Checkpoint,Distribution Center,2026-08-06 09:40:00,0
+1971,SHP0299,Arrival,Bengaluru,2026-08-06 10:35:00,0
+1972,SHP0300,Departure,Madurai,2026-08-01 05:24:00,0
+1973,SHP0300,Checkpoint,Cold Storage Facility,2026-08-01 07:04:00,0
+1974,SHP0300,Checkpoint,Rest Area,2026-08-01 06:09:00,0
+1975,SHP0300,Checkpoint,Highway Checkpoint,2026-08-01 07:34:00,0
+1976,SHP0300,Arrival,Salem,2026-08-01 08:35:00,0
+1977,SHP0301,Departure,Mumbai,2026-08-03 05:58:00,0
+1978,SHP0301,Rest Stop,Highway Checkpoint,2026-08-03 06:11:00,38
+1979,SHP0301,Checkpoint,City Entry,2026-08-03 08:56:00,0
+1980,SHP0301,Checkpoint,Rest Area,2026-08-03 11:06:00,0
+1981,SHP0301,Checkpoint,Rest Area,2026-08-03 10:41:00,0
+1982,SHP0301,Checkpoint,Cold Storage Facility,2026-08-03 06:48:00,0
+1983,SHP0301,Checkpoint,Rest Area,2026-08-03 06:14:00,0
+1984,SHP0301,Arrival,Kochi,2026-08-03 11:22:00,0
+1985,SHP0302,Departure,Madurai,2026-08-07 09:28:00,0
+1986,SHP0302,Traffic Delay,Rest Area,2026-08-07 13:51:00,35
+1987,SHP0302,Checkpoint,Rest Area,2026-08-07 14:27:00,0
+1988,SHP0302,Route Deviation,Distribution Center,2026-08-07 10:33:00,30
+1989,SHP0302,Checkpoint,Distribution Center,2026-08-07 12:06:00,0
+1990,SHP0302,Checkpoint,City Entry,2026-08-07 13:33:00,0
+1991,SHP0302,Checkpoint,Distribution Center,2026-08-07 11:06:00,0
+1992,SHP0302,Arrival,Mumbai,2026-08-07 14:37:00,0
+1993,SHP0303,Departure,Chennai,2026-08-04 10:12:00,0
+1994,SHP0303,Cold Storage Stop,City Entry,2026-08-04 12:55:00,5
+1995,SHP0303,Checkpoint,Cold Storage Facility,2026-08-04 10:58:00,0
+1996,SHP0303,Checkpoint,Cold Storage Facility,2026-08-04 11:48:00,0
+1997,SHP0303,Arrival,Kochi,2026-08-04 13:56:00,0
+1998,SHP0304,Departure,Mumbai,2026-08-04 05:10:00,0
+1999,SHP0304,Rest Stop,Fuel Station,2026-08-04 07:11:00,39
+2000,SHP0304,Checkpoint,Highway Checkpoint,2026-08-04 07:07:00,0
+2001,SHP0304,Rest Stop,Highway Checkpoint,2026-08-04 06:44:00,11
+2002,SHP0304,Rest Stop,Rest Area,2026-08-04 09:38:00,28
+2003,SHP0304,Checkpoint,Fuel Station,2026-08-04 08:45:00,0
+2004,SHP0304,Checkpoint,Rest Area,2026-08-04 09:36:00,0
+2005,SHP0304,Arrival,Bangalore,2026-08-04 10:45:00,0
+2006,SHP0305,Departure,Mumbai,2026-08-07 10:04:00,0
+2007,SHP0305,Rest Stop,Highway Checkpoint,2026-08-07 12:32:00,18
+2008,SHP0305,Checkpoint,Highway Checkpoint,2026-08-07 10:31:00,0
+2009,SHP0305,Checkpoint,Distribution Center,2026-08-07 10:31:00,0
+2010,SHP0305,Checkpoint,City Entry,2026-08-07 11:57:00,0
+2011,SHP0305,Cold Storage Stop,Fuel Station,2026-08-07 11:32:00,13
+2012,SHP0305,Arrival,Chennai,2026-08-07 12:51:00,0
+2013,SHP0306,Departure,Hyderabad,2026-08-03 05:13:00,0
+2014,SHP0306,Traffic Delay,Cold Storage Facility,2026-08-03 10:37:00,56
+2015,SHP0306,Cold Storage Stop,City Entry,2026-08-03 07:51:00,7
+2016,SHP0306,Checkpoint,Fuel Station,2026-08-03 08:17:00,0
+2017,SHP0306,Cold Storage Stop,Distribution Center,2026-08-03 05:56:00,11
+2018,SHP0306,Arrival,Salem,2026-08-03 10:48:00,0
+2019,SHP0307,Departure,Salem,2026-08-03 10:43:00,0
+2020,SHP0307,Rest Stop,Cold Storage Facility,2026-08-03 12:17:00,24
+2021,SHP0307,Checkpoint,Rest Area,2026-08-03 12:06:00,0
+2022,SHP0307,Cold Storage Stop,Rest Area,2026-08-03 12:50:00,15
+2023,SHP0307,Arrival,Bangalore,2026-08-03 13:01:00,0
+2024,SHP0308,Departure,Chennai,2026-08-04 10:21:00,0
+2025,SHP0308,Checkpoint,Highway Checkpoint,2026-08-04 11:10:00,0
+2026,SHP0308,Rest Stop,Highway Checkpoint,2026-08-04 10:52:00,19
+2027,SHP0308,Traffic Delay,City Entry,2026-08-04 10:47:00,22
+2028,SHP0308,Checkpoint,Cold Storage Facility,2026-08-04 10:47:00,0
+2029,SHP0308,Cold Storage Stop,Cold Storage Facility,2026-08-04 10:41:00,10
+2030,SHP0308,Rest Stop,Rest Area,2026-08-04 11:16:00,39
+2031,SHP0308,Arrival,Pune,2026-08-04 11:40:00,0
+2032,SHP0309,Departure,Bangalore,2026-08-05 06:50:00,0
+2033,SHP0309,Checkpoint,Distribution Center,2026-08-05 07:11:00,0
+2034,SHP0309,Rest Stop,Rest Area,2026-08-05 07:01:00,38
+2035,SHP0309,Checkpoint,Distribution Center,2026-08-05 07:27:00,0
+2036,SHP0309,Checkpoint,Rest Area,2026-08-05 08:09:00,0
+2037,SHP0309,Checkpoint,Cold Storage Facility,2026-08-05 09:38:00,0
+2038,SHP0309,Rest Stop,Distribution Center,2026-08-05 07:31:00,19
+2039,SHP0309,Arrival,Chennai,2026-08-05 09:58:00,0
+2040,SHP0310,Departure,Mumbai,2026-08-05 09:52:00,0
+2041,SHP0310,Checkpoint,City Entry,2026-08-05 11:16:00,0
+2042,SHP0310,Checkpoint,Distribution Center,2026-08-05 12:24:00,0
+2043,SHP0310,Cold Storage Stop,Fuel Station,2026-08-05 10:22:00,13
+2044,SHP0310,Arrival,Bangalore,2026-08-05 12:48:00,0
+2045,SHP0311,Departure,Kochi,2026-08-04 08:28:00,0
+2046,SHP0311,Checkpoint,Rest Area,2026-08-04 11:41:00,0
+2047,SHP0311,Checkpoint,Highway Checkpoint,2026-08-04 11:34:00,0
+2048,SHP0311,Checkpoint,City Entry,2026-08-04 11:58:00,0
+2049,SHP0311,Checkpoint,Fuel Station,2026-08-04 12:25:00,0
+2050,SHP0311,Checkpoint,Cold Storage Facility,2026-08-04 09:55:00,0
+2051,SHP0311,Arrival,Salem,2026-08-04 12:55:00,0
+2052,SHP0312,Departure,Salem,2026-08-07 05:24:00,0
+2053,SHP0312,Checkpoint,Rest Area,2026-08-07 07:02:00,0
+2054,SHP0312,Rest Stop,Cold Storage Facility,2026-08-07 07:08:00,19
+2055,SHP0312,Checkpoint,Distribution Center,2026-08-07 06:01:00,0
+2056,SHP0312,Checkpoint,Cold Storage Facility,2026-08-07 06:24:00,0
+2057,SHP0312,Checkpoint,Rest Area,2026-08-07 05:50:00,0
+2058,SHP0312,Arrival,Madurai,2026-08-07 07:24:00,0
+2059,SHP0313,Departure,Mumbai,2026-08-04 10:46:00,0
+2060,SHP0313,Checkpoint,Distribution Center,2026-08-04 11:54:00,0
+2061,SHP0313,Checkpoint,Distribution Center,2026-08-04 11:31:00,0
+2062,SHP0313,Traffic Delay,Distribution Center,2026-08-04 11:26:00,54
+2063,SHP0313,Arrival,Chennai,2026-08-04 12:18:00,0
+2064,SHP0314,Departure,Bengaluru,2026-08-04 10:54:00,0
+2065,SHP0314,Cold Storage Stop,Fuel Station,2026-08-04 12:11:00,10
+2066,SHP0314,Checkpoint,Highway Checkpoint,2026-08-04 11:59:00,0
+2067,SHP0314,Checkpoint,Rest Area,2026-08-04 11:06:00,0
+2068,SHP0314,Checkpoint,Highway Checkpoint,2026-08-04 12:14:00,0
+2069,SHP0314,Rest Stop,Fuel Station,2026-08-04 11:43:00,34
+2070,SHP0314,Checkpoint,Cold Storage Facility,2026-08-04 11:53:00,0
+2071,SHP0314,Arrival,Chennai,2026-08-04 12:31:00,0
+2072,SHP0315,Departure,Madurai,2026-08-02 05:18:00,0
+2073,SHP0315,Checkpoint,Fuel Station,2026-08-02 07:45:00,0
+2074,SHP0315,Checkpoint,Rest Area,2026-08-02 05:28:00,0
+2075,SHP0315,Checkpoint,City Entry,2026-08-02 07:27:00,0
+2076,SHP0315,Checkpoint,Highway Checkpoint,2026-08-02 08:03:00,0
+2077,SHP0315,Arrival,Mumbai,2026-08-02 08:52:00,0
+2078,SHP0316,Departure,Bengaluru,2026-08-02 07:48:00,0
+2079,SHP0316,Rest Stop,Cold Storage Facility,2026-08-02 08:49:00,31
+2080,SHP0316,Checkpoint,Cold Storage Facility,2026-08-02 08:37:00,0
+2081,SHP0316,Checkpoint,Fuel Station,2026-08-02 09:47:00,0
+2082,SHP0316,Checkpoint,Cold Storage Facility,2026-08-02 08:26:00,0
+2083,SHP0316,Checkpoint,Rest Area,2026-08-02 09:42:00,0
+2084,SHP0316,Arrival,Bangalore,2026-08-02 12:32:00,0
+2085,SHP0317,Departure,Salem,2026-08-01 08:10:00,0
+2086,SHP0317,Checkpoint,City Entry,2026-08-01 08:20:00,0
+2087,SHP0317,Rest Stop,Fuel Station,2026-08-01 10:57:00,17
+2088,SHP0317,Traffic Delay,Fuel Station,2026-08-01 12:25:00,45
+2089,SHP0317,Rest Stop,Fuel Station,2026-08-01 09:52:00,16
+2090,SHP0317,Checkpoint,City Entry,2026-08-01 09:04:00,0
+2091,SHP0317,Checkpoint,Highway Checkpoint,2026-08-01 09:18:00,0
+2092,SHP0317,Arrival,Chennai,2026-08-01 13:43:00,0
+2093,SHP0318,Departure,Hyderabad,2026-08-01 10:25:00,0
+2094,SHP0318,Checkpoint,Highway Checkpoint,2026-08-01 10:47:00,0
+2095,SHP0318,Traffic Delay,Fuel Station,2026-08-01 13:27:00,46
+2096,SHP0318,Checkpoint,Cold Storage Facility,2026-08-01 12:54:00,0
+2097,SHP0318,Checkpoint,Highway Checkpoint,2026-08-01 11:09:00,0
+2098,SHP0318,Arrival,Coimbatore,2026-08-01 16:04:00,0
+2099,SHP0319,Departure,Kochi,2026-08-06 07:43:00,0
+2100,SHP0319,Checkpoint,Rest Area,2026-08-06 08:18:00,0
+2101,SHP0319,Checkpoint,Rest Area,2026-08-06 09:39:00,0
+2102,SHP0319,Route Deviation,Highway Checkpoint,2026-08-06 09:07:00,53
+2103,SHP0319,Arrival,Coimbatore,2026-08-06 11:54:00,0
+2104,SHP0320,Departure,Chennai,2026-08-06 09:09:00,0
+2105,SHP0320,Cold Storage Stop,City Entry,2026-08-06 10:11:00,11
+2106,SHP0320,Checkpoint,Highway Checkpoint,2026-08-06 10:06:00,0
+2107,SHP0320,Checkpoint,Rest Area,2026-08-06 09:21:00,0
+2108,SHP0320,Route Deviation,Distribution Center,2026-08-06 09:22:00,54
+2109,SHP0320,Arrival,Mumbai,2026-08-06 11:12:00,0
+2110,SHP0321,Departure,Chennai,2026-08-03 09:25:00,0
+2111,SHP0321,Checkpoint,Fuel Station,2026-08-03 11:41:00,0
+2112,SHP0321,Checkpoint,Distribution Center,2026-08-03 12:30:00,0
+2113,SHP0321,Checkpoint,City Entry,2026-08-03 12:49:00,0
+2114,SHP0321,Arrival,Bengaluru,2026-08-03 15:00:00,0
+2115,SHP0322,Departure,Mumbai,2026-08-03 07:13:00,0
+2116,SHP0322,Checkpoint,Distribution Center,2026-08-03 09:05:00,0
+2117,SHP0322,Checkpoint,Distribution Center,2026-08-03 08:13:00,0
+2118,SHP0322,Checkpoint,Highway Checkpoint,2026-08-03 08:40:00,0
+2119,SHP0322,Rest Stop,Highway Checkpoint,2026-08-03 09:34:00,14
+2120,SHP0322,Arrival,Bangalore,2026-08-03 11:09:00,0
+2121,SHP0323,Departure,Hyderabad,2026-08-06 10:54:00,0
+2122,SHP0323,Cold Storage Stop,Rest Area,2026-08-06 13:50:00,14
+2123,SHP0323,Cold Storage Stop,Rest Area,2026-08-06 13:48:00,19
+2124,SHP0323,Checkpoint,Cold Storage Facility,2026-08-06 15:54:00,0
+2125,SHP0323,Checkpoint,Fuel Station,2026-08-06 14:32:00,0
+2126,SHP0323,Arrival,Salem,2026-08-06 16:16:00,0
+2127,SHP0324,Departure,Coimbatore,2026-08-01 09:53:00,0
+2128,SHP0324,Checkpoint,Distribution Center,2026-08-01 11:23:00,0
+2129,SHP0324,Checkpoint,City Entry,2026-08-01 10:59:00,0
+2130,SHP0324,Checkpoint,Distribution Center,2026-08-01 12:38:00,0
+2131,SHP0324,Checkpoint,Fuel Station,2026-08-01 11:42:00,0
+2132,SHP0324,Checkpoint,Highway Checkpoint,2026-08-01 11:16:00,0
+2133,SHP0324,Checkpoint,Cold Storage Facility,2026-08-01 12:47:00,0
+2134,SHP0324,Arrival,Hyderabad,2026-08-01 13:02:00,0
+2135,SHP0325,Departure,Hyderabad,2026-08-05 06:42:00,0
+2136,SHP0325,Checkpoint,Fuel Station,2026-08-05 08:11:00,0
+2137,SHP0325,Checkpoint,Fuel Station,2026-08-05 11:09:00,0
+2138,SHP0325,Checkpoint,Fuel Station,2026-08-05 09:43:00,0
+2139,SHP0325,Arrival,Bangalore,2026-08-05 12:32:00,0
+2140,SHP0326,Departure,Chennai,2026-08-06 08:41:00,0
+2141,SHP0326,Checkpoint,City Entry,2026-08-06 10:03:00,0
+2142,SHP0326,Cold Storage Stop,Cold Storage Facility,2026-08-06 10:28:00,8
+2143,SHP0326,Rest Stop,Cold Storage Facility,2026-08-06 09:43:00,31
+2144,SHP0326,Checkpoint,Rest Area,2026-08-06 09:55:00,0
+2145,SHP0326,Arrival,Mumbai,2026-08-06 14:22:00,0
+2146,SHP0327,Departure,Bangalore,2026-08-07 10:04:00,0
+2147,SHP0327,Rest Stop,Cold Storage Facility,2026-08-07 11:05:00,23
+2148,SHP0327,Checkpoint,Highway Checkpoint,2026-08-07 10:56:00,0
+2149,SHP0327,Checkpoint,Fuel Station,2026-08-07 10:32:00,0
+2150,SHP0327,Cold Storage Stop,Highway Checkpoint,2026-08-07 11:20:00,14
+2151,SHP0327,Checkpoint,Rest Area,2026-08-07 11:53:00,0
+2152,SHP0327,Traffic Delay,Rest Area,2026-08-07 12:59:00,40
+2153,SHP0327,Arrival,Kochi,2026-08-07 13:12:00,0
+2154,SHP0328,Departure,Bangalore,2026-08-02 10:37:00,0
+2155,SHP0328,Cold Storage Stop,Fuel Station,2026-08-02 14:52:00,17
+2156,SHP0328,Checkpoint,Rest Area,2026-08-02 12:22:00,0
+2157,SHP0328,Cold Storage Stop,City Entry,2026-08-02 14:16:00,5
+2158,SHP0328,Checkpoint,Highway Checkpoint,2026-08-02 12:46:00,0
+2159,SHP0328,Cold Storage Stop,City Entry,2026-08-02 14:56:00,9
+2160,SHP0328,Checkpoint,Distribution Center,2026-08-02 14:38:00,0
+2161,SHP0328,Arrival,Hyderabad,2026-08-02 15:46:00,0
+2162,SHP0329,Departure,Madurai,2026-08-01 10:41:00,0
+2163,SHP0329,Checkpoint,Rest Area,2026-08-01 12:54:00,0
+2164,SHP0329,Checkpoint,Rest Area,2026-08-01 12:29:00,0
+2165,SHP0329,Cold Storage Stop,City Entry,2026-08-01 12:03:00,16
+2166,SHP0329,Cold Storage Stop,Fuel Station,2026-08-01 12:09:00,16
+2167,SHP0329,Route Deviation,Highway Checkpoint,2026-08-01 11:22:00,20
+2168,SHP0329,Checkpoint,Cold Storage Facility,2026-08-01 13:10:00,0
+2169,SHP0329,Arrival,Coimbatore,2026-08-01 13:41:00,0
+2170,SHP0330,Departure,Bangalore,2026-08-06 09:04:00,0
+2171,SHP0330,Checkpoint,Fuel Station,2026-08-06 10:55:00,0
+2172,SHP0330,Rest Stop,Highway Checkpoint,2026-08-06 11:25:00,36
+2173,SHP0330,Checkpoint,Cold Storage Facility,2026-08-06 11:22:00,0
+2174,SHP0330,Checkpoint,City Entry,2026-08-06 10:57:00,0
+2175,SHP0330,Arrival,Kochi,2026-08-06 11:43:00,0
+2176,SHP0331,Departure,Madurai,2026-08-05 08:21:00,0
+2177,SHP0331,Traffic Delay,City Entry,2026-08-05 10:55:00,34
+2178,SHP0331,Traffic Delay,Highway Checkpoint,2026-08-05 11:23:00,49
+2179,SHP0331,Rest Stop,Distribution Center,2026-08-05 11:09:00,15
+2180,SHP0331,Arrival,Pune,2026-08-05 11:57:00,0
+2181,SHP0332,Departure,Bengaluru,2026-08-06 09:36:00,0
+2182,SHP0332,Checkpoint,City Entry,2026-08-06 11:41:00,0
+2183,SHP0332,Checkpoint,City Entry,2026-08-06 12:06:00,0
+2184,SHP0332,Checkpoint,Highway Checkpoint,2026-08-06 11:34:00,0
+2185,SHP0332,Rest Stop,Highway Checkpoint,2026-08-06 10:00:00,38
+2186,SHP0332,Cold Storage Stop,Distribution Center,2026-08-06 10:59:00,20
+2187,SHP0332,Arrival,Coimbatore,2026-08-06 13:42:00,0
+2188,SHP0333,Departure,Madurai,2026-08-04 06:00:00,0
+2189,SHP0333,Checkpoint,Highway Checkpoint,2026-08-04 06:30:00,0
+2190,SHP0333,Checkpoint,Distribution Center,2026-08-04 08:10:00,0
+2191,SHP0333,Traffic Delay,Distribution Center,2026-08-04 06:45:00,43
+2192,SHP0333,Arrival,Salem,2026-08-04 09:40:00,0
+2193,SHP0334,Departure,Hyderabad,2026-08-06 07:53:00,0
+2194,SHP0334,Checkpoint,Cold Storage Facility,2026-08-06 10:46:00,0
+2195,SHP0334,Rest Stop,Distribution Center,2026-08-06 11:02:00,13
+2196,SHP0334,Checkpoint,Distribution Center,2026-08-06 10:58:00,0
+2197,SHP0334,Route Deviation,Fuel Station,2026-08-06 08:42:00,19
+2198,SHP0334,Checkpoint,City Entry,2026-08-06 08:42:00,0
+2199,SHP0334,Arrival,Salem,2026-08-06 11:57:00,0
+2200,SHP0335,Departure,Coimbatore,2026-08-01 08:29:00,0
+2201,SHP0335,Checkpoint,Rest Area,2026-08-01 10:43:00,0
+2202,SHP0335,Checkpoint,Rest Area,2026-08-01 09:55:00,0
+2203,SHP0335,Checkpoint,Distribution Center,2026-08-01 11:42:00,0
+2204,SHP0335,Traffic Delay,Rest Area,2026-08-01 09:40:00,50
+2205,SHP0335,Arrival,Madurai,2026-08-01 13:17:00,0
+2206,SHP0336,Departure,Madurai,2026-08-04 08:35:00,0
+2207,SHP0336,Checkpoint,Highway Checkpoint,2026-08-04 10:19:00,0
+2208,SHP0336,Rest Stop,Rest Area,2026-08-04 09:54:00,24
+2209,SHP0336,Checkpoint,Fuel Station,2026-08-04 09:05:00,0
+2210,SHP0336,Route Deviation,Highway Checkpoint,2026-08-04 09:34:00,83
+2211,SHP0336,Checkpoint,Distribution Center,2026-08-04 09:16:00,0
+2212,SHP0336,Cold Storage Stop,Highway Checkpoint,2026-08-04 09:55:00,10
+2213,SHP0336,Arrival,Kochi,2026-08-04 10:30:00,0
+2214,SHP0337,Departure,Coimbatore,2026-08-03 05:53:00,0
+2215,SHP0337,Checkpoint,Cold Storage Facility,2026-08-03 07:47:00,0
+2216,SHP0337,Cold Storage Stop,Cold Storage Facility,2026-08-03 07:08:00,17
+2217,SHP0337,Checkpoint,City Entry,2026-08-03 08:00:00,0
+2218,SHP0337,Checkpoint,City Entry,2026-08-03 07:46:00,0
+2219,SHP0337,Checkpoint,Cold Storage Facility,2026-08-03 07:40:00,0
+2220,SHP0337,Cold Storage Stop,Rest Area,2026-08-03 08:56:00,14
+2221,SHP0337,Arrival,Bengaluru,2026-08-03 09:16:00,0
+2222,SHP0338,Departure,Coimbatore,2026-08-04 06:16:00,0
+2223,SHP0338,Checkpoint,Fuel Station,2026-08-04 07:41:00,0
+2224,SHP0338,Checkpoint,Rest Area,2026-08-04 06:44:00,0
+2225,SHP0338,Checkpoint,Highway Checkpoint,2026-08-04 07:31:00,0
+2226,SHP0338,Arrival,Mumbai,2026-08-04 07:55:00,0
+2227,SHP0339,Departure,Bangalore,2026-08-04 09:40:00,0
+2228,SHP0339,Checkpoint,Cold Storage Facility,2026-08-04 10:38:00,0
+2229,SHP0339,Traffic Delay,Rest Area,2026-08-04 10:05:00,23
+2230,SHP0339,Route Deviation,Rest Area,2026-08-04 09:57:00,25
+2231,SHP0339,Arrival,Chennai,2026-08-04 10:55:00,0
+2232,SHP0340,Departure,Bengaluru,2026-08-03 09:13:00,0
+2233,SHP0340,Route Deviation,Rest Area,2026-08-03 10:11:00,71
+2234,SHP0340,Checkpoint,Highway Checkpoint,2026-08-03 09:49:00,0
+2235,SHP0340,Cold Storage Stop,Fuel Station,2026-08-03 09:24:00,5
+2236,SHP0340,Arrival,Salem,2026-08-03 10:31:00,0
+2237,SHP0341,Departure,Mumbai,2026-08-04 09:57:00,0
+2238,SHP0341,Traffic Delay,Cold Storage Facility,2026-08-04 14:59:00,13
+2239,SHP0341,Checkpoint,Highway Checkpoint,2026-08-04 12:31:00,0
+2240,SHP0341,Checkpoint,Rest Area,2026-08-04 13:52:00,0
+2241,SHP0341,Checkpoint,Distribution Center,2026-08-04 11:32:00,0
+2242,SHP0341,Checkpoint,Rest Area,2026-08-04 10:10:00,0
+2243,SHP0341,Arrival,Kochi,2026-08-04 15:33:00,0
+2244,SHP0342,Departure,Pune,2026-08-07 07:25:00,0
+2245,SHP0342,Rest Stop,Fuel Station,2026-08-07 08:42:00,13
+2246,SHP0342,Cold Storage Stop,Distribution Center,2026-08-07 07:57:00,11
+2247,SHP0342,Rest Stop,City Entry,2026-08-07 09:19:00,18
+2248,SHP0342,Cold Storage Stop,City Entry,2026-08-07 09:48:00,15
+2249,SHP0342,Checkpoint,Highway Checkpoint,2026-08-07 09:24:00,0
+2250,SHP0342,Arrival,Coimbatore,2026-08-07 10:19:00,0
+2251,SHP0343,Departure,Bengaluru,2026-08-06 06:29:00,0
+2252,SHP0343,Checkpoint,Distribution Center,2026-08-06 08:19:00,0
+2253,SHP0343,Checkpoint,Distribution Center,2026-08-06 09:22:00,0
+2254,SHP0343,Checkpoint,Highway Checkpoint,2026-08-06 09:09:00,0
+2255,SHP0343,Arrival,Kochi,2026-08-06 11:45:00,0
+2256,SHP0344,Departure,Mumbai,2026-08-07 08:23:00,0
+2257,SHP0344,Traffic Delay,Fuel Station,2026-08-07 12:03:00,21
+2258,SHP0344,Cold Storage Stop,Distribution Center,2026-08-07 11:24:00,8
+2259,SHP0344,Checkpoint,Rest Area,2026-08-07 11:20:00,0
+2260,SHP0344,Checkpoint,City Entry,2026-08-07 10:20:00,0
+2261,SHP0344,Checkpoint,Fuel Station,2026-08-07 12:13:00,0
+2262,SHP0344,Checkpoint,City Entry,2026-08-07 12:57:00,0
+2263,SHP0344,Arrival,Bangalore,2026-08-07 13:40:00,0
+2264,SHP0345,Departure,Chennai,2026-08-07 09:43:00,0
+2265,SHP0345,Rest Stop,Distribution Center,2026-08-07 10:29:00,18
+2266,SHP0345,Checkpoint,Rest Area,2026-08-07 10:48:00,0
+2267,SHP0345,Rest Stop,Highway Checkpoint,2026-08-07 10:28:00,13
+2268,SHP0345,Cold Storage Stop,City Entry,2026-08-07 10:14:00,6
+2269,SHP0345,Checkpoint,Highway Checkpoint,2026-08-07 11:32:00,0
+2270,SHP0345,Cold Storage Stop,Cold Storage Facility,2026-08-07 11:39:00,8
+2271,SHP0345,Arrival,Hyderabad,2026-08-07 12:07:00,0
+2272,SHP0346,Departure,Mumbai,2026-08-03 08:10:00,0
+2273,SHP0346,Rest Stop,Cold Storage Facility,2026-08-03 08:50:00,27
+2274,SHP0346,Traffic Delay,City Entry,2026-08-03 08:40:00,13
+2275,SHP0346,Checkpoint,Highway Checkpoint,2026-08-03 09:33:00,0
+2276,SHP0346,Rest Stop,Highway Checkpoint,2026-08-03 09:08:00,21
+2277,SHP0346,Cold Storage Stop,Rest Area,2026-08-03 09:46:00,17
+2278,SHP0346,Arrival,Coimbatore,2026-08-03 10:41:00,0
+2279,SHP0347,Departure,Bengaluru,2026-08-03 10:46:00,0
+2280,SHP0347,Checkpoint,City Entry,2026-08-03 15:17:00,0
+2281,SHP0347,Traffic Delay,City Entry,2026-08-03 13:14:00,44
+2282,SHP0347,Cold Storage Stop,Fuel Station,2026-08-03 12:07:00,15
+2283,SHP0347,Rest Stop,Fuel Station,2026-08-03 12:52:00,22
+2284,SHP0347,Arrival,Coimbatore,2026-08-03 15:53:00,0
+2285,SHP0348,Departure,Madurai,2026-08-07 06:48:00,0
+2286,SHP0348,Checkpoint,Fuel Station,2026-08-07 10:20:00,0
+2287,SHP0348,Checkpoint,Rest Area,2026-08-07 07:46:00,0
+2288,SHP0348,Checkpoint,Distribution Center,2026-08-07 08:30:00,0
+2289,SHP0348,Checkpoint,Fuel Station,2026-08-07 11:42:00,0
+2290,SHP0348,Rest Stop,Fuel Station,2026-08-07 11:20:00,35
+2291,SHP0348,Checkpoint,Rest Area,2026-08-07 07:43:00,0
+2292,SHP0348,Arrival,Chennai,2026-08-07 11:57:00,0
+2293,SHP0349,Departure,Hyderabad,2026-08-05 07:23:00,0
+2294,SHP0349,Checkpoint,Fuel Station,2026-08-05 09:49:00,0
+2295,SHP0349,Cold Storage Stop,City Entry,2026-08-05 09:26:00,16
+2296,SHP0349,Cold Storage Stop,Fuel Station,2026-08-05 07:36:00,13
+2297,SHP0349,Route Deviation,City Entry,2026-08-05 08:32:00,86
+2298,SHP0349,Arrival,Bangalore,2026-08-05 10:22:00,0
+2299,SHP0350,Departure,Chennai,2026-08-02 09:58:00,0
+2300,SHP0350,Checkpoint,City Entry,2026-08-02 12:20:00,0
+2301,SHP0350,Checkpoint,City Entry,2026-08-02 11:03:00,0
+2302,SHP0350,Checkpoint,Rest Area,2026-08-02 13:06:00,0
+2303,SHP0350,Checkpoint,City Entry,2026-08-02 10:52:00,0
+2304,SHP0350,Arrival,Hyderabad,2026-08-02 14:02:00,0
+2305,SHP0351,Departure,Salem,2026-08-02 08:56:00,0
+2306,SHP0351,Checkpoint,Cold Storage Facility,2026-08-02 09:35:00,0
+2307,SHP0351,Checkpoint,Fuel Station,2026-08-02 09:45:00,0
+2308,SHP0351,Checkpoint,Cold Storage Facility,2026-08-02 09:43:00,0
+2309,SHP0351,Checkpoint,Rest Area,2026-08-02 09:58:00,0
+2310,SHP0351,Rest Stop,City Entry,2026-08-02 09:08:00,39
+2311,SHP0351,Arrival,Pune,2026-08-02 10:19:00,0
+2312,SHP0352,Departure,Chennai,2026-08-06 05:45:00,0
+2313,SHP0352,Checkpoint,Distribution Center,2026-08-06 09:29:00,0
+2314,SHP0352,Checkpoint,Cold Storage Facility,2026-08-06 07:50:00,0
+2315,SHP0352,Checkpoint,City Entry,2026-08-06 05:58:00,0
+2316,SHP0352,Checkpoint,City Entry,2026-08-06 09:01:00,0
+2317,SHP0352,Cold Storage Stop,City Entry,2026-08-06 07:36:00,11
+2318,SHP0352,Rest Stop,Fuel Station,2026-08-06 09:41:00,37
+2319,SHP0352,Arrival,Madurai,2026-08-06 11:11:00,0
+2320,SHP0353,Departure,Kochi,2026-08-06 09:36:00,0
+2321,SHP0353,Checkpoint,Distribution Center,2026-08-06 11:48:00,0
+2322,SHP0353,Checkpoint,Distribution Center,2026-08-06 10:13:00,0
+2323,SHP0353,Checkpoint,Cold Storage Facility,2026-08-06 11:28:00,0
+2324,SHP0353,Arrival,Bengaluru,2026-08-06 12:05:00,0
+2325,SHP0354,Departure,Salem,2026-08-06 09:41:00,0
+2326,SHP0354,Rest Stop,Distribution Center,2026-08-06 10:30:00,27
+2327,SHP0354,Rest Stop,Rest Area,2026-08-06 10:08:00,10
+2328,SHP0354,Checkpoint,Rest Area,2026-08-06 10:57:00,0
+2329,SHP0354,Rest Stop,City Entry,2026-08-06 10:30:00,39
+2330,SHP0354,Checkpoint,Fuel Station,2026-08-06 10:56:00,0
+2331,SHP0354,Checkpoint,Highway Checkpoint,2026-08-06 11:04:00,0
+2332,SHP0354,Arrival,Madurai,2026-08-06 11:20:00,0
+2333,SHP0355,Departure,Mumbai,2026-08-04 08:58:00,0
+2334,SHP0355,Checkpoint,Cold Storage Facility,2026-08-04 10:19:00,0
+2335,SHP0355,Checkpoint,Fuel Station,2026-08-04 09:22:00,0
+2336,SHP0355,Rest Stop,Fuel Station,2026-08-04 09:44:00,19
+2337,SHP0355,Checkpoint,Highway Checkpoint,2026-08-04 11:06:00,0
+2338,SHP0355,Arrival,Kochi,2026-08-04 11:52:00,0
+2339,SHP0356,Departure,Mumbai,2026-08-05 07:52:00,0
+2340,SHP0356,Cold Storage Stop,Highway Checkpoint,2026-08-05 08:52:00,17
+2341,SHP0356,Cold Storage Stop,Fuel Station,2026-08-05 08:08:00,7
+2342,SHP0356,Traffic Delay,Rest Area,2026-08-05 08:03:00,27
+2343,SHP0356,Traffic Delay,Fuel Station,2026-08-05 10:55:00,17
+2344,SHP0356,Cold Storage Stop,City Entry,2026-08-05 11:10:00,11
+2345,SHP0356,Checkpoint,Fuel Station,2026-08-05 10:41:00,0
+2346,SHP0356,Arrival,Salem,2026-08-05 11:48:00,0
+2347,SHP0357,Departure,Pune,2026-08-03 05:32:00,0
+2348,SHP0357,Rest Stop,Rest Area,2026-08-03 07:11:00,23
+2349,SHP0357,Checkpoint,Fuel Station,2026-08-03 06:30:00,0
+2350,SHP0357,Checkpoint,Rest Area,2026-08-03 05:59:00,0
+2351,SHP0357,Arrival,Bengaluru,2026-08-03 07:43:00,0
+2352,SHP0358,Departure,Pune,2026-08-01 06:04:00,0
+2353,SHP0358,Checkpoint,Cold Storage Facility,2026-08-01 10:58:00,0
+2354,SHP0358,Traffic Delay,Distribution Center,2026-08-01 10:36:00,56
+2355,SHP0358,Rest Stop,Fuel Station,2026-08-01 06:40:00,19
+2356,SHP0358,Rest Stop,Cold Storage Facility,2026-08-01 06:34:00,39
+2357,SHP0358,Checkpoint,Highway Checkpoint,2026-08-01 10:07:00,0
+2358,SHP0358,Arrival,Coimbatore,2026-08-01 11:27:00,0
+2359,SHP0359,Departure,Kochi,2026-08-07 06:11:00,0
+2360,SHP0359,Checkpoint,Cold Storage Facility,2026-08-07 07:01:00,0
+2361,SHP0359,Rest Stop,Cold Storage Facility,2026-08-07 07:10:00,32
+2362,SHP0359,Cold Storage Stop,Fuel Station,2026-08-07 06:33:00,15
+2363,SHP0359,Checkpoint,City Entry,2026-08-07 07:10:00,0
+2364,SHP0359,Checkpoint,City Entry,2026-08-07 07:03:00,0
+2365,SHP0359,Rest Stop,City Entry,2026-08-07 06:31:00,14
+2366,SHP0359,Arrival,Hyderabad,2026-08-07 08:31:00,0
+2367,SHP0360,Departure,Madurai,2026-08-06 10:52:00,0
+2368,SHP0360,Checkpoint,Distribution Center,2026-08-06 11:04:00,0
+2369,SHP0360,Checkpoint,Cold Storage Facility,2026-08-06 12:26:00,0
+2370,SHP0360,Checkpoint,Rest Area,2026-08-06 12:22:00,0
+2371,SHP0360,Rest Stop,Fuel Station,2026-08-06 11:26:00,28
+2372,SHP0360,Cold Storage Stop,Fuel Station,2026-08-06 12:04:00,10
+2373,SHP0360,Checkpoint,Cold Storage Facility,2026-08-06 11:25:00,0
+2374,SHP0360,Arrival,Bengaluru,2026-08-06 12:52:00,0
+2375,SHP0361,Departure,Hyderabad,2026-08-03 07:46:00,0
+2376,SHP0361,Checkpoint,City Entry,2026-08-03 08:40:00,0
+2377,SHP0361,Checkpoint,Distribution Center,2026-08-03 08:40:00,0
+2378,SHP0361,Checkpoint,Rest Area,2026-08-03 08:26:00,0
+2379,SHP0361,Checkpoint,Cold Storage Facility,2026-08-03 09:16:00,0
+2380,SHP0361,Arrival,Salem,2026-08-03 09:44:00,0
+2381,SHP0362,Departure,Pune,2026-08-02 09:10:00,0
+2382,SHP0362,Checkpoint,City Entry,2026-08-02 12:55:00,0
+2383,SHP0362,Checkpoint,Distribution Center,2026-08-02 11:29:00,0
+2384,SHP0362,Cold Storage Stop,City Entry,2026-08-02 12:16:00,11
+2385,SHP0362,Arrival,Hyderabad,2026-08-02 13:40:00,0
+2386,SHP0363,Departure,Chennai,2026-08-05 05:08:00,0
+2387,SHP0363,Checkpoint,Highway Checkpoint,2026-08-05 07:02:00,0
+2388,SHP0363,Checkpoint,Distribution Center,2026-08-05 06:40:00,0
+2389,SHP0363,Checkpoint,Highway Checkpoint,2026-08-05 09:31:00,0
+2390,SHP0363,Rest Stop,Distribution Center,2026-08-05 06:24:00,13
+2391,SHP0363,Checkpoint,Highway Checkpoint,2026-08-05 05:19:00,0
+2392,SHP0363,Arrival,Hyderabad,2026-08-05 11:01:00,0
+2393,SHP0364,Departure,Bengaluru,2026-08-04 06:40:00,0
+2394,SHP0364,Checkpoint,Highway Checkpoint,2026-08-04 11:48:00,0
+2395,SHP0364,Checkpoint,Cold Storage Facility,2026-08-04 06:54:00,0
+2396,SHP0364,Checkpoint,Fuel Station,2026-08-04 06:53:00,0
+2397,SHP0364,Checkpoint,Cold Storage Facility,2026-08-04 10:25:00,0
+2398,SHP0364,Arrival,Coimbatore,2026-08-04 12:02:00,0
+2399,SHP0365,Departure,Chennai,2026-08-07 06:03:00,0
+2400,SHP0365,Rest Stop,Cold Storage Facility,2026-08-07 06:26:00,11
+2401,SHP0365,Checkpoint,City Entry,2026-08-07 07:08:00,0
+2402,SHP0365,Rest Stop,Rest Area,2026-08-07 06:31:00,24
+2403,SHP0365,Arrival,Bengaluru,2026-08-07 08:28:00,0
+2404,SHP0366,Departure,Kochi,2026-08-04 09:25:00,0
+2405,SHP0366,Cold Storage Stop,Rest Area,2026-08-04 09:54:00,6
+2406,SHP0366,Cold Storage Stop,Distribution Center,2026-08-04 12:21:00,9
+2407,SHP0366,Cold Storage Stop,Cold Storage Facility,2026-08-04 13:31:00,5
+2408,SHP0366,Checkpoint,Rest Area,2026-08-04 12:55:00,0
+2409,SHP0366,Rest Stop,Rest Area,2026-08-04 10:09:00,34
+2410,SHP0366,Checkpoint,Highway Checkpoint,2026-08-04 10:32:00,0
+2411,SHP0366,Arrival,Coimbatore,2026-08-04 15:13:00,0
+2412,SHP0367,Departure,Chennai,2026-08-05 05:13:00,0
+2413,SHP0367,Checkpoint,Rest Area,2026-08-05 07:39:00,0
+2414,SHP0367,Checkpoint,Fuel Station,2026-08-05 06:59:00,0
+2415,SHP0367,Checkpoint,Distribution Center,2026-08-05 08:55:00,0
+2416,SHP0367,Checkpoint,Fuel Station,2026-08-05 07:02:00,0
+2417,SHP0367,Rest Stop,Distribution Center,2026-08-05 09:26:00,24
+2418,SHP0367,Checkpoint,Rest Area,2026-08-05 09:17:00,0
+2419,SHP0367,Arrival,Kochi,2026-08-05 10:02:00,0
+2420,SHP0368,Departure,Bengaluru,2026-08-02 08:10:00,0
+2421,SHP0368,Cold Storage Stop,Distribution Center,2026-08-02 10:46:00,10
+2422,SHP0368,Cold Storage Stop,Cold Storage Facility,2026-08-02 09:58:00,16
+2423,SHP0368,Cold Storage Stop,Rest Area,2026-08-02 10:38:00,19
+2424,SHP0368,Cold Storage Stop,City Entry,2026-08-02 10:39:00,13
+2425,SHP0368,Checkpoint,Highway Checkpoint,2026-08-02 08:55:00,0
+2426,SHP0368,Rest Stop,City Entry,2026-08-02 10:13:00,25
+2427,SHP0368,Arrival,Pune,2026-08-02 11:02:00,0
+2428,SHP0369,Departure,Salem,2026-08-07 06:50:00,0
+2429,SHP0369,Rest Stop,Fuel Station,2026-08-07 07:19:00,35
+2430,SHP0369,Traffic Delay,Cold Storage Facility,2026-08-07 09:52:00,12
+2431,SHP0369,Checkpoint,Cold Storage Facility,2026-08-07 10:40:00,0
+2432,SHP0369,Checkpoint,Distribution Center,2026-08-07 11:33:00,0
+2433,SHP0369,Checkpoint,Fuel Station,2026-08-07 11:34:00,0
+2434,SHP0369,Arrival,Bengaluru,2026-08-07 12:48:00,0
+2435,SHP0370,Departure,Coimbatore,2026-08-04 10:32:00,0
+2436,SHP0370,Traffic Delay,Cold Storage Facility,2026-08-04 12:54:00,55
+2437,SHP0370,Checkpoint,Rest Area,2026-08-04 10:48:00,0
+2438,SHP0370,Traffic Delay,Rest Area,2026-08-04 11:10:00,22
+2439,SHP0370,Checkpoint,Cold Storage Facility,2026-08-04 12:40:00,0
+2440,SHP0370,Checkpoint,Highway Checkpoint,2026-08-04 11:02:00,0
+2441,SHP0370,Checkpoint,Cold Storage Facility,2026-08-04 10:47:00,0
+2442,SHP0370,Arrival,Bengaluru,2026-08-04 13:47:00,0
+2443,SHP0371,Departure,Coimbatore,2026-08-06 08:38:00,0
+2444,SHP0371,Checkpoint,Distribution Center,2026-08-06 09:15:00,0
+2445,SHP0371,Checkpoint,City Entry,2026-08-06 09:10:00,0
+2446,SHP0371,Checkpoint,Fuel Station,2026-08-06 09:27:00,0
+2447,SHP0371,Checkpoint,Rest Area,2026-08-06 09:10:00,0
+2448,SHP0371,Cold Storage Stop,Cold Storage Facility,2026-08-06 09:43:00,11
+2449,SHP0371,Arrival,Madurai,2026-08-06 10:13:00,0
+2450,SHP0372,Departure,Hyderabad,2026-08-04 08:08:00,0
+2451,SHP0372,Checkpoint,Distribution Center,2026-08-04 08:41:00,0
+2452,SHP0372,Checkpoint,Highway Checkpoint,2026-08-04 08:38:00,0
+2453,SHP0372,Checkpoint,Distribution Center,2026-08-04 08:47:00,0
+2454,SHP0372,Checkpoint,Cold Storage Facility,2026-08-04 09:31:00,0
+2455,SHP0372,Rest Stop,Fuel Station,2026-08-04 08:58:00,19
+2456,SHP0372,Checkpoint,Highway Checkpoint,2026-08-04 09:41:00,0
+2457,SHP0372,Arrival,Salem,2026-08-04 10:03:00,0
+2458,SHP0373,Departure,Chennai,2026-08-01 09:55:00,0
+2459,SHP0373,Route Deviation,Rest Area,2026-08-01 10:37:00,20
+2460,SHP0373,Checkpoint,Rest Area,2026-08-01 12:49:00,0
+2461,SHP0373,Checkpoint,City Entry,2026-08-01 13:23:00,0
+2462,SHP0373,Checkpoint,Distribution Center,2026-08-01 14:14:00,0
+2463,SHP0373,Arrival,Hyderabad,2026-08-01 15:13:00,0
+2464,SHP0374,Departure,Salem,2026-08-03 09:06:00,0
+2465,SHP0374,Rest Stop,Rest Area,2026-08-03 09:30:00,25
+2466,SHP0374,Checkpoint,City Entry,2026-08-03 09:16:00,0
+2467,SHP0374,Rest Stop,Cold Storage Facility,2026-08-03 11:24:00,36
+2468,SHP0374,Checkpoint,City Entry,2026-08-03 10:57:00,0
+2469,SHP0374,Arrival,Coimbatore,2026-08-03 11:36:00,0
+2470,SHP0375,Departure,Pune,2026-08-03 09:02:00,0
+2471,SHP0375,Checkpoint,Cold Storage Facility,2026-08-03 09:21:00,0
+2472,SHP0375,Checkpoint,City Entry,2026-08-03 10:12:00,0
+2473,SHP0375,Cold Storage Stop,Fuel Station,2026-08-03 11:02:00,16
+2474,SHP0375,Checkpoint,Distribution Center,2026-08-03 10:35:00,0
+2475,SHP0375,Checkpoint,City Entry,2026-08-03 12:35:00,0
+2476,SHP0375,Checkpoint,Rest Area,2026-08-03 14:16:00,0
+2477,SHP0375,Arrival,Bengaluru,2026-08-03 14:34:00,0
+2478,SHP0376,Departure,Mumbai,2026-08-07 05:30:00,0
+2479,SHP0376,Checkpoint,Rest Area,2026-08-07 06:24:00,0
+2480,SHP0376,Checkpoint,City Entry,2026-08-07 07:09:00,0
+2481,SHP0376,Rest Stop,Cold Storage Facility,2026-08-07 05:43:00,34
+2482,SHP0376,Arrival,Bangalore,2026-08-07 07:36:00,0
+2483,SHP0377,Departure,Bengaluru,2026-08-07 05:57:00,0
+2484,SHP0377,Checkpoint,Fuel Station,2026-08-07 08:27:00,0
+2485,SHP0377,Cold Storage Stop,Cold Storage Facility,2026-08-07 09:22:00,6
+2486,SHP0377,Rest Stop,Cold Storage Facility,2026-08-07 09:56:00,25
+2487,SHP0377,Checkpoint,Highway Checkpoint,2026-08-07 09:49:00,0
+2488,SHP0377,Checkpoint,Fuel Station,2026-08-07 06:18:00,0
+2489,SHP0377,Arrival,Mumbai,2026-08-07 10:37:00,0
+2490,SHP0378,Departure,Mumbai,2026-08-06 07:55:00,0
+2491,SHP0378,Checkpoint,Rest Area,2026-08-06 08:39:00,0
+2492,SHP0378,Checkpoint,City Entry,2026-08-06 08:18:00,0
+2493,SHP0378,Checkpoint,City Entry,2026-08-06 08:25:00,0
+2494,SHP0378,Cold Storage Stop,Distribution Center,2026-08-06 08:12:00,20
+2495,SHP0378,Cold Storage Stop,Distribution Center,2026-08-06 08:30:00,5
+2496,SHP0378,Arrival,Salem,2026-08-06 09:17:00,0
+2497,SHP0379,Departure,Mumbai,2026-08-06 06:51:00,0
+2498,SHP0379,Checkpoint,Highway Checkpoint,2026-08-06 08:35:00,0
+2499,SHP0379,Rest Stop,Rest Area,2026-08-06 08:19:00,18
+2500,SHP0379,Rest Stop,Highway Checkpoint,2026-08-06 08:39:00,14
+2501,SHP0379,Rest Stop,Cold Storage Facility,2026-08-06 10:59:00,25
+2502,SHP0379,Checkpoint,Rest Area,2026-08-06 10:36:00,0
+2503,SHP0379,Traffic Delay,Rest Area,2026-08-06 09:19:00,34
+2504,SHP0379,Arrival,Salem,2026-08-06 11:57:00,0
+2505,SHP0380,Departure,Salem,2026-08-04 09:51:00,0
+2506,SHP0380,Rest Stop,City Entry,2026-08-04 11:45:00,18
+2507,SHP0380,Checkpoint,Highway Checkpoint,2026-08-04 12:31:00,0
+2508,SHP0380,Cold Storage Stop,Fuel Station,2026-08-04 13:35:00,6
+2509,SHP0380,Checkpoint,Distribution Center,2026-08-04 13:46:00,0
+2510,SHP0380,Checkpoint,Cold Storage Facility,2026-08-04 12:27:00,0
+2511,SHP0380,Arrival,Madurai,2026-08-04 15:45:00,0
+2512,SHP0381,Departure,Bangalore,2026-08-04 06:16:00,0
+2513,SHP0381,Checkpoint,Fuel Station,2026-08-04 10:10:00,0
+2514,SHP0381,Checkpoint,Distribution Center,2026-08-04 08:59:00,0
+2515,SHP0381,Checkpoint,Fuel Station,2026-08-04 07:57:00,0
+2516,SHP0381,Checkpoint,Rest Area,2026-08-04 08:29:00,0
+2517,SHP0381,Rest Stop,Distribution Center,2026-08-04 07:31:00,29
+2518,SHP0381,Arrival,Salem,2026-08-04 11:20:00,0
+2519,SHP0382,Departure,Hyderabad,2026-08-07 07:38:00,0
+2520,SHP0382,Checkpoint,Highway Checkpoint,2026-08-07 08:34:00,0
+2521,SHP0382,Cold Storage Stop,Highway Checkpoint,2026-08-07 09:21:00,20
+2522,SHP0382,Checkpoint,Rest Area,2026-08-07 10:35:00,0
+2523,SHP0382,Checkpoint,Fuel Station,2026-08-07 11:47:00,0
+2524,SHP0382,Checkpoint,Distribution Center,2026-08-07 09:51:00,0
+2525,SHP0382,Arrival,Bangalore,2026-08-07 13:16:00,0
+2526,SHP0383,Departure,Salem,2026-08-06 06:00:00,0
+2527,SHP0383,Checkpoint,Fuel Station,2026-08-06 06:27:00,0
+2528,SHP0383,Checkpoint,Cold Storage Facility,2026-08-06 06:52:00,0
+2529,SHP0383,Traffic Delay,Highway Checkpoint,2026-08-06 06:38:00,59
+2530,SHP0383,Arrival,Kochi,2026-08-06 07:03:00,0
+2531,SHP0384,Departure,Bengaluru,2026-08-05 05:33:00,0
+2532,SHP0384,Cold Storage Stop,Highway Checkpoint,2026-08-05 06:25:00,5
+2533,SHP0384,Checkpoint,Fuel Station,2026-08-05 05:47:00,0
+2534,SHP0384,Checkpoint,Rest Area,2026-08-05 05:54:00,0
+2535,SHP0384,Traffic Delay,Distribution Center,2026-08-05 06:09:00,36
+2536,SHP0384,Checkpoint,Rest Area,2026-08-05 06:17:00,0
+2537,SHP0384,Checkpoint,Distribution Center,2026-08-05 06:25:00,0
+2538,SHP0384,Arrival,Mumbai,2026-08-05 06:36:00,0
+2539,SHP0385,Departure,Salem,2026-08-06 10:51:00,0
+2540,SHP0385,Traffic Delay,Cold Storage Facility,2026-08-06 14:07:00,10
+2541,SHP0385,Cold Storage Stop,Fuel Station,2026-08-06 13:56:00,15
+2542,SHP0385,Traffic Delay,Highway Checkpoint,2026-08-06 13:17:00,35
+2543,SHP0385,Rest Stop,Highway Checkpoint,2026-08-06 11:37:00,22
+2544,SHP0385,Rest Stop,City Entry,2026-08-06 12:08:00,20
+2545,SHP0385,Arrival,Hyderabad,2026-08-06 14:32:00,0
+2546,SHP0386,Departure,Salem,2026-08-03 05:09:00,0
+2547,SHP0386,Rest Stop,Highway Checkpoint,2026-08-03 08:01:00,21
+2548,SHP0386,Checkpoint,Cold Storage Facility,2026-08-03 06:02:00,0
+2549,SHP0386,Cold Storage Stop,Distribution Center,2026-08-03 05:55:00,12
+2550,SHP0386,Cold Storage Stop,Rest Area,2026-08-03 06:23:00,20
+2551,SHP0386,Checkpoint,Distribution Center,2026-08-03 05:43:00,0
+2552,SHP0386,Cold Storage Stop,Cold Storage Facility,2026-08-03 08:59:00,18
+2553,SHP0386,Arrival,Madurai,2026-08-03 09:47:00,0
+2554,SHP0387,Departure,Bengaluru,2026-08-03 07:54:00,0
+2555,SHP0387,Checkpoint,Fuel Station,2026-08-03 10:13:00,0
+2556,SHP0387,Rest Stop,Fuel Station,2026-08-03 08:31:00,13
+2557,SHP0387,Rest Stop,Cold Storage Facility,2026-08-03 08:11:00,33
+2558,SHP0387,Arrival,Kochi,2026-08-03 13:28:00,0
+2559,SHP0388,Departure,Salem,2026-08-02 07:39:00,0
+2560,SHP0388,Checkpoint,City Entry,2026-08-02 10:26:00,0
+2561,SHP0388,Route Deviation,Cold Storage Facility,2026-08-02 08:16:00,57
+2562,SHP0388,Rest Stop,Fuel Station,2026-08-02 10:46:00,15
+2563,SHP0388,Checkpoint,Highway Checkpoint,2026-08-02 09:07:00,0
+2564,SHP0388,Arrival,Bengaluru,2026-08-02 11:00:00,0
+2565,SHP0389,Departure,Salem,2026-08-03 08:35:00,0
+2566,SHP0389,Traffic Delay,Cold Storage Facility,2026-08-03 12:02:00,33
+2567,SHP0389,Cold Storage Stop,Distribution Center,2026-08-03 10:03:00,16
+2568,SHP0389,Checkpoint,Highway Checkpoint,2026-08-03 12:53:00,0
+2569,SHP0389,Checkpoint,Rest Area,2026-08-03 11:27:00,0
+2570,SHP0389,Checkpoint,Highway Checkpoint,2026-08-03 10:47:00,0
+2571,SHP0389,Arrival,Hyderabad,2026-08-03 14:20:00,0
+2572,SHP0390,Departure,Pune,2026-08-04 07:35:00,0
+2573,SHP0390,Cold Storage Stop,Highway Checkpoint,2026-08-04 11:42:00,7
+2574,SHP0390,Checkpoint,City Entry,2026-08-04 08:26:00,0
+2575,SHP0390,Checkpoint,Cold Storage Facility,2026-08-04 08:58:00,0
+2576,SHP0390,Checkpoint,City Entry,2026-08-04 12:52:00,0
+2577,SHP0390,Arrival,Coimbatore,2026-08-04 13:19:00,0
+2578,SHP0391,Departure,Pune,2026-08-02 07:36:00,0
+2579,SHP0391,Route Deviation,Cold Storage Facility,2026-08-02 09:39:00,55
+2580,SHP0391,Checkpoint,Fuel Station,2026-08-02 09:18:00,0
+2581,SHP0391,Checkpoint,Distribution Center,2026-08-02 08:49:00,0
+2582,SHP0391,Checkpoint,Highway Checkpoint,2026-08-02 08:41:00,0
+2583,SHP0391,Rest Stop,Highway Checkpoint,2026-08-02 08:44:00,12
+2584,SHP0391,Arrival,Kochi,2026-08-02 11:32:00,0
+2585,SHP0392,Departure,Salem,2026-08-05 10:07:00,0
+2586,SHP0392,Checkpoint,Distribution Center,2026-08-05 10:33:00,0
+2587,SHP0392,Checkpoint,Rest Area,2026-08-05 11:18:00,0
+2588,SHP0392,Cold Storage Stop,Cold Storage Facility,2026-08-05 11:24:00,12
+2589,SHP0392,Checkpoint,City Entry,2026-08-05 12:47:00,0
+2590,SHP0392,Arrival,Coimbatore,2026-08-05 13:04:00,0
+2591,SHP0393,Departure,Pune,2026-08-05 05:13:00,0
+2592,SHP0393,Cold Storage Stop,Highway Checkpoint,2026-08-05 08:42:00,20
+2593,SHP0393,Checkpoint,Fuel Station,2026-08-05 06:33:00,0
+2594,SHP0393,Checkpoint,Cold Storage Facility,2026-08-05 08:04:00,0
+2595,SHP0393,Checkpoint,City Entry,2026-08-05 09:01:00,0
+2596,SHP0393,Checkpoint,Distribution Center,2026-08-05 07:00:00,0
+2597,SHP0393,Arrival,Coimbatore,2026-08-05 10:33:00,0
+2598,SHP0394,Departure,Salem,2026-08-03 09:39:00,0
+2599,SHP0394,Traffic Delay,Rest Area,2026-08-03 10:22:00,35
+2600,SHP0394,Checkpoint,Rest Area,2026-08-03 10:24:00,0
+2601,SHP0394,Cold Storage Stop,Fuel Station,2026-08-03 09:52:00,17
+2602,SHP0394,Checkpoint,Fuel Station,2026-08-03 09:52:00,0
+2603,SHP0394,Arrival,Madurai,2026-08-03 11:05:00,0
+2604,SHP0395,Departure,Coimbatore,2026-08-06 10:00:00,0
+2605,SHP0395,Rest Stop,Fuel Station,2026-08-06 10:16:00,14
+2606,SHP0395,Checkpoint,Cold Storage Facility,2026-08-06 10:47:00,0
+2607,SHP0395,Rest Stop,Rest Area,2026-08-06 11:14:00,39
+2608,SHP0395,Checkpoint,Highway Checkpoint,2026-08-06 11:25:00,0
+2609,SHP0395,Arrival,Salem,2026-08-06 11:46:00,0
+2610,SHP0396,Departure,Coimbatore,2026-08-07 09:27:00,0
+2611,SHP0396,Rest Stop,Highway Checkpoint,2026-08-07 10:11:00,22
+2612,SHP0396,Checkpoint,Rest Area,2026-08-07 09:47:00,0
+2613,SHP0396,Rest Stop,City Entry,2026-08-07 10:12:00,31
+2614,SHP0396,Traffic Delay,Cold Storage Facility,2026-08-07 10:51:00,39
+2615,SHP0396,Checkpoint,Rest Area,2026-08-07 10:51:00,0
+2616,SHP0396,Arrival,Pune,2026-08-07 11:12:00,0
+2617,SHP0397,Departure,Bangalore,2026-08-06 06:23:00,0
+2618,SHP0397,Checkpoint,Distribution Center,2026-08-06 07:48:00,0
+2619,SHP0397,Checkpoint,City Entry,2026-08-06 06:43:00,0
+2620,SHP0397,Traffic Delay,Cold Storage Facility,2026-08-06 06:56:00,14
+2621,SHP0397,Arrival,Kochi,2026-08-06 08:03:00,0
+2622,SHP0398,Departure,Bengaluru,2026-08-05 10:24:00,0
+2623,SHP0398,Cold Storage Stop,City Entry,2026-08-05 11:09:00,16
+2624,SHP0398,Checkpoint,Cold Storage Facility,2026-08-05 11:27:00,0
+2625,SHP0398,Checkpoint,City Entry,2026-08-05 10:42:00,0
+2626,SHP0398,Arrival,Chennai,2026-08-05 14:49:00,0
+2627,SHP0399,Departure,Bengaluru,2026-08-07 07:45:00,0
+2628,SHP0399,Checkpoint,Highway Checkpoint,2026-08-07 08:37:00,0
+2629,SHP0399,Checkpoint,Rest Area,2026-08-07 08:57:00,0
+2630,SHP0399,Checkpoint,Cold Storage Facility,2026-08-07 08:52:00,0
+2631,SHP0399,Cold Storage Stop,Highway Checkpoint,2026-08-07 08:04:00,6
+2632,SHP0399,Checkpoint,Distribution Center,2026-08-07 08:17:00,0
+2633,SHP0399,Checkpoint,Highway Checkpoint,2026-08-07 08:50:00,0
+2634,SHP0399,Arrival,Mumbai,2026-08-07 09:14:00,0
+2635,SHP0400,Departure,Coimbatore,2026-08-03 08:00:00,0
+2636,SHP0400,Checkpoint,Cold Storage Facility,2026-08-03 10:08:00,0
+2637,SHP0400,Checkpoint,Fuel Station,2026-08-03 09:11:00,0
+2638,SHP0400,Rest Stop,Fuel Station,2026-08-03 09:15:00,19
+2639,SHP0400,Route Deviation,City Entry,2026-08-03 09:19:00,43
+2640,SHP0400,Rest Stop,Highway Checkpoint,2026-08-03 08:25:00,16
+2641,SHP0400,Arrival,Pune,2026-08-03 10:43:00,0
+2642,SHP0401,Departure,Mumbai,2026-08-03 06:02:00,0
+2643,SHP0401,Checkpoint,Distribution Center,2026-08-03 08:10:00,0
+2644,SHP0401,Rest Stop,Fuel Station,2026-08-03 09:13:00,17
+2645,SHP0401,Traffic Delay,Highway Checkpoint,2026-08-03 09:54:00,40
+2646,SHP0401,Cold Storage Stop,Rest Area,2026-08-03 06:40:00,15
+2647,SHP0401,Arrival,Kochi,2026-08-03 11:23:00,0
+2648,SHP0402,Departure,Mumbai,2026-08-03 09:10:00,0
+2649,SHP0402,Cold Storage Stop,Cold Storage Facility,2026-08-03 09:24:00,13
+2650,SHP0402,Traffic Delay,Rest Area,2026-08-03 09:58:00,36
+2651,SHP0402,Checkpoint,Highway Checkpoint,2026-08-03 09:29:00,0
+2652,SHP0402,Traffic Delay,Distribution Center,2026-08-03 09:25:00,53
+2653,SHP0402,Arrival,Hyderabad,2026-08-03 10:28:00,0
+2654,SHP0403,Departure,Madurai,2026-08-06 10:00:00,0
+2655,SHP0403,Checkpoint,Cold Storage Facility,2026-08-06 10:29:00,0
+2656,SHP0403,Checkpoint,Rest Area,2026-08-06 12:10:00,0
+2657,SHP0403,Checkpoint,Rest Area,2026-08-06 11:16:00,0
+2658,SHP0403,Arrival,Hyderabad,2026-08-06 12:20:00,0
+2659,SHP0404,Departure,Bangalore,2026-08-05 08:22:00,0
+2660,SHP0404,Checkpoint,Fuel Station,2026-08-05 11:28:00,0
+2661,SHP0404,Checkpoint,City Entry,2026-08-05 10:51:00,0
+2662,SHP0404,Traffic Delay,Cold Storage Facility,2026-08-05 09:04:00,59
+2663,SHP0404,Checkpoint,Fuel Station,2026-08-05 10:31:00,0
+2664,SHP0404,Arrival,Kochi,2026-08-05 12:44:00,0
+2665,SHP0405,Departure,Salem,2026-08-03 06:33:00,0
+2666,SHP0405,Checkpoint,Rest Area,2026-08-03 06:46:00,0
+2667,SHP0405,Cold Storage Stop,Cold Storage Facility,2026-08-03 07:28:00,10
+2668,SHP0405,Rest Stop,Cold Storage Facility,2026-08-03 06:59:00,36
+2669,SHP0405,Cold Storage Stop,Cold Storage Facility,2026-08-03 07:02:00,20
+2670,SHP0405,Cold Storage Stop,City Entry,2026-08-03 07:24:00,19
+2671,SHP0405,Checkpoint,City Entry,2026-08-03 06:49:00,0
+2672,SHP0405,Arrival,Bengaluru,2026-08-03 07:40:00,0
+2673,SHP0406,Departure,Bangalore,2026-08-03 07:46:00,0
+2674,SHP0406,Rest Stop,Fuel Station,2026-08-03 11:28:00,36
+2675,SHP0406,Checkpoint,City Entry,2026-08-03 09:43:00,0
+2676,SHP0406,Checkpoint,Fuel Station,2026-08-03 09:02:00,0
+2677,SHP0406,Checkpoint,Distribution Center,2026-08-03 10:27:00,0
+2678,SHP0406,Rest Stop,Cold Storage Facility,2026-08-03 11:35:00,28
+2679,SHP0406,Arrival,Mumbai,2026-08-03 13:32:00,0
+2680,SHP0407,Departure,Bengaluru,2026-08-01 07:52:00,0
+2681,SHP0407,Checkpoint,Rest Area,2026-08-01 10:17:00,0
+2682,SHP0407,Cold Storage Stop,Rest Area,2026-08-01 08:56:00,5
+2683,SHP0407,Checkpoint,Cold Storage Facility,2026-08-01 08:05:00,0
+2684,SHP0407,Cold Storage Stop,Highway Checkpoint,2026-08-01 10:24:00,20
+2685,SHP0407,Checkpoint,Highway Checkpoint,2026-08-01 09:38:00,0
+2686,SHP0407,Rest Stop,City Entry,2026-08-01 10:59:00,21
+2687,SHP0407,Arrival,Madurai,2026-08-01 11:13:00,0
+2688,SHP0408,Departure,Hyderabad,2026-08-03 06:29:00,0
+2689,SHP0408,Cold Storage Stop,Fuel Station,2026-08-03 08:44:00,9
+2690,SHP0408,Checkpoint,Distribution Center,2026-08-03 07:57:00,0
+2691,SHP0408,Checkpoint,Rest Area,2026-08-03 06:40:00,0
+2692,SHP0408,Checkpoint,Highway Checkpoint,2026-08-03 09:58:00,0
+2693,SHP0408,Arrival,Bengaluru,2026-08-03 10:55:00,0
+2694,SHP0409,Departure,Bengaluru,2026-08-01 07:11:00,0
+2695,SHP0409,Checkpoint,Fuel Station,2026-08-01 09:26:00,0
+2696,SHP0409,Cold Storage Stop,Rest Area,2026-08-01 11:20:00,14
+2697,SHP0409,Checkpoint,Fuel Station,2026-08-01 11:27:00,0
+2698,SHP0409,Arrival,Chennai,2026-08-01 11:39:00,0
+2699,SHP0410,Departure,Mumbai,2026-08-07 09:04:00,0
+2700,SHP0410,Cold Storage Stop,Distribution Center,2026-08-07 14:10:00,5
+2701,SHP0410,Checkpoint,Fuel Station,2026-08-07 10:13:00,0
+2702,SHP0410,Checkpoint,Distribution Center,2026-08-07 11:30:00,0
+2703,SHP0410,Checkpoint,Highway Checkpoint,2026-08-07 11:16:00,0
+2704,SHP0410,Checkpoint,City Entry,2026-08-07 10:50:00,0
+2705,SHP0410,Arrival,Bangalore,2026-08-07 14:21:00,0
+2706,SHP0411,Departure,Kochi,2026-08-04 05:51:00,0
+2707,SHP0411,Rest Stop,City Entry,2026-08-04 06:38:00,37
+2708,SHP0411,Checkpoint,Distribution Center,2026-08-04 10:21:00,0
+2709,SHP0411,Traffic Delay,Rest Area,2026-08-04 06:23:00,12
+2710,SHP0411,Checkpoint,City Entry,2026-08-04 07:12:00,0
+2711,SHP0411,Arrival,Madurai,2026-08-04 11:13:00,0
+2712,SHP0412,Departure,Kochi,2026-08-07 09:16:00,0
+2713,SHP0412,Checkpoint,Highway Checkpoint,2026-08-07 11:26:00,0
+2714,SHP0412,Checkpoint,Highway Checkpoint,2026-08-07 09:47:00,0
+2715,SHP0412,Checkpoint,City Entry,2026-08-07 12:29:00,0
+2716,SHP0412,Checkpoint,Fuel Station,2026-08-07 09:41:00,0
+2717,SHP0412,Rest Stop,City Entry,2026-08-07 10:02:00,13
+2718,SHP0412,Arrival,Mumbai,2026-08-07 14:02:00,0
+2719,SHP0413,Departure,Salem,2026-08-05 08:49:00,0
+2720,SHP0413,Checkpoint,Rest Area,2026-08-05 10:12:00,0
+2721,SHP0413,Checkpoint,Fuel Station,2026-08-05 09:45:00,0
+2722,SHP0413,Rest Stop,Distribution Center,2026-08-05 10:29:00,29
+2723,SHP0413,Arrival,Bengaluru,2026-08-05 11:53:00,0
+2724,SHP0414,Departure,Madurai,2026-08-05 10:29:00,0
+2725,SHP0414,Traffic Delay,Rest Area,2026-08-05 11:41:00,22
+2726,SHP0414,Rest Stop,Cold Storage Facility,2026-08-05 11:01:00,23
+2727,SHP0414,Cold Storage Stop,Fuel Station,2026-08-05 11:08:00,16
+2728,SHP0414,Arrival,Pune,2026-08-05 16:29:00,0
+2729,SHP0415,Departure,Chennai,2026-08-04 05:16:00,0
+2730,SHP0415,Checkpoint,Highway Checkpoint,2026-08-04 05:30:00,0
+2731,SHP0415,Checkpoint,Highway Checkpoint,2026-08-04 05:41:00,0
+2732,SHP0415,Checkpoint,Distribution Center,2026-08-04 06:10:00,0
+2733,SHP0415,Rest Stop,City Entry,2026-08-04 06:05:00,20
+2734,SHP0415,Rest Stop,Highway Checkpoint,2026-08-04 06:16:00,40
+2735,SHP0415,Cold Storage Stop,Distribution Center,2026-08-04 05:42:00,6
+2736,SHP0415,Arrival,Pune,2026-08-04 06:50:00,0
+2737,SHP0416,Departure,Salem,2026-08-05 10:44:00,0
+2738,SHP0416,Rest Stop,City Entry,2026-08-05 11:33:00,18
+2739,SHP0416,Cold Storage Stop,Distribution Center,2026-08-05 12:43:00,13
+2740,SHP0416,Checkpoint,Cold Storage Facility,2026-08-05 12:14:00,0
+2741,SHP0416,Checkpoint,Fuel Station,2026-08-05 12:31:00,0
+2742,SHP0416,Checkpoint,Distribution Center,2026-08-05 12:53:00,0
+2743,SHP0416,Arrival,Hyderabad,2026-08-05 13:41:00,0
+2744,SHP0417,Departure,Madurai,2026-08-05 07:33:00,0
+2745,SHP0417,Cold Storage Stop,Cold Storage Facility,2026-08-05 11:13:00,8
+2746,SHP0417,Cold Storage Stop,City Entry,2026-08-05 09:07:00,14
+2747,SHP0417,Checkpoint,City Entry,2026-08-05 07:51:00,0
+2748,SHP0417,Checkpoint,Fuel Station,2026-08-05 08:39:00,0
+2749,SHP0417,Checkpoint,Rest Area,2026-08-05 09:57:00,0
+2750,SHP0417,Arrival,Salem,2026-08-05 13:07:00,0
+2751,SHP0418,Departure,Chennai,2026-08-07 06:18:00,0
+2752,SHP0418,Cold Storage Stop,Fuel Station,2026-08-07 07:30:00,5
+2753,SHP0418,Checkpoint,Highway Checkpoint,2026-08-07 06:58:00,0
+2754,SHP0418,Traffic Delay,Cold Storage Facility,2026-08-07 06:52:00,19
+2755,SHP0418,Cold Storage Stop,Highway Checkpoint,2026-08-07 07:52:00,12
+2756,SHP0418,Checkpoint,Highway Checkpoint,2026-08-07 07:29:00,0
+2757,SHP0418,Arrival,Kochi,2026-08-07 08:05:00,0
+2758,SHP0419,Departure,Salem,2026-08-02 05:35:00,0
+2759,SHP0419,Cold Storage Stop,Cold Storage Facility,2026-08-02 06:38:00,13
+2760,SHP0419,Checkpoint,Cold Storage Facility,2026-08-02 05:56:00,0
+2761,SHP0419,Checkpoint,Fuel Station,2026-08-02 06:15:00,0
+2762,SHP0419,Checkpoint,Fuel Station,2026-08-02 07:19:00,0
+2763,SHP0419,Arrival,Madurai,2026-08-02 08:06:00,0
+2764,SHP0420,Departure,Pune,2026-08-07 07:13:00,0
+2765,SHP0420,Checkpoint,Distribution Center,2026-08-07 08:03:00,0
+2766,SHP0420,Checkpoint,Cold Storage Facility,2026-08-07 07:48:00,0
+2767,SHP0420,Checkpoint,City Entry,2026-08-07 12:29:00,0
+2768,SHP0420,Rest Stop,Distribution Center,2026-08-07 11:54:00,15
+2769,SHP0420,Checkpoint,Highway Checkpoint,2026-08-07 09:40:00,0
+2770,SHP0420,Checkpoint,Highway Checkpoint,2026-08-07 12:42:00,0
+2771,SHP0420,Arrival,Madurai,2026-08-07 13:06:00,0
+2772,SHP0421,Departure,Kochi,2026-08-01 10:43:00,0
+2773,SHP0421,Cold Storage Stop,Cold Storage Facility,2026-08-01 13:03:00,7
+2774,SHP0421,Checkpoint,Rest Area,2026-08-01 11:07:00,0
+2775,SHP0421,Traffic Delay,City Entry,2026-08-01 12:32:00,24
+2776,SHP0421,Route Deviation,Distribution Center,2026-08-01 12:14:00,59
+2777,SHP0421,Cold Storage Stop,Distribution Center,2026-08-01 12:22:00,6
+2778,SHP0421,Arrival,Coimbatore,2026-08-01 13:20:00,0
+2779,SHP0422,Departure,Pune,2026-08-06 06:47:00,0
+2780,SHP0422,Checkpoint,Fuel Station,2026-08-06 09:05:00,0
+2781,SHP0422,Checkpoint,City Entry,2026-08-06 08:23:00,0
+2782,SHP0422,Checkpoint,Highway Checkpoint,2026-08-06 07:51:00,0
+2783,SHP0422,Arrival,Hyderabad,2026-08-06 09:50:00,0
+2784,SHP0423,Departure,Kochi,2026-08-04 06:12:00,0
+2785,SHP0423,Checkpoint,Distribution Center,2026-08-04 07:11:00,0
+2786,SHP0423,Checkpoint,Cold Storage Facility,2026-08-04 08:39:00,0
+2787,SHP0423,Checkpoint,Distribution Center,2026-08-04 08:01:00,0
+2788,SHP0423,Checkpoint,Distribution Center,2026-08-04 07:43:00,0
+2789,SHP0423,Arrival,Hyderabad,2026-08-04 09:19:00,0
+2790,SHP0424,Departure,Bengaluru,2026-08-03 06:49:00,0
+2791,SHP0424,Checkpoint,Highway Checkpoint,2026-08-03 08:19:00,0
+2792,SHP0424,Checkpoint,Distribution Center,2026-08-03 08:03:00,0
+2793,SHP0424,Rest Stop,Cold Storage Facility,2026-08-03 07:37:00,27
+2794,SHP0424,Cold Storage Stop,Fuel Station,2026-08-03 07:21:00,10
+2795,SHP0424,Arrival,Madurai,2026-08-03 08:43:00,0
+2796,SHP0425,Departure,Bangalore,2026-08-03 09:00:00,0
+2797,SHP0425,Checkpoint,City Entry,2026-08-03 11:55:00,0
+2798,SHP0425,Rest Stop,Fuel Station,2026-08-03 13:10:00,40
+2799,SHP0425,Checkpoint,Fuel Station,2026-08-03 11:17:00,0
+2800,SHP0425,Checkpoint,Fuel Station,2026-08-03 09:29:00,0
+2801,SHP0425,Checkpoint,City Entry,2026-08-03 12:15:00,0
+2802,SHP0425,Arrival,Pune,2026-08-03 14:37:00,0
+2803,SHP0426,Departure,Chennai,2026-08-02 07:39:00,0
+2804,SHP0426,Rest Stop,Rest Area,2026-08-02 09:04:00,36
+2805,SHP0426,Checkpoint,Fuel Station,2026-08-02 09:53:00,0
+2806,SHP0426,Checkpoint,Distribution Center,2026-08-02 10:16:00,0
+2807,SHP0426,Checkpoint,Fuel Station,2026-08-02 07:58:00,0
+2808,SHP0426,Cold Storage Stop,Fuel Station,2026-08-02 08:31:00,20
+2809,SHP0426,Arrival,Pune,2026-08-02 11:20:00,0
+2810,SHP0427,Departure,Pune,2026-08-03 07:31:00,0
+2811,SHP0427,Rest Stop,Distribution Center,2026-08-03 09:28:00,39
+2812,SHP0427,Checkpoint,City Entry,2026-08-03 07:41:00,0
+2813,SHP0427,Checkpoint,Fuel Station,2026-08-03 08:57:00,0
+2814,SHP0427,Checkpoint,Cold Storage Facility,2026-08-03 09:20:00,0
+2815,SHP0427,Checkpoint,City Entry,2026-08-03 09:19:00,0
+2816,SHP0427,Arrival,Bengaluru,2026-08-03 10:04:00,0
+2817,SHP0428,Departure,Mumbai,2026-08-02 08:14:00,0
+2818,SHP0428,Checkpoint,Rest Area,2026-08-02 13:08:00,0
+2819,SHP0428,Rest Stop,City Entry,2026-08-02 09:30:00,32
+2820,SHP0428,Checkpoint,Fuel Station,2026-08-02 12:30:00,0
+2821,SHP0428,Arrival,Kochi,2026-08-02 14:09:00,0
+2822,SHP0429,Departure,Coimbatore,2026-08-01 09:51:00,0
+2823,SHP0429,Checkpoint,Highway Checkpoint,2026-08-01 11:53:00,0
+2824,SHP0429,Checkpoint,Cold Storage Facility,2026-08-01 10:12:00,0
+2825,SHP0429,Route Deviation,Highway Checkpoint,2026-08-01 11:55:00,63
+2826,SHP0429,Traffic Delay,Highway Checkpoint,2026-08-01 10:58:00,47
+2827,SHP0429,Cold Storage Stop,Rest Area,2026-08-01 14:17:00,18
+2828,SHP0429,Arrival,Chennai,2026-08-01 14:27:00,0
+2829,SHP0430,Departure,Pune,2026-08-01 05:32:00,0
+2830,SHP0430,Cold Storage Stop,Distribution Center,2026-08-01 07:54:00,8
+2831,SHP0430,Checkpoint,Fuel Station,2026-08-01 07:43:00,0
+2832,SHP0430,Checkpoint,Cold Storage Facility,2026-08-01 08:01:00,0
+2833,SHP0430,Arrival,Mumbai,2026-08-01 09:29:00,0
+2834,SHP0431,Departure,Salem,2026-08-04 08:07:00,0
+2835,SHP0431,Rest Stop,Fuel Station,2026-08-04 10:37:00,40
+2836,SHP0431,Cold Storage Stop,Highway Checkpoint,2026-08-04 10:40:00,10
+2837,SHP0431,Checkpoint,Rest Area,2026-08-04 08:31:00,0
+2838,SHP0431,Cold Storage Stop,Cold Storage Facility,2026-08-04 13:10:00,15
+2839,SHP0431,Rest Stop,City Entry,2026-08-04 12:47:00,11
+2840,SHP0431,Arrival,Coimbatore,2026-08-04 13:32:00,0
+2841,SHP0432,Departure,Pune,2026-08-06 10:00:00,0
+2842,SHP0432,Checkpoint,Distribution Center,2026-08-06 10:32:00,0
+2843,SHP0432,Cold Storage Stop,Cold Storage Facility,2026-08-06 10:54:00,19
+2844,SHP0432,Cold Storage Stop,Cold Storage Facility,2026-08-06 10:35:00,12
+2845,SHP0432,Cold Storage Stop,Rest Area,2026-08-06 10:28:00,6
+2846,SHP0432,Arrival,Madurai,2026-08-06 11:06:00,0
+2847,SHP0433,Departure,Hyderabad,2026-08-03 09:06:00,0
+2848,SHP0433,Checkpoint,Rest Area,2026-08-03 10:15:00,0
+2849,SHP0433,Checkpoint,City Entry,2026-08-03 11:35:00,0
+2850,SHP0433,Rest Stop,Highway Checkpoint,2026-08-03 11:51:00,38
+2851,SHP0433,Cold Storage Stop,Fuel Station,2026-08-03 11:08:00,10
+2852,SHP0433,Checkpoint,Highway Checkpoint,2026-08-03 11:09:00,0
+2853,SHP0433,Arrival,Salem,2026-08-03 12:52:00,0
+2854,SHP0434,Departure,Madurai,2026-08-07 07:11:00,0
+2855,SHP0434,Checkpoint,Distribution Center,2026-08-07 07:45:00,0
+2856,SHP0434,Rest Stop,Rest Area,2026-08-07 12:41:00,14
+2857,SHP0434,Traffic Delay,Fuel Station,2026-08-07 08:01:00,15
+2858,SHP0434,Checkpoint,Fuel Station,2026-08-07 11:23:00,0
+2859,SHP0434,Cold Storage Stop,City Entry,2026-08-07 11:12:00,8
+2860,SHP0434,Arrival,Bengaluru,2026-08-07 12:51:00,0
+2861,SHP0435,Departure,Kochi,2026-08-01 07:30:00,0
+2862,SHP0435,Checkpoint,City Entry,2026-08-01 08:52:00,0
+2863,SHP0435,Rest Stop,City Entry,2026-08-01 09:45:00,23
+2864,SHP0435,Checkpoint,Fuel Station,2026-08-01 09:47:00,0
+2865,SHP0435,Route Deviation,Fuel Station,2026-08-01 10:53:00,28
+2866,SHP0435,Arrival,Hyderabad,2026-08-01 11:25:00,0
+2867,SHP0436,Departure,Madurai,2026-08-06 08:27:00,0
+2868,SHP0436,Checkpoint,Rest Area,2026-08-06 10:45:00,0
+2869,SHP0436,Checkpoint,City Entry,2026-08-06 08:38:00,0
+2870,SHP0436,Rest Stop,City Entry,2026-08-06 08:44:00,38
+2871,SHP0436,Arrival,Coimbatore,2026-08-06 11:14:00,0
+2872,SHP0437,Departure,Salem,2026-08-07 07:54:00,0
+2873,SHP0437,Checkpoint,Distribution Center,2026-08-07 09:05:00,0
+2874,SHP0437,Checkpoint,City Entry,2026-08-07 10:47:00,0
+2875,SHP0437,Rest Stop,City Entry,2026-08-07 09:14:00,28
+2876,SHP0437,Traffic Delay,City Entry,2026-08-07 09:09:00,15
+2877,SHP0437,Arrival,Madurai,2026-08-07 12:19:00,0
+2878,SHP0438,Departure,Kochi,2026-08-05 06:36:00,0
+2879,SHP0438,Rest Stop,Rest Area,2026-08-05 08:32:00,30
+2880,SHP0438,Checkpoint,Distribution Center,2026-08-05 07:06:00,0
+2881,SHP0438,Checkpoint,Distribution Center,2026-08-05 08:07:00,0
+2882,SHP0438,Checkpoint,Fuel Station,2026-08-05 06:55:00,0
+2883,SHP0438,Arrival,Pune,2026-08-05 08:43:00,0
+2884,SHP0439,Departure,Bengaluru,2026-08-02 05:46:00,0
+2885,SHP0439,Checkpoint,Highway Checkpoint,2026-08-02 06:33:00,0
+2886,SHP0439,Checkpoint,Fuel Station,2026-08-02 08:41:00,0
+2887,SHP0439,Checkpoint,City Entry,2026-08-02 07:09:00,0
+2888,SHP0439,Cold Storage Stop,Fuel Station,2026-08-02 08:08:00,14
+2889,SHP0439,Checkpoint,City Entry,2026-08-02 08:19:00,0
+2890,SHP0439,Traffic Delay,Rest Area,2026-08-02 07:31:00,50
+2891,SHP0439,Arrival,Hyderabad,2026-08-02 09:04:00,0
+2892,SHP0440,Departure,Hyderabad,2026-08-04 08:54:00,0
+2893,SHP0440,Traffic Delay,Rest Area,2026-08-04 09:56:00,31
+2894,SHP0440,Checkpoint,Fuel Station,2026-08-04 12:18:00,0
+2895,SHP0440,Checkpoint,Distribution Center,2026-08-04 12:50:00,0
+2896,SHP0440,Checkpoint,Rest Area,2026-08-04 11:35:00,0
+2897,SHP0440,Arrival,Mumbai,2026-08-04 13:09:00,0
+2898,SHP0441,Departure,Hyderabad,2026-08-04 10:09:00,0
+2899,SHP0441,Cold Storage Stop,Rest Area,2026-08-04 11:19:00,5
+2900,SHP0441,Checkpoint,Rest Area,2026-08-04 12:13:00,0
+2901,SHP0441,Rest Stop,Cold Storage Facility,2026-08-04 11:26:00,22
+2902,SHP0441,Checkpoint,Fuel Station,2026-08-04 13:55:00,0
+2903,SHP0441,Cold Storage Stop,Rest Area,2026-08-04 14:52:00,17
+2904,SHP0441,Checkpoint,Fuel Station,2026-08-04 10:55:00,0
+2905,SHP0441,Arrival,Coimbatore,2026-08-04 15:11:00,0
+2906,SHP0442,Departure,Chennai,2026-08-02 08:31:00,0
+2907,SHP0442,Cold Storage Stop,Fuel Station,2026-08-02 10:08:00,8
+2908,SHP0442,Rest Stop,Rest Area,2026-08-02 10:14:00,37
+2909,SHP0442,Cold Storage Stop,Fuel Station,2026-08-02 09:01:00,19
+2910,SHP0442,Checkpoint,Rest Area,2026-08-02 10:07:00,0
+2911,SHP0442,Cold Storage Stop,Cold Storage Facility,2026-08-02 10:24:00,17
+2912,SHP0442,Traffic Delay,Cold Storage Facility,2026-08-02 09:39:00,60
+2913,SHP0442,Arrival,Coimbatore,2026-08-02 10:39:00,0
+2914,SHP0443,Departure,Mumbai,2026-08-04 08:19:00,0
+2915,SHP0443,Rest Stop,Fuel Station,2026-08-04 10:04:00,24
+2916,SHP0443,Cold Storage Stop,Fuel Station,2026-08-04 09:50:00,19
+2917,SHP0443,Checkpoint,Distribution Center,2026-08-04 10:20:00,0
+2918,SHP0443,Checkpoint,City Entry,2026-08-04 11:09:00,0
+2919,SHP0443,Checkpoint,Distribution Center,2026-08-04 10:27:00,0
+2920,SHP0443,Checkpoint,Highway Checkpoint,2026-08-04 10:14:00,0
+2921,SHP0443,Arrival,Madurai,2026-08-04 11:27:00,0
+2922,SHP0444,Departure,Mumbai,2026-08-05 05:25:00,0
+2923,SHP0444,Checkpoint,Highway Checkpoint,2026-08-05 06:35:00,0
+2924,SHP0444,Checkpoint,Fuel Station,2026-08-05 06:47:00,0
+2925,SHP0444,Cold Storage Stop,Fuel Station,2026-08-05 06:11:00,10
+2926,SHP0444,Checkpoint,Fuel Station,2026-08-05 06:38:00,0
+2927,SHP0444,Arrival,Bengaluru,2026-08-05 07:15:00,0
+2928,SHP0445,Departure,Coimbatore,2026-08-07 06:52:00,0
+2929,SHP0445,Checkpoint,Highway Checkpoint,2026-08-07 08:56:00,0
+2930,SHP0445,Rest Stop,Cold Storage Facility,2026-08-07 09:47:00,38
+2931,SHP0445,Rest Stop,Distribution Center,2026-08-07 08:08:00,10
+2932,SHP0445,Checkpoint,Fuel Station,2026-08-07 08:34:00,0
+2933,SHP0445,Checkpoint,Highway Checkpoint,2026-08-07 07:55:00,0
+2934,SHP0445,Arrival,Chennai,2026-08-07 10:02:00,0
+2935,SHP0446,Departure,Pune,2026-08-07 08:47:00,0
+2936,SHP0446,Cold Storage Stop,Distribution Center,2026-08-07 08:57:00,19
+2937,SHP0446,Checkpoint,Distribution Center,2026-08-07 11:20:00,0
+2938,SHP0446,Checkpoint,City Entry,2026-08-07 11:07:00,0
+2939,SHP0446,Route Deviation,Rest Area,2026-08-07 09:39:00,35
+2940,SHP0446,Arrival,Bangalore,2026-08-07 12:38:00,0
+2941,SHP0447,Departure,Kochi,2026-08-03 07:35:00,0
+2942,SHP0447,Rest Stop,Fuel Station,2026-08-03 10:35:00,37
+2943,SHP0447,Cold Storage Stop,City Entry,2026-08-03 11:08:00,11
+2944,SHP0447,Checkpoint,Highway Checkpoint,2026-08-03 12:07:00,0
+2945,SHP0447,Rest Stop,Fuel Station,2026-08-03 12:00:00,11
+2946,SHP0447,Cold Storage Stop,Distribution Center,2026-08-03 12:51:00,7
+2947,SHP0447,Arrival,Madurai,2026-08-03 13:20:00,0
+2948,SHP0448,Departure,Kochi,2026-08-03 05:26:00,0
+2949,SHP0448,Checkpoint,Distribution Center,2026-08-03 06:29:00,0
+2950,SHP0448,Cold Storage Stop,Distribution Center,2026-08-03 07:00:00,16
+2951,SHP0448,Checkpoint,Cold Storage Facility,2026-08-03 06:12:00,0
+2952,SHP0448,Arrival,Madurai,2026-08-03 07:28:00,0
+2953,SHP0449,Departure,Madurai,2026-08-02 06:36:00,0
+2954,SHP0449,Checkpoint,Fuel Station,2026-08-02 12:05:00,0
+2955,SHP0449,Rest Stop,City Entry,2026-08-02 09:24:00,24
+2956,SHP0449,Checkpoint,Cold Storage Facility,2026-08-02 12:12:00,0
+2957,SHP0449,Cold Storage Stop,City Entry,2026-08-02 11:23:00,20
+2958,SHP0449,Cold Storage Stop,Cold Storage Facility,2026-08-02 07:43:00,10
+2959,SHP0449,Arrival,Bengaluru,2026-08-02 12:30:00,0
+2960,SHP0450,Departure,Mumbai,2026-08-01 07:22:00,0
+2961,SHP0450,Checkpoint,Cold Storage Facility,2026-08-01 10:01:00,0
+2962,SHP0450,Checkpoint,Distribution Center,2026-08-01 08:23:00,0
+2963,SHP0450,Traffic Delay,City Entry,2026-08-01 07:44:00,26
+2964,SHP0450,Traffic Delay,Distribution Center,2026-08-01 09:18:00,50
+2965,SHP0450,Cold Storage Stop,Fuel Station,2026-08-01 10:51:00,17
+2966,SHP0450,Arrival,Coimbatore,2026-08-01 11:08:00,0
+2967,SHP0451,Departure,Mumbai,2026-08-03 10:28:00,0
+2968,SHP0451,Checkpoint,Rest Area,2026-08-03 11:12:00,0
+2969,SHP0451,Checkpoint,Distribution Center,2026-08-03 11:26:00,0
+2970,SHP0451,Checkpoint,Distribution Center,2026-08-03 11:41:00,0
+2971,SHP0451,Checkpoint,City Entry,2026-08-03 11:09:00,0
+2972,SHP0451,Arrival,Pune,2026-08-03 12:08:00,0
+2973,SHP0452,Departure,Salem,2026-08-06 07:29:00,0
+2974,SHP0452,Rest Stop,Fuel Station,2026-08-06 09:30:00,23
+2975,SHP0452,Checkpoint,Rest Area,2026-08-06 07:46:00,0
+2976,SHP0452,Checkpoint,City Entry,2026-08-06 07:48:00,0
+2977,SHP0452,Checkpoint,Cold Storage Facility,2026-08-06 08:38:00,0
+2978,SHP0452,Checkpoint,Rest Area,2026-08-06 09:19:00,0
+2979,SHP0452,Arrival,Bengaluru,2026-08-06 09:43:00,0
+2980,SHP0453,Departure,Coimbatore,2026-08-07 08:40:00,0
+2981,SHP0453,Checkpoint,City Entry,2026-08-07 09:13:00,0
+2982,SHP0453,Rest Stop,Distribution Center,2026-08-07 13:14:00,27
+2983,SHP0453,Checkpoint,City Entry,2026-08-07 09:01:00,0
+2984,SHP0453,Checkpoint,Rest Area,2026-08-07 10:54:00,0
+2985,SHP0453,Arrival,Madurai,2026-08-07 14:32:00,0
+2986,SHP0454,Departure,Salem,2026-08-07 05:10:00,0
+2987,SHP0454,Checkpoint,Highway Checkpoint,2026-08-07 05:28:00,0
+2988,SHP0454,Checkpoint,Distribution Center,2026-08-07 06:39:00,0
+2989,SHP0454,Checkpoint,Cold Storage Facility,2026-08-07 05:43:00,0
+2990,SHP0454,Traffic Delay,Distribution Center,2026-08-07 05:43:00,40
+2991,SHP0454,Traffic Delay,Fuel Station,2026-08-07 06:25:00,27
+2992,SHP0454,Traffic Delay,Cold Storage Facility,2026-08-07 08:53:00,33
+2993,SHP0454,Arrival,Bangalore,2026-08-07 09:05:00,0
+2994,SHP0455,Departure,Hyderabad,2026-08-05 07:41:00,0
+2995,SHP0455,Rest Stop,Highway Checkpoint,2026-08-05 08:12:00,15
+2996,SHP0455,Traffic Delay,Cold Storage Facility,2026-08-05 08:43:00,31
+2997,SHP0455,Checkpoint,Cold Storage Facility,2026-08-05 10:21:00,0
+2998,SHP0455,Checkpoint,Distribution Center,2026-08-05 10:29:00,0
+2999,SHP0455,Checkpoint,City Entry,2026-08-05 09:36:00,0
+3000,SHP0455,Arrival,Madurai,2026-08-05 11:10:00,0
+3001,SHP0456,Departure,Kochi,2026-08-05 10:25:00,0
+3002,SHP0456,Checkpoint,Rest Area,2026-08-05 12:12:00,0
+3003,SHP0456,Cold Storage Stop,Cold Storage Facility,2026-08-05 12:20:00,17
+3004,SHP0456,Checkpoint,Cold Storage Facility,2026-08-05 10:39:00,0
+3005,SHP0456,Checkpoint,Highway Checkpoint,2026-08-05 11:42:00,0
+3006,SHP0456,Arrival,Bengaluru,2026-08-05 13:43:00,0
+3007,SHP0457,Departure,Pune,2026-08-01 10:37:00,0
+3008,SHP0457,Checkpoint,Rest Area,2026-08-01 10:47:00,0
+3009,SHP0457,Checkpoint,Highway Checkpoint,2026-08-01 11:31:00,0
+3010,SHP0457,Checkpoint,City Entry,2026-08-01 14:10:00,0
+3011,SHP0457,Cold Storage Stop,Distribution Center,2026-08-01 14:08:00,18
+3012,SHP0457,Checkpoint,Distribution Center,2026-08-01 14:52:00,0
+3013,SHP0457,Arrival,Madurai,2026-08-01 16:03:00,0
+3014,SHP0458,Departure,Pune,2026-08-07 06:11:00,0
+3015,SHP0458,Checkpoint,Cold Storage Facility,2026-08-07 06:34:00,0
+3016,SHP0458,Checkpoint,Cold Storage Facility,2026-08-07 07:11:00,0
+3017,SHP0458,Checkpoint,Fuel Station,2026-08-07 06:38:00,0
+3018,SHP0458,Arrival,Salem,2026-08-07 07:22:00,0
+3019,SHP0459,Departure,Coimbatore,2026-08-03 10:16:00,0
+3020,SHP0459,Checkpoint,Cold Storage Facility,2026-08-03 11:40:00,0
+3021,SHP0459,Checkpoint,City Entry,2026-08-03 10:53:00,0
+3022,SHP0459,Checkpoint,Cold Storage Facility,2026-08-03 11:39:00,0
+3023,SHP0459,Traffic Delay,City Entry,2026-08-03 10:51:00,57
+3024,SHP0459,Checkpoint,Fuel Station,2026-08-03 11:32:00,0
+3025,SHP0459,Arrival,Hyderabad,2026-08-03 11:56:00,0
+3026,SHP0460,Departure,Hyderabad,2026-08-01 08:06:00,0
+3027,SHP0460,Checkpoint,Distribution Center,2026-08-01 09:32:00,0
+3028,SHP0460,Cold Storage Stop,Cold Storage Facility,2026-08-01 08:48:00,17
+3029,SHP0460,Rest Stop,Highway Checkpoint,2026-08-01 08:28:00,16
+3030,SHP0460,Checkpoint,City Entry,2026-08-01 09:14:00,0
+3031,SHP0460,Arrival,Coimbatore,2026-08-01 09:54:00,0
+3032,SHP0461,Departure,Bangalore,2026-08-01 09:03:00,0
+3033,SHP0461,Cold Storage Stop,Highway Checkpoint,2026-08-01 09:52:00,8
+3034,SHP0461,Rest Stop,Cold Storage Facility,2026-08-01 09:40:00,38
+3035,SHP0461,Checkpoint,Rest Area,2026-08-01 10:01:00,0
+3036,SHP0461,Rest Stop,City Entry,2026-08-01 09:29:00,32
+3037,SHP0461,Cold Storage Stop,Rest Area,2026-08-01 09:59:00,8
+3038,SHP0461,Arrival,Pune,2026-08-01 10:16:00,0
+3039,SHP0462,Departure,Salem,2026-08-07 05:06:00,0
+3040,SHP0462,Checkpoint,City Entry,2026-08-07 08:01:00,0
+3041,SHP0462,Checkpoint,Fuel Station,2026-08-07 07:51:00,0
+3042,SHP0462,Checkpoint,Distribution Center,2026-08-07 06:10:00,0
+3043,SHP0462,Cold Storage Stop,Highway Checkpoint,2026-08-07 05:54:00,17
+3044,SHP0462,Arrival,Mumbai,2026-08-07 08:20:00,0
+3045,SHP0463,Departure,Bengaluru,2026-08-03 05:41:00,0
+3046,SHP0463,Route Deviation,Rest Area,2026-08-03 08:20:00,32
+3047,SHP0463,Checkpoint,Distribution Center,2026-08-03 07:40:00,0
+3048,SHP0463,Checkpoint,Distribution Center,2026-08-03 09:12:00,0
+3049,SHP0463,Traffic Delay,Distribution Center,2026-08-03 09:31:00,20
+3050,SHP0463,Route Deviation,Highway Checkpoint,2026-08-03 07:06:00,28
+3051,SHP0463,Arrival,Coimbatore,2026-08-03 10:00:00,0
+3052,SHP0464,Departure,Kochi,2026-08-04 06:47:00,0
+3053,SHP0464,Rest Stop,Highway Checkpoint,2026-08-04 06:57:00,23
+3054,SHP0464,Rest Stop,Rest Area,2026-08-04 07:58:00,13
+3055,SHP0464,Traffic Delay,Rest Area,2026-08-04 07:51:00,51
+3056,SHP0464,Checkpoint,City Entry,2026-08-04 07:40:00,0
+3057,SHP0464,Arrival,Hyderabad,2026-08-04 10:12:00,0
+3058,SHP0465,Departure,Pune,2026-08-04 06:33:00,0
+3059,SHP0465,Checkpoint,Fuel Station,2026-08-04 08:49:00,0
+3060,SHP0465,Checkpoint,Distribution Center,2026-08-04 08:38:00,0
+3061,SHP0465,Checkpoint,Rest Area,2026-08-04 08:34:00,0
+3062,SHP0465,Checkpoint,Highway Checkpoint,2026-08-04 07:04:00,0
+3063,SHP0465,Checkpoint,Distribution Center,2026-08-04 07:21:00,0
+3064,SHP0465,Checkpoint,Highway Checkpoint,2026-08-04 08:06:00,0
+3065,SHP0465,Arrival,Coimbatore,2026-08-04 09:00:00,0
+3066,SHP0466,Departure,Chennai,2026-08-04 07:55:00,0
+3067,SHP0466,Checkpoint,Cold Storage Facility,2026-08-04 11:10:00,0
+3068,SHP0466,Checkpoint,Highway Checkpoint,2026-08-04 10:11:00,0
+3069,SHP0466,Rest Stop,Highway Checkpoint,2026-08-04 12:43:00,33
+3070,SHP0466,Route Deviation,Cold Storage Facility,2026-08-04 10:44:00,17
+3071,SHP0466,Arrival,Madurai,2026-08-04 12:58:00,0
+3072,SHP0467,Departure,Pune,2026-08-04 07:35:00,0
+3073,SHP0467,Checkpoint,Fuel Station,2026-08-04 09:54:00,0
+3074,SHP0467,Checkpoint,Fuel Station,2026-08-04 11:59:00,0
+3075,SHP0467,Checkpoint,Rest Area,2026-08-04 09:09:00,0
+3076,SHP0467,Arrival,Mumbai,2026-08-04 12:22:00,0
+3077,SHP0468,Departure,Coimbatore,2026-08-03 06:37:00,0
+3078,SHP0468,Checkpoint,Highway Checkpoint,2026-08-03 07:26:00,0
+3079,SHP0468,Checkpoint,Rest Area,2026-08-03 09:15:00,0
+3080,SHP0468,Rest Stop,Fuel Station,2026-08-03 08:09:00,13
+3081,SHP0468,Checkpoint,Rest Area,2026-08-03 08:26:00,0
+3082,SHP0468,Arrival,Mumbai,2026-08-03 11:30:00,0
+3083,SHP0469,Departure,Bengaluru,2026-08-07 09:40:00,0
+3084,SHP0469,Checkpoint,Fuel Station,2026-08-07 09:52:00,0
+3085,SHP0469,Cold Storage Stop,Highway Checkpoint,2026-08-07 12:15:00,19
+3086,SHP0469,Route Deviation,Highway Checkpoint,2026-08-07 11:02:00,35
+3087,SHP0469,Traffic Delay,Highway Checkpoint,2026-08-07 11:01:00,26
+3088,SHP0469,Checkpoint,Rest Area,2026-08-07 13:31:00,0
+3089,SHP0469,Checkpoint,Distribution Center,2026-08-07 11:39:00,0
+3090,SHP0469,Arrival,Salem,2026-08-07 15:13:00,0
+3091,SHP0470,Departure,Kochi,2026-08-01 08:34:00,0
+3092,SHP0470,Checkpoint,City Entry,2026-08-01 09:24:00,0
+3093,SHP0470,Checkpoint,Highway Checkpoint,2026-08-01 09:59:00,0
+3094,SHP0470,Rest Stop,Rest Area,2026-08-01 10:57:00,40
+3095,SHP0470,Arrival,Madurai,2026-08-01 11:30:00,0
+3096,SHP0471,Departure,Bangalore,2026-08-01 07:23:00,0
+3097,SHP0471,Checkpoint,City Entry,2026-08-01 09:35:00,0
+3098,SHP0471,Checkpoint,Cold Storage Facility,2026-08-01 08:44:00,0
+3099,SHP0471,Checkpoint,Fuel Station,2026-08-01 10:31:00,0
+3100,SHP0471,Checkpoint,Cold Storage Facility,2026-08-01 08:52:00,0
+3101,SHP0471,Checkpoint,Fuel Station,2026-08-01 07:52:00,0
+3102,SHP0471,Arrival,Pune,2026-08-01 11:54:00,0
+3103,SHP0472,Departure,Kochi,2026-08-01 07:00:00,0
+3104,SHP0472,Checkpoint,Cold Storage Facility,2026-08-01 07:12:00,0
+3105,SHP0472,Rest Stop,Highway Checkpoint,2026-08-01 07:21:00,16
+3106,SHP0472,Checkpoint,Highway Checkpoint,2026-08-01 07:47:00,0
+3107,SHP0472,Checkpoint,Cold Storage Facility,2026-08-01 07:27:00,0
+3108,SHP0472,Rest Stop,Distribution Center,2026-08-01 07:44:00,18
+3109,SHP0472,Arrival,Coimbatore,2026-08-01 08:00:00,0
+3110,SHP0473,Departure,Mumbai,2026-08-02 07:18:00,0
+3111,SHP0473,Checkpoint,Rest Area,2026-08-02 08:28:00,0
+3112,SHP0473,Checkpoint,City Entry,2026-08-02 10:36:00,0
+3113,SHP0473,Checkpoint,Cold Storage Facility,2026-08-02 11:18:00,0
+3114,SHP0473,Checkpoint,Rest Area,2026-08-02 11:40:00,0
+3115,SHP0473,Cold Storage Stop,City Entry,2026-08-02 08:29:00,19
+3116,SHP0473,Arrival,Coimbatore,2026-08-02 12:18:00,0
+3117,SHP0474,Departure,Mumbai,2026-08-06 10:59:00,0
+3118,SHP0474,Checkpoint,Distribution Center,2026-08-06 14:45:00,0
+3119,SHP0474,Checkpoint,Fuel Station,2026-08-06 11:09:00,0
+3120,SHP0474,Checkpoint,Cold Storage Facility,2026-08-06 12:37:00,0
+3121,SHP0474,Cold Storage Stop,Fuel Station,2026-08-06 12:48:00,19
+3122,SHP0474,Checkpoint,Cold Storage Facility,2026-08-06 12:12:00,0
+3123,SHP0474,Traffic Delay,Cold Storage Facility,2026-08-06 15:49:00,20
+3124,SHP0474,Arrival,Chennai,2026-08-06 16:10:00,0
+3125,SHP0475,Departure,Pune,2026-08-07 05:49:00,0
+3126,SHP0475,Checkpoint,Cold Storage Facility,2026-08-07 07:05:00,0
+3127,SHP0475,Traffic Delay,Distribution Center,2026-08-07 07:27:00,58
+3128,SHP0475,Checkpoint,Fuel Station,2026-08-07 08:00:00,0
+3129,SHP0475,Cold Storage Stop,Rest Area,2026-08-07 07:07:00,6
+3130,SHP0475,Checkpoint,Fuel Station,2026-08-07 07:28:00,0
+3131,SHP0475,Arrival,Kochi,2026-08-07 10:29:00,0
+3132,SHP0476,Departure,Kochi,2026-08-03 06:50:00,0
+3133,SHP0476,Checkpoint,Highway Checkpoint,2026-08-03 07:38:00,0
+3134,SHP0476,Route Deviation,Highway Checkpoint,2026-08-03 07:10:00,89
+3135,SHP0476,Checkpoint,City Entry,2026-08-03 07:22:00,0
+3136,SHP0476,Arrival,Bengaluru,2026-08-03 07:53:00,0
+3137,SHP0477,Departure,Mumbai,2026-08-03 06:26:00,0
+3138,SHP0477,Checkpoint,Highway Checkpoint,2026-08-03 11:39:00,0
+3139,SHP0477,Cold Storage Stop,Fuel Station,2026-08-03 08:16:00,13
+3140,SHP0477,Checkpoint,City Entry,2026-08-03 11:25:00,0
+3141,SHP0477,Arrival,Madurai,2026-08-03 12:13:00,0
+3142,SHP0478,Departure,Salem,2026-08-01 06:45:00,0
+3143,SHP0478,Rest Stop,Highway Checkpoint,2026-08-01 09:00:00,28
+3144,SHP0478,Rest Stop,City Entry,2026-08-01 09:25:00,28
+3145,SHP0478,Checkpoint,City Entry,2026-08-01 07:37:00,0
+3146,SHP0478,Rest Stop,Highway Checkpoint,2026-08-01 06:58:00,39
+3147,SHP0478,Arrival,Hyderabad,2026-08-01 11:04:00,0
+3148,SHP0479,Departure,Salem,2026-08-01 07:05:00,0
+3149,SHP0479,Checkpoint,Highway Checkpoint,2026-08-01 11:20:00,0
+3150,SHP0479,Rest Stop,Rest Area,2026-08-01 10:19:00,28
+3151,SHP0479,Checkpoint,Rest Area,2026-08-01 09:21:00,0
+3152,SHP0479,Traffic Delay,Fuel Station,2026-08-01 09:23:00,20
+3153,SHP0479,Arrival,Hyderabad,2026-08-01 11:41:00,0
+3154,SHP0480,Departure,Hyderabad,2026-08-07 09:51:00,0
+3155,SHP0480,Checkpoint,Highway Checkpoint,2026-08-07 11:00:00,0
+3156,SHP0480,Checkpoint,City Entry,2026-08-07 11:17:00,0
+3157,SHP0480,Checkpoint,Distribution Center,2026-08-07 12:47:00,0
+3158,SHP0480,Arrival,Mumbai,2026-08-07 13:10:00,0
+3159,SHP0481,Departure,Kochi,2026-08-03 07:26:00,0
+3160,SHP0481,Checkpoint,Rest Area,2026-08-03 07:39:00,0
+3161,SHP0481,Checkpoint,Cold Storage Facility,2026-08-03 08:02:00,0
+3162,SHP0481,Rest Stop,Cold Storage Facility,2026-08-03 07:48:00,27
+3163,SHP0481,Arrival,Mumbai,2026-08-03 10:02:00,0
+3164,SHP0482,Departure,Bangalore,2026-08-03 06:18:00,0
+3165,SHP0482,Checkpoint,Rest Area,2026-08-03 07:05:00,0
+3166,SHP0482,Rest Stop,Rest Area,2026-08-03 07:33:00,27
+3167,SHP0482,Rest Stop,Distribution Center,2026-08-03 07:15:00,15
+3168,SHP0482,Checkpoint,City Entry,2026-08-03 06:34:00,0
+3169,SHP0482,Arrival,Coimbatore,2026-08-03 08:14:00,0
+3170,SHP0483,Departure,Pune,2026-08-03 08:17:00,0
+3171,SHP0483,Rest Stop,Distribution Center,2026-08-03 09:10:00,14
+3172,SHP0483,Checkpoint,Fuel Station,2026-08-03 12:48:00,0
+3173,SHP0483,Checkpoint,Rest Area,2026-08-03 08:50:00,0
+3174,SHP0483,Traffic Delay,Rest Area,2026-08-03 12:20:00,28
+3175,SHP0483,Traffic Delay,Fuel Station,2026-08-03 10:50:00,16
+3176,SHP0483,Arrival,Bengaluru,2026-08-03 13:28:00,0
+3177,SHP0484,Departure,Hyderabad,2026-08-05 05:09:00,0
+3178,SHP0484,Route Deviation,Highway Checkpoint,2026-08-05 06:06:00,22
+3179,SHP0484,Checkpoint,Rest Area,2026-08-05 06:10:00,0
+3180,SHP0484,Checkpoint,Highway Checkpoint,2026-08-05 06:21:00,0
+3181,SHP0484,Arrival,Madurai,2026-08-05 06:34:00,0
+3182,SHP0485,Departure,Mumbai,2026-08-07 06:06:00,0
+3183,SHP0485,Cold Storage Stop,City Entry,2026-08-07 08:53:00,5
+3184,SHP0485,Checkpoint,Rest Area,2026-08-07 06:53:00,0
+3185,SHP0485,Checkpoint,Rest Area,2026-08-07 08:05:00,0
+3186,SHP0485,Checkpoint,Highway Checkpoint,2026-08-07 09:12:00,0
+3187,SHP0485,Checkpoint,Rest Area,2026-08-07 09:14:00,0
+3188,SHP0485,Arrival,Chennai,2026-08-07 09:30:00,0
+3189,SHP0486,Departure,Kochi,2026-08-05 10:28:00,0
+3190,SHP0486,Traffic Delay,Distribution Center,2026-08-05 11:12:00,37
+3191,SHP0486,Checkpoint,Cold Storage Facility,2026-08-05 11:09:00,0
+3192,SHP0486,Rest Stop,Distribution Center,2026-08-05 11:20:00,35
+3193,SHP0486,Cold Storage Stop,Distribution Center,2026-08-05 11:14:00,15
+3194,SHP0486,Traffic Delay,Cold Storage Facility,2026-08-05 11:17:00,48
+3195,SHP0486,Checkpoint,Rest Area,2026-08-05 11:09:00,0
+3196,SHP0486,Arrival,Coimbatore,2026-08-05 11:32:00,0
+3197,SHP0487,Departure,Hyderabad,2026-08-06 06:00:00,0
+3198,SHP0487,Cold Storage Stop,City Entry,2026-08-06 09:54:00,20
+3199,SHP0487,Checkpoint,City Entry,2026-08-06 06:32:00,0
+3200,SHP0487,Cold Storage Stop,Highway Checkpoint,2026-08-06 06:52:00,6
+3201,SHP0487,Checkpoint,Fuel Station,2026-08-06 09:17:00,0
+3202,SHP0487,Traffic Delay,Highway Checkpoint,2026-08-06 08:04:00,49
+3203,SHP0487,Arrival,Bangalore,2026-08-06 11:12:00,0
+3204,SHP0488,Departure,Hyderabad,2026-08-05 08:19:00,0
+3205,SHP0488,Checkpoint,Cold Storage Facility,2026-08-05 12:29:00,0
+3206,SHP0488,Traffic Delay,Distribution Center,2026-08-05 08:34:00,58
+3207,SHP0488,Checkpoint,Rest Area,2026-08-05 09:13:00,0
+3208,SHP0488,Arrival,Madurai,2026-08-05 13:34:00,0
+3209,SHP0489,Departure,Madurai,2026-08-07 10:50:00,0
+3210,SHP0489,Checkpoint,City Entry,2026-08-07 11:26:00,0
+3211,SHP0489,Cold Storage Stop,Rest Area,2026-08-07 11:42:00,12
+3212,SHP0489,Checkpoint,City Entry,2026-08-07 11:29:00,0
+3213,SHP0489,Checkpoint,Highway Checkpoint,2026-08-07 11:04:00,0
+3214,SHP0489,Traffic Delay,City Entry,2026-08-07 11:54:00,17
+3215,SHP0489,Rest Stop,Rest Area,2026-08-07 11:54:00,26
+3216,SHP0489,Arrival,Pune,2026-08-07 12:06:00,0
+3217,SHP0490,Departure,Madurai,2026-08-02 06:03:00,0
+3218,SHP0490,Checkpoint,Distribution Center,2026-08-02 08:49:00,0
+3219,SHP0490,Cold Storage Stop,Cold Storage Facility,2026-08-02 06:42:00,17
+3220,SHP0490,Checkpoint,City Entry,2026-08-02 09:04:00,0
+3221,SHP0490,Checkpoint,Fuel Station,2026-08-02 08:14:00,0
+3222,SHP0490,Checkpoint,Cold Storage Facility,2026-08-02 09:00:00,0
+3223,SHP0490,Arrival,Bangalore,2026-08-02 09:19:00,0
+3224,SHP0491,Departure,Salem,2026-08-02 09:30:00,0
+3225,SHP0491,Checkpoint,Highway Checkpoint,2026-08-02 10:51:00,0
+3226,SHP0491,Traffic Delay,Distribution Center,2026-08-02 11:35:00,11
+3227,SHP0491,Cold Storage Stop,City Entry,2026-08-02 09:40:00,6
+3228,SHP0491,Arrival,Bangalore,2026-08-02 12:02:00,0
+3229,SHP0492,Departure,Hyderabad,2026-08-01 08:53:00,0
+3230,SHP0492,Rest Stop,Rest Area,2026-08-01 09:03:00,17
+3231,SHP0492,Checkpoint,Cold Storage Facility,2026-08-01 09:13:00,0
+3232,SHP0492,Checkpoint,Cold Storage Facility,2026-08-01 09:18:00,0
+3233,SHP0492,Arrival,Kochi,2026-08-01 09:59:00,0
+3234,SHP0493,Departure,Bangalore,2026-08-01 08:49:00,0
+3235,SHP0493,Checkpoint,Rest Area,2026-08-01 11:39:00,0
+3236,SHP0493,Checkpoint,Rest Area,2026-08-01 13:15:00,0
+3237,SHP0493,Checkpoint,Distribution Center,2026-08-01 13:08:00,0
+3238,SHP0493,Rest Stop,Fuel Station,2026-08-01 11:48:00,12
+3239,SHP0493,Checkpoint,Highway Checkpoint,2026-08-01 09:56:00,0
+3240,SHP0493,Arrival,Hyderabad,2026-08-01 13:35:00,0
+3241,SHP0494,Departure,Hyderabad,2026-08-05 06:29:00,0
+3242,SHP0494,Checkpoint,City Entry,2026-08-05 07:53:00,0
+3243,SHP0494,Rest Stop,Cold Storage Facility,2026-08-05 08:01:00,18
+3244,SHP0494,Cold Storage Stop,City Entry,2026-08-05 07:56:00,11
+3245,SHP0494,Cold Storage Stop,Rest Area,2026-08-05 07:15:00,6
+3246,SHP0494,Cold Storage Stop,City Entry,2026-08-05 06:44:00,7
+3247,SHP0494,Checkpoint,Cold Storage Facility,2026-08-05 06:39:00,0
+3248,SHP0494,Arrival,Chennai,2026-08-05 08:17:00,0
+3249,SHP0495,Departure,Mumbai,2026-08-02 08:24:00,0
+3250,SHP0495,Checkpoint,Rest Area,2026-08-02 11:10:00,0
+3251,SHP0495,Cold Storage Stop,Highway Checkpoint,2026-08-02 10:51:00,11
+3252,SHP0495,Checkpoint,Rest Area,2026-08-02 08:55:00,0
+3253,SHP0495,Checkpoint,Fuel Station,2026-08-02 11:48:00,0
+3254,SHP0495,Checkpoint,Distribution Center,2026-08-02 09:47:00,0
+3255,SHP0495,Cold Storage Stop,Cold Storage Facility,2026-08-02 09:34:00,19
+3256,SHP0495,Arrival,Hyderabad,2026-08-02 12:03:00,0
+3257,SHP0496,Departure,Madurai,2026-08-06 10:46:00,0
+3258,SHP0496,Checkpoint,Rest Area,2026-08-06 11:17:00,0
+3259,SHP0496,Checkpoint,Fuel Station,2026-08-06 11:32:00,0
+3260,SHP0496,Checkpoint,City Entry,2026-08-06 11:13:00,0
+3261,SHP0496,Arrival,Coimbatore,2026-08-06 12:07:00,0
+3262,SHP0497,Departure,Mumbai,2026-08-02 07:30:00,0
+3263,SHP0497,Checkpoint,City Entry,2026-08-02 09:16:00,0
+3264,SHP0497,Checkpoint,Rest Area,2026-08-02 10:07:00,0
+3265,SHP0497,Checkpoint,City Entry,2026-08-02 09:16:00,0
+3266,SHP0497,Arrival,Bangalore,2026-08-02 11:02:00,0
+3267,SHP0498,Departure,Hyderabad,2026-08-05 05:55:00,0
+3268,SHP0498,Rest Stop,Rest Area,2026-08-05 06:46:00,10
+3269,SHP0498,Checkpoint,Distribution Center,2026-08-05 07:42:00,0
+3270,SHP0498,Checkpoint,Cold Storage Facility,2026-08-05 08:12:00,0
+3271,SHP0498,Cold Storage Stop,Rest Area,2026-08-05 07:35:00,11
+3272,SHP0498,Checkpoint,Cold Storage Facility,2026-08-05 06:53:00,0
+3273,SHP0498,Arrival,Madurai,2026-08-05 08:46:00,0
+3274,SHP0499,Departure,Bangalore,2026-08-06 10:27:00,0
+3275,SHP0499,Cold Storage Stop,Cold Storage Facility,2026-08-06 12:15:00,15
+3276,SHP0499,Traffic Delay,Fuel Station,2026-08-06 13:01:00,26
+3277,SHP0499,Checkpoint,Highway Checkpoint,2026-08-06 12:47:00,0
+3278,SHP0499,Route Deviation,Rest Area,2026-08-06 13:53:00,81
+3279,SHP0499,Cold Storage Stop,Fuel Station,2026-08-06 12:48:00,5
+3280,SHP0499,Traffic Delay,Distribution Center,2026-08-06 13:17:00,50
+3281,SHP0499,Arrival,Hyderabad,2026-08-06 14:13:00,0
+3282,SHP0500,Departure,Chennai,2026-08-01 07:37:00,0
+3283,SHP0500,Cold Storage Stop,Highway Checkpoint,2026-08-01 09:17:00,12
+3284,SHP0500,Checkpoint,Fuel Station,2026-08-01 07:54:00,0
+3285,SHP0500,Cold Storage Stop,City Entry,2026-08-01 07:52:00,11
+3286,SHP0500,Cold Storage Stop,Fuel Station,2026-08-01 08:49:00,8
+3287,SHP0500,Checkpoint,Highway Checkpoint,2026-08-01 09:21:00,0
+3288,SHP0500,Checkpoint,Cold Storage Facility,2026-08-01 09:18:00,0
+3289,SHP0500,Arrival,Coimbatore,2026-08-01 09:38:00,0
