@@ -385,4 +385,4 @@ DAY 3 -- RFM SEGMENTATION             PASS
 FIRST 35% REQUIREMENT                 PASS
 ```
 
-Full milestone report: [`docs/Review_1_35_Percent_Report.md`](Review_1_35_Percent_Report.md)
+Full milestone report: [`Review_1_35_Percent_Report.md`](Review_1_35_Percent_Report.md)
