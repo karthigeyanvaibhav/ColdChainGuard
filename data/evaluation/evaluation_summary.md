@@ -17,7 +17,7 @@ All major system components have been implemented, tested and verified.
 - Shipments evaluated: 500
 - Compliance rate: 42.8%
 - Audit PDFs generated: 500
-- Effort reduction: N/A% vs manual baseline
+- Effort reduction: 100.0% (45min manual vs 0.0136s automated)
 
 ### Predictive Analytics
 - Best model: Logistic Regression

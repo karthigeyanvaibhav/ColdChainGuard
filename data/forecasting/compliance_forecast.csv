@@ -1,0 +1,5 @@
+forecast_week,forecast_horizon,predicted_compliance_rate,predicted_pct,model,alpha,beta
+2024-05-26,Week+1,0.4271,42.7%,Holts_Double_Exponential,0.35,0.1
+2024-06-02,Week+2,0.4239,42.4%,Holts_Double_Exponential,0.35,0.1
+2024-06-09,Week+3,0.4208,42.1%,Holts_Double_Exponential,0.35,0.1
+2024-06-16,Week+4,0.4176,41.8%,Holts_Double_Exponential,0.35,0.1

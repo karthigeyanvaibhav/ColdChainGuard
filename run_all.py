@@ -273,9 +273,23 @@ def main():
     results["system_evaluation"] = ok
 
     # ──────────────────────────────────────────────────────
-    # STEP 21: Final Validation
+    # STEP 22: Forecasting (Day 8 analogue)
     # ──────────────────────────────────────────────────────
-    step(21, "Run final validation (all 17 checks)")
+    step(22, "Compliance-rate and excursion forecasting (Day 8 analogue)")
+    ok = run("forecasting.py", "Forecasting")
+    results["forecasting"] = ok
+
+    # ──────────────────────────────────────────────────────
+    # STEP 23: Cohort & Retention (Day 9 analogue)
+    # ──────────────────────────────────────────────────────
+    step(23, "Vehicle cohort and sensor survival analysis (Day 9 analogue)")
+    ok = run("cohort_retention.py", "Cohort & Retention")
+    results["cohort_retention"] = ok
+
+    # ──────────────────────────────────────────────────────
+    # STEP 24: Final Validation
+    # ──────────────────────────────────────────────────────
+    step(24, "Run final validation (all 17 checks)")
     ok = run("final_validation.py", "Final validation",
              extra_args=["--skip-db"] if SKIP_DB else [])
     results["final_validation"] = ok

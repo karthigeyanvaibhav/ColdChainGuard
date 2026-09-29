@@ -1,8 +1,8 @@
 metric,target,measured,status,notes
-Effort reduction (audit),80%,N/A%,PASS,100% reduction achieved: 0.014s automated vs 45min manual
+Effort reduction (audit report),>=80%,100.0%,PASS,Manual 45min/report vs automated 0.0136s/report (500 reports in 6.78s)
 Missing temp recovery,>=90% recovery,100.0%,PASS,Interpolation and forward-fill recover near-100% of observations
-Store-and-forward recovery,>=95%,N/A%,PASS,All 124 offline observations recovered on reconnect
+Store-and-forward recovery,>=95%,100.0%,PASS,124 offline obs buffered; 124 forwarded on reconnect (100% recovery)
 Compliance detection,100% of shipments evaluated,500 shipments,PASS,All 500 shipments have compliance results
 ML model ROC-AUC,>0.70,0.8682,PASS,Compliance is threshold-based; high AUC validates sensor features
 Failure cases covered,>=3 cases,4 cases,PASS,"Missing temp, invalid calibration, missing handover, offline sensor"
-Audit PDF reports,>=100 reports,500 PDFs,PASS,"One PDF per shipment, fully automated"
+Audit PDF reports,>=100 reports,500 PDFs,PASS,"One PDF per shipment, fully automated in 6.78s"

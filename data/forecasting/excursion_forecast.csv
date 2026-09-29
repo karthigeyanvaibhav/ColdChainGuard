@@ -1,0 +1,5 @@
+forecast_week,forecast_horizon,predicted_excursions,model,alpha,beta
+2024-05-26,Week+1,5.4,Holts_Double_Exponential,0.3,0.05
+2024-06-02,Week+2,3.2,Holts_Double_Exponential,0.3,0.05
+2024-06-09,Week+3,1.0,Holts_Double_Exponential,0.3,0.05
+2024-06-16,Week+4,0.0,Holts_Double_Exponential,0.3,0.05
