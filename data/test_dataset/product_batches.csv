@@ -1,0 +1,301 @@
+batch_id,product_name,product_type,min_temperature_c,max_temperature_c,quantity,expiry_date
+B0001,Frozen Paneer,Frozen,-25.0,-18.0,97,2026-08-26
+B0002,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,224,2026-08-17
+B0003,Frozen Corn,Frozen,-25.0,-18.0,288,2026-08-17
+B0004,Frozen Corn,Frozen,-25.0,-18.0,143,2026-08-24
+B0005,Yogurt,Chilled,2.0,8.0,68,2026-08-17
+B0006,Frozen Paneer,Frozen,-25.0,-18.0,34,2026-08-30
+B0007,Frozen Corn,Frozen,-25.0,-18.0,112,2026-08-24
+B0008,Fresh Milk,Chilled,2.0,8.0,150,2026-08-09
+B0009,Yogurt,Chilled,2.0,8.0,21,2026-08-24
+B0010,Frozen Paneer,Frozen,-25.0,-18.0,222,2026-08-18
+B0011,Frozen Corn,Frozen,-25.0,-18.0,139,2026-08-14
+B0012,Yogurt,Chilled,2.0,8.0,264,2026-08-23
+B0013,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,277,2026-08-09
+B0014,Frozen Paneer,Frozen,-25.0,-18.0,268,2026-08-10
+B0015,Frozen French Fries,Frozen,-25.0,-18.0,123,2026-08-29
+B0016,Frozen Corn,Frozen,-25.0,-18.0,263,2026-08-27
+B0017,Frozen Corn,Frozen,-25.0,-18.0,151,2026-08-09
+B0018,Frozen Corn,Frozen,-25.0,-18.0,143,2026-08-20
+B0019,Frozen French Fries,Frozen,-25.0,-18.0,222,2026-08-20
+B0020,Frozen Corn,Frozen,-25.0,-18.0,148,2026-08-14
+B0021,Cheese,Chilled,2.0,8.0,116,2026-08-07
+B0022,Frozen Peas,Frozen,-25.0,-18.0,243,2026-08-05
+B0023,Yogurt,Chilled,2.0,8.0,45,2026-08-25
+B0024,Yogurt,Chilled,2.0,8.0,157,2026-08-25
+B0025,Fresh Milk,Chilled,2.0,8.0,291,2026-08-13
+B0026,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,78,2026-08-09
+B0027,Cheese,Chilled,2.0,8.0,92,2026-08-26
+B0028,Fresh Cream,Chilled,2.0,8.0,153,2026-08-10
+B0029,Fresh Milk,Chilled,2.0,8.0,33,2026-08-15
+B0030,Frozen Corn,Frozen,-25.0,-18.0,60,2026-08-30
+B0031,Fresh Milk,Chilled,2.0,8.0,203,2026-08-14
+B0032,Yogurt,Chilled,2.0,8.0,295,2026-08-08
+B0033,Frozen Peas,Frozen,-25.0,-18.0,34,2026-08-09
+B0034,Frozen Corn,Frozen,-25.0,-18.0,195,2026-08-23
+B0035,Fresh Milk,Chilled,2.0,8.0,20,2026-08-17
+B0036,Frozen French Fries,Frozen,-25.0,-18.0,61,2026-08-26
+B0037,Cheese,Chilled,2.0,8.0,236,2026-08-21
+B0038,Fresh Cream,Chilled,2.0,8.0,154,2026-08-14
+B0039,Fresh Milk,Chilled,2.0,8.0,159,2026-08-20
+B0040,Frozen Peas,Frozen,-25.0,-18.0,37,2026-08-11
+B0041,Fresh Paneer,Chilled,2.0,8.0,72,2026-08-12
+B0042,Fresh Cream,Chilled,2.0,8.0,144,2026-08-10
+B0043,Cheese,Chilled,2.0,8.0,287,2026-08-04
+B0044,Fresh Milk,Chilled,2.0,8.0,216,2026-08-07
+B0045,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,273,2026-08-28
+B0046,Cheese,Chilled,2.0,8.0,184,2026-08-20
+B0047,Frozen Paneer,Frozen,-25.0,-18.0,293,2026-08-31
+B0048,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,223,2026-08-28
+B0049,Frozen Peas,Frozen,-25.0,-18.0,163,2026-08-18
+B0050,Fresh Paneer,Chilled,2.0,8.0,63,2026-08-26
+B0051,Frozen Peas,Frozen,-25.0,-18.0,62,2026-08-24
+B0052,Frozen French Fries,Frozen,-25.0,-18.0,118,2026-08-17
+B0053,Frozen Peas,Frozen,-25.0,-18.0,82,2026-08-29
+B0054,Yogurt,Chilled,2.0,8.0,124,2026-08-25
+B0055,Frozen Peas,Frozen,-25.0,-18.0,240,2026-08-30
+B0056,Yogurt,Chilled,2.0,8.0,89,2026-08-30
+B0057,Yogurt,Chilled,2.0,8.0,232,2026-08-07
+B0058,Yogurt,Chilled,2.0,8.0,234,2026-08-16
+B0059,Frozen Peas,Frozen,-25.0,-18.0,157,2026-08-20
+B0060,Fresh Paneer,Chilled,2.0,8.0,101,2026-08-28
+B0061,Fresh Milk,Chilled,2.0,8.0,37,2026-08-27
+B0062,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,262,2026-08-16
+B0063,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,267,2026-08-10
+B0064,Cheese,Chilled,2.0,8.0,149,2026-08-20
+B0065,Yogurt,Chilled,2.0,8.0,255,2026-08-13
+B0066,Frozen Corn,Frozen,-25.0,-18.0,188,2026-08-20
+B0067,Frozen Paneer,Frozen,-25.0,-18.0,137,2026-08-23
+B0068,Fresh Cream,Chilled,2.0,8.0,284,2026-08-06
+B0069,Frozen Paneer,Frozen,-25.0,-18.0,242,2026-08-29
+B0070,Frozen Paneer,Frozen,-25.0,-18.0,20,2026-08-14
+B0071,Fresh Cream,Chilled,2.0,8.0,62,2026-08-04
+B0072,Fresh Milk,Chilled,2.0,8.0,237,2026-08-18
+B0073,Frozen Peas,Frozen,-25.0,-18.0,22,2026-08-10
+B0074,Frozen Corn,Frozen,-25.0,-18.0,172,2026-08-10
+B0075,Frozen Corn,Frozen,-25.0,-18.0,152,2026-08-26
+B0076,Yogurt,Chilled,2.0,8.0,117,2026-08-06
+B0077,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,32,2026-08-30
+B0078,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,227,2026-08-14
+B0079,Frozen French Fries,Frozen,-25.0,-18.0,148,2026-08-19
+B0080,Yogurt,Chilled,2.0,8.0,198,2026-08-08
+B0081,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,138,2026-08-31
+B0082,Frozen Paneer,Frozen,-25.0,-18.0,237,2026-08-26
+B0083,Yogurt,Chilled,2.0,8.0,197,2026-08-21
+B0084,Frozen Paneer,Frozen,-25.0,-18.0,293,2026-08-13
+B0085,Frozen Peas,Frozen,-25.0,-18.0,196,2026-08-08
+B0086,Frozen French Fries,Frozen,-25.0,-18.0,43,2026-08-06
+B0087,Fresh Cream,Chilled,2.0,8.0,169,2026-08-30
+B0088,Yogurt,Chilled,2.0,8.0,188,2026-08-26
+B0089,Frozen Paneer,Frozen,-25.0,-18.0,171,2026-08-05
+B0090,Cheese,Chilled,2.0,8.0,121,2026-08-24
+B0091,Frozen Peas,Frozen,-25.0,-18.0,109,2026-08-24
+B0092,Frozen French Fries,Frozen,-25.0,-18.0,220,2026-08-17
+B0093,Fresh Paneer,Chilled,2.0,8.0,213,2026-08-12
+B0094,Frozen Corn,Frozen,-25.0,-18.0,200,2026-08-08
+B0095,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,70,2026-08-04
+B0096,Cheese,Chilled,2.0,8.0,180,2026-08-22
+B0097,Frozen Paneer,Frozen,-25.0,-18.0,83,2026-08-23
+B0098,Fresh Paneer,Chilled,2.0,8.0,228,2026-08-08
+B0099,Frozen Corn,Frozen,-25.0,-18.0,167,2026-08-26
+B0100,Frozen Paneer,Frozen,-25.0,-18.0,280,2026-08-21
+B0101,Yogurt,Chilled,2.0,8.0,146,2026-08-17
+B0102,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,175,2026-08-17
+B0103,Fresh Milk,Chilled,2.0,8.0,196,2026-08-04
+B0104,Yogurt,Chilled,2.0,8.0,264,2026-08-24
+B0105,Frozen French Fries,Frozen,-25.0,-18.0,174,2026-08-11
+B0106,Frozen Corn,Frozen,-25.0,-18.0,252,2026-08-29
+B0107,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,86,2026-08-24
+B0108,Fresh Cream,Chilled,2.0,8.0,40,2026-08-06
+B0109,Frozen Corn,Frozen,-25.0,-18.0,27,2026-08-18
+B0110,Frozen Paneer,Frozen,-25.0,-18.0,254,2026-08-19
+B0111,Frozen Corn,Frozen,-25.0,-18.0,42,2026-08-23
+B0112,Frozen Corn,Frozen,-25.0,-18.0,240,2026-08-09
+B0113,Frozen Paneer,Frozen,-25.0,-18.0,254,2026-08-13
+B0114,Frozen Peas,Frozen,-25.0,-18.0,174,2026-08-05
+B0115,Frozen Corn,Frozen,-25.0,-18.0,221,2026-08-31
+B0116,Cheese,Chilled,2.0,8.0,89,2026-08-13
+B0117,Yogurt,Chilled,2.0,8.0,36,2026-08-29
+B0118,Fresh Cream,Chilled,2.0,8.0,210,2026-08-21
+B0119,Frozen French Fries,Frozen,-25.0,-18.0,155,2026-08-09
+B0120,Cheese,Chilled,2.0,8.0,60,2026-08-16
+B0121,Fresh Paneer,Chilled,2.0,8.0,175,2026-08-19
+B0122,Frozen Paneer,Frozen,-25.0,-18.0,108,2026-08-28
+B0123,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,138,2026-08-09
+B0124,Frozen Corn,Frozen,-25.0,-18.0,290,2026-08-31
+B0125,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,150,2026-08-14
+B0126,Fresh Paneer,Chilled,2.0,8.0,225,2026-08-09
+B0127,Fresh Paneer,Chilled,2.0,8.0,104,2026-08-04
+B0128,Frozen Paneer,Frozen,-25.0,-18.0,257,2026-08-18
+B0129,Cheese,Chilled,2.0,8.0,183,2026-08-27
+B0130,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,92,2026-08-26
+B0131,Frozen Paneer,Frozen,-25.0,-18.0,224,2026-08-21
+B0132,Frozen French Fries,Frozen,-25.0,-18.0,128,2026-08-20
+B0133,Frozen French Fries,Frozen,-25.0,-18.0,189,2026-08-28
+B0134,Fresh Cream,Chilled,2.0,8.0,181,2026-08-14
+B0135,Frozen Peas,Frozen,-25.0,-18.0,65,2026-08-11
+B0136,Frozen French Fries,Frozen,-25.0,-18.0,100,2026-08-11
+B0137,Yogurt,Chilled,2.0,8.0,194,2026-08-06
+B0138,Frozen Peas,Frozen,-25.0,-18.0,48,2026-08-06
+B0139,Cheese,Chilled,2.0,8.0,130,2026-08-27
+B0140,Cheese,Chilled,2.0,8.0,193,2026-08-20
+B0141,Frozen Corn,Frozen,-25.0,-18.0,239,2026-08-23
+B0142,Fresh Paneer,Chilled,2.0,8.0,161,2026-08-27
+B0143,Frozen Paneer,Frozen,-25.0,-18.0,93,2026-08-19
+B0144,Yogurt,Chilled,2.0,8.0,267,2026-08-18
+B0145,Yogurt,Chilled,2.0,8.0,252,2026-08-25
+B0146,Fresh Cream,Chilled,2.0,8.0,173,2026-08-21
+B0147,Fresh Cream,Chilled,2.0,8.0,257,2026-08-28
+B0148,Frozen French Fries,Frozen,-25.0,-18.0,37,2026-08-25
+B0149,Yogurt,Chilled,2.0,8.0,82,2026-08-15
+B0150,Fresh Milk,Chilled,2.0,8.0,215,2026-08-17
+B0151,Fresh Milk,Chilled,2.0,8.0,120,2026-08-08
+B0152,Frozen Paneer,Frozen,-25.0,-18.0,239,2026-08-21
+B0153,Frozen Peas,Frozen,-25.0,-18.0,84,2026-08-22
+B0154,Frozen Corn,Frozen,-25.0,-18.0,132,2026-08-28
+B0155,Fresh Milk,Chilled,2.0,8.0,197,2026-08-26
+B0156,Frozen Peas,Frozen,-25.0,-18.0,122,2026-08-05
+B0157,Frozen Corn,Frozen,-25.0,-18.0,125,2026-08-10
+B0158,Frozen Corn,Frozen,-25.0,-18.0,256,2026-08-12
+B0159,Fresh Paneer,Chilled,2.0,8.0,207,2026-08-15
+B0160,Yogurt,Chilled,2.0,8.0,169,2026-08-04
+B0161,Fresh Milk,Chilled,2.0,8.0,105,2026-08-22
+B0162,Frozen Corn,Frozen,-25.0,-18.0,224,2026-08-29
+B0163,Fresh Paneer,Chilled,2.0,8.0,194,2026-08-09
+B0164,Fresh Paneer,Chilled,2.0,8.0,174,2026-08-29
+B0165,Cheese,Chilled,2.0,8.0,27,2026-08-19
+B0166,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,294,2026-08-23
+B0167,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,75,2026-08-04
+B0168,Fresh Paneer,Chilled,2.0,8.0,21,2026-08-09
+B0169,Fresh Paneer,Chilled,2.0,8.0,207,2026-08-22
+B0170,Fresh Paneer,Chilled,2.0,8.0,183,2026-08-27
+B0171,Cheese,Chilled,2.0,8.0,105,2026-08-23
+B0172,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,295,2026-08-06
+B0173,Frozen French Fries,Frozen,-25.0,-18.0,56,2026-08-29
+B0174,Frozen Corn,Frozen,-25.0,-18.0,77,2026-08-15
+B0175,Fresh Paneer,Chilled,2.0,8.0,133,2026-08-31
+B0176,Frozen Peas,Frozen,-25.0,-18.0,87,2026-08-21
+B0177,Fresh Cream,Chilled,2.0,8.0,223,2026-08-09
+B0178,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,180,2026-08-10
+B0179,Fresh Paneer,Chilled,2.0,8.0,274,2026-08-27
+B0180,Frozen Corn,Frozen,-25.0,-18.0,31,2026-08-25
+B0181,Frozen Corn,Frozen,-25.0,-18.0,36,2026-08-13
+B0182,Cheese,Chilled,2.0,8.0,94,2026-08-05
+B0183,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,201,2026-08-22
+B0184,Yogurt,Chilled,2.0,8.0,181,2026-08-11
+B0185,Frozen Corn,Frozen,-25.0,-18.0,149,2026-08-17
+B0186,Frozen Paneer,Frozen,-25.0,-18.0,62,2026-08-29
+B0187,Frozen Peas,Frozen,-25.0,-18.0,118,2026-08-14
+B0188,Cheese,Chilled,2.0,8.0,204,2026-08-08
+B0189,Frozen Corn,Frozen,-25.0,-18.0,239,2026-08-30
+B0190,Fresh Paneer,Chilled,2.0,8.0,233,2026-08-31
+B0191,Frozen French Fries,Frozen,-25.0,-18.0,136,2026-08-28
+B0192,Fresh Cream,Chilled,2.0,8.0,39,2026-08-26
+B0193,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,259,2026-08-29
+B0194,Frozen Peas,Frozen,-25.0,-18.0,39,2026-08-09
+B0195,Frozen Corn,Frozen,-25.0,-18.0,159,2026-08-31
+B0196,Fresh Milk,Chilled,2.0,8.0,56,2026-08-06
+B0197,Frozen Peas,Frozen,-25.0,-18.0,147,2026-08-06
+B0198,Frozen Peas,Frozen,-25.0,-18.0,55,2026-08-06
+B0199,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,210,2026-08-28
+B0200,Yogurt,Chilled,2.0,8.0,247,2026-08-16
+B0201,Frozen French Fries,Frozen,-25.0,-18.0,112,2026-08-19
+B0202,Frozen Paneer,Frozen,-25.0,-18.0,257,2026-08-14
+B0203,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,109,2026-08-26
+B0204,Fresh Paneer,Chilled,2.0,8.0,41,2026-08-24
+B0205,Frozen Corn,Frozen,-25.0,-18.0,42,2026-08-20
+B0206,Yogurt,Chilled,2.0,8.0,259,2026-08-07
+B0207,Fresh Cream,Chilled,2.0,8.0,233,2026-08-27
+B0208,Frozen Peas,Frozen,-25.0,-18.0,37,2026-08-09
+B0209,Fresh Milk,Chilled,2.0,8.0,113,2026-08-10
+B0210,Frozen Corn,Frozen,-25.0,-18.0,238,2026-08-30
+B0211,Frozen Paneer,Frozen,-25.0,-18.0,155,2026-08-06
+B0212,Frozen Corn,Frozen,-25.0,-18.0,284,2026-08-28
+B0213,Frozen Paneer,Frozen,-25.0,-18.0,245,2026-08-25
+B0214,Fresh Cream,Chilled,2.0,8.0,158,2026-08-27
+B0215,Fresh Cream,Chilled,2.0,8.0,245,2026-08-08
+B0216,Fresh Cream,Chilled,2.0,8.0,196,2026-08-28
+B0217,Yogurt,Chilled,2.0,8.0,282,2026-08-23
+B0218,Frozen Corn,Frozen,-25.0,-18.0,54,2026-08-31
+B0219,Frozen Corn,Frozen,-25.0,-18.0,140,2026-08-31
+B0220,Frozen Paneer,Frozen,-25.0,-18.0,234,2026-08-28
+B0221,Fresh Milk,Chilled,2.0,8.0,164,2026-08-16
+B0222,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,46,2026-08-06
+B0223,Frozen Paneer,Frozen,-25.0,-18.0,149,2026-08-15
+B0224,Frozen Corn,Frozen,-25.0,-18.0,266,2026-08-15
+B0225,Yogurt,Chilled,2.0,8.0,195,2026-08-15
+B0226,Frozen Corn,Frozen,-25.0,-18.0,162,2026-08-12
+B0227,Frozen Paneer,Frozen,-25.0,-18.0,279,2026-08-22
+B0228,Frozen French Fries,Frozen,-25.0,-18.0,84,2026-08-19
+B0229,Fresh Paneer,Chilled,2.0,8.0,255,2026-08-31
+B0230,Frozen Corn,Frozen,-25.0,-18.0,175,2026-08-28
+B0231,Frozen Paneer,Frozen,-25.0,-18.0,255,2026-08-12
+B0232,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,27,2026-08-28
+B0233,Yogurt,Chilled,2.0,8.0,294,2026-08-12
+B0234,Frozen Corn,Frozen,-25.0,-18.0,219,2026-08-28
+B0235,Frozen Paneer,Frozen,-25.0,-18.0,210,2026-08-10
+B0236,Frozen Peas,Frozen,-25.0,-18.0,282,2026-08-07
+B0237,Fresh Milk,Chilled,2.0,8.0,242,2026-08-13
+B0238,Fresh Cream,Chilled,2.0,8.0,286,2026-08-27
+B0239,Fresh Milk,Chilled,2.0,8.0,62,2026-08-18
+B0240,Yogurt,Chilled,2.0,8.0,196,2026-08-14
+B0241,Frozen Peas,Frozen,-25.0,-18.0,81,2026-08-29
+B0242,Frozen Corn,Frozen,-25.0,-18.0,165,2026-08-22
+B0243,Frozen Corn,Frozen,-25.0,-18.0,264,2026-08-29
+B0244,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,131,2026-08-16
+B0245,Fresh Paneer,Chilled,2.0,8.0,49,2026-08-09
+B0246,Frozen Paneer,Frozen,-25.0,-18.0,64,2026-08-06
+B0247,Yogurt,Chilled,2.0,8.0,292,2026-08-17
+B0248,Frozen Corn,Frozen,-25.0,-18.0,238,2026-08-13
+B0249,Frozen Peas,Frozen,-25.0,-18.0,55,2026-08-30
+B0250,Cheese,Chilled,2.0,8.0,93,2026-08-11
+B0251,Frozen Peas,Frozen,-25.0,-18.0,224,2026-08-11
+B0252,Cheese,Chilled,2.0,8.0,121,2026-08-31
+B0253,Fresh Cream,Chilled,2.0,8.0,241,2026-08-22
+B0254,Yogurt,Chilled,2.0,8.0,249,2026-08-08
+B0255,Frozen Corn,Frozen,-25.0,-18.0,228,2026-08-18
+B0256,Fresh Paneer,Chilled,2.0,8.0,211,2026-08-26
+B0257,Fresh Paneer,Chilled,2.0,8.0,58,2026-08-23
+B0258,Frozen Corn,Frozen,-25.0,-18.0,271,2026-08-20
+B0259,Frozen French Fries,Frozen,-25.0,-18.0,238,2026-08-21
+B0260,Frozen Corn,Frozen,-25.0,-18.0,67,2026-08-18
+B0261,Cheese,Chilled,2.0,8.0,29,2026-08-10
+B0262,Frozen Peas,Frozen,-25.0,-18.0,147,2026-08-21
+B0263,Yogurt,Chilled,2.0,8.0,91,2026-08-24
+B0264,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,216,2026-08-24
+B0265,Fresh Milk,Chilled,2.0,8.0,265,2026-08-05
+B0266,Frozen French Fries,Frozen,-25.0,-18.0,226,2026-08-29
+B0267,Frozen Peas,Frozen,-25.0,-18.0,181,2026-08-21
+B0268,Yogurt,Chilled,2.0,8.0,158,2026-08-15
+B0269,Frozen Corn,Frozen,-25.0,-18.0,261,2026-08-13
+B0270,Fresh Paneer,Chilled,2.0,8.0,220,2026-08-29
+B0271,Frozen Peas,Frozen,-25.0,-18.0,57,2026-08-30
+B0272,Frozen Paneer,Frozen,-25.0,-18.0,182,2026-08-20
+B0273,Cheese,Chilled,2.0,8.0,38,2026-08-31
+B0274,Frozen French Fries,Frozen,-25.0,-18.0,115,2026-08-09
+B0275,Cheese,Chilled,2.0,8.0,188,2026-08-05
+B0276,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,265,2026-08-22
+B0277,Fresh Milk,Chilled,2.0,8.0,123,2026-08-23
+B0278,Frozen French Fries,Frozen,-25.0,-18.0,291,2026-08-08
+B0279,Frozen Corn,Frozen,-25.0,-18.0,263,2026-08-14
+B0280,Frozen French Fries,Frozen,-25.0,-18.0,276,2026-08-07
+B0281,Fresh Cream,Chilled,2.0,8.0,94,2026-08-05
+B0282,Frozen French Fries,Frozen,-25.0,-18.0,137,2026-08-30
+B0283,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,89,2026-08-24
+B0284,Frozen Peas,Frozen,-25.0,-18.0,151,2026-08-12
+B0285,Cheese,Chilled,2.0,8.0,121,2026-08-16
+B0286,Fresh Cream,Chilled,2.0,8.0,178,2026-08-07
+B0287,Fresh Milk,Chilled,2.0,8.0,209,2026-08-11
+B0288,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,25,2026-08-04
+B0289,Frozen French Fries,Frozen,-25.0,-18.0,282,2026-08-04
+B0290,Fresh Cream,Chilled,2.0,8.0,242,2026-08-29
+B0291,Fresh Paneer,Chilled,2.0,8.0,137,2026-08-28
+B0292,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,104,2026-08-23
+B0293,Frozen Peas,Frozen,-25.0,-18.0,39,2026-08-21
+B0294,Cheese,Chilled,2.0,8.0,38,2026-08-14
+B0295,Fresh Paneer,Chilled,2.0,8.0,95,2026-08-27
+B0296,Frozen Corn,Frozen,-25.0,-18.0,47,2026-08-13
+B0297,Frozen Paneer,Frozen,-25.0,-18.0,63,2026-08-23
+B0298,Fresh Cream,Chilled,2.0,8.0,74,2026-08-13
+B0299,Frozen French Fries,Frozen,-25.0,-18.0,134,2026-08-08
+B0300,Frozen Mixed Vegetables,Frozen,-25.0,-18.0,72,2026-08-14

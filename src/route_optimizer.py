@@ -137,41 +137,67 @@ def compute_shipment_scores(master, risk_df):
 # APPLY STRATEGIES
 # ==========================================================
 def apply_strategies(df):
-    """Score each shipment under each strategy and classify optimal strategy."""
+    """Score each shipment under each strategy and classify optimal strategy.
+
+    The composite score weights differ per strategy.
+    Raw cost/time/emissions/reliability are the SAME across strategies because
+    they are properties of the dataset, not of the strategy.
+    The meaningful comparison is which shipments each strategy PRIORITISES
+    (lowest composite score = dispatched first). We show metrics for the
+    top-20% prioritised subset, which DO differ across strategies.
+    """
     print("[Opt 3] Applying optimisation strategies...")
 
     strategy_results = {}
+    n_top = max(1, len(df) // 5)  # top 20% of shipments
 
     for name, w in STRATEGIES.items():
-        # Composite score = weighted sum (lower = better for cost/time/emit, higher rely is inverted)
+        # Composite score = weighted sum (lower = better)
         df[f"score_{name}"] = (
             w["w_cost"] * df["cost_proxy_norm"]
             + w["w_time"] * df["time_proxy_norm"]
             + w["w_emit"] * df["emissions_proxy_norm"]
             + w["w_rely"] * (1 - df["reliability_norm"])  # invert: lower is better
         )
-
-        avg_cost  = df["cost_proxy"].mean()
-        avg_time  = df["time_proxy"].mean()
-        avg_emit  = df["emissions_proxy"].mean()
-        avg_rely  = df["reliability_norm"].mean()
         avg_score = df[f"score_{name}"].mean()
 
+        # Prioritised subset: top 20% by this strategy (lowest composite = dispatched first)
+        top_idx = df[f"score_{name}"].nsmallest(n_top).index
+        top_df  = df.loc[top_idx]
+
+        pri_cost  = top_df["cost_proxy"].mean()
+        pri_time  = top_df["time_proxy"].mean()
+        pri_emit  = top_df["emissions_proxy"].mean()
+        pri_rely  = top_df["reliability_norm"].mean()
+
+        # Global averages (for reference)
+        avg_cost = df["cost_proxy"].mean()
+        avg_time = df["time_proxy"].mean()
+        avg_emit = df["emissions_proxy"].mean()
+        avg_rely = df["reliability_norm"].mean()
+
         strategy_results[name] = {
-            "avg_composite_score": round(avg_score, 4),
-            "avg_cost":            round(avg_cost, 2),
-            "avg_time_min":        round(avg_time, 2),
-            "avg_emissions_kg":    round(avg_emit, 2),
-            "avg_reliability_pct": round(avg_rely * 100, 2),
-            "weights":             w,
+            "avg_composite_score":       round(avg_score, 4),
+            # Global averages (dataset property - same for all strategies)
+            "avg_cost":                  round(avg_cost, 2),
+            "avg_time_min":              round(avg_time, 2),
+            "avg_emissions_kg":          round(avg_emit, 2),
+            "avg_reliability_pct":       round(avg_rely * 100, 2),
+            # Prioritised subset (top-20% this strategy would dispatch first)
+            "prioritised_avg_cost":      round(pri_cost, 2),
+            "prioritised_avg_time_min":  round(pri_time, 2),
+            "prioritised_avg_emissions": round(pri_emit, 2),
+            "prioritised_avg_rely_pct":  round(pri_rely * 100, 2),
+            "prioritised_n":             n_top,
+            "weights":                   w,
         }
-        print(f"         {name:<15} score={avg_score:.4f}  "
-              f"cost={avg_cost:.1f}  time={avg_time:.1f}  "
-              f"emit={avg_emit:.1f}  rely={avg_rely*100:.1f}%")
+        print(f"         {name:<15} score={avg_score:.4f} | "
+              f"priority-subset: cost={pri_cost:.1f}  time={pri_time:.1f}  "
+              f"emit={pri_emit:.1f}  rely={pri_rely*100:.1f}%")
 
     # Each shipment's recommended strategy = lowest composite score
     score_cols = [f"score_{n}" for n in STRATEGIES]
-    df["recommended_strategy"] = df[score_cols].idxmin(axis=1).str.replace("score_", "")
+    df["recommended_strategy"] = df[score_cols].idxmin(axis=1).str.replace("score_", "", regex=False)
 
     return df, strategy_results
 
@@ -228,20 +254,25 @@ def save_and_visualise(df, strategy_results, vehicles_aug):
     ] if c in df.columns]
     df[save_cols].to_csv(os.path.join(OPT_DIR, "optimisation_results.csv"), index=False)
 
-    # Strategy comparison CSV
+    # Strategy comparison CSV — includes BOTH global and prioritised-subset metrics
     rows = []
     for name, r in strategy_results.items():
         rows.append({
-            "strategy": name,
-            "avg_composite_score": r["avg_composite_score"],
-            "avg_cost_proxy":      r["avg_cost"],
-            "avg_time_min":        r["avg_time_min"],
-            "avg_emissions_kg":    r["avg_emissions_kg"],
-            "avg_reliability_pct": r["avg_reliability_pct"],
-            "w_cost":  r["weights"]["w_cost"],
-            "w_time":  r["weights"]["w_time"],
-            "w_emit":  r["weights"]["w_emit"],
-            "w_rely":  r["weights"]["w_rely"],
+            "strategy":                   name,
+            "avg_composite_score":        r["avg_composite_score"],
+            "global_avg_cost":            r["avg_cost"],
+            "global_avg_time_min":        r["avg_time_min"],
+            "global_avg_emissions_kg":    r["avg_emissions_kg"],
+            "global_avg_reliability_pct": r["avg_reliability_pct"],
+            "prioritised_avg_cost":       r.get("prioritised_avg_cost", r["avg_cost"]),
+            "prioritised_avg_time_min":   r.get("prioritised_avg_time_min", r["avg_time_min"]),
+            "prioritised_avg_emissions":  r.get("prioritised_avg_emissions", r["avg_emissions_kg"]),
+            "prioritised_avg_rely_pct":   r.get("prioritised_avg_rely_pct", r["avg_reliability_pct"]),
+            "prioritised_n":              r.get("prioritised_n", 0),
+            "w_cost": r["weights"]["w_cost"],
+            "w_time": r["weights"]["w_time"],
+            "w_emit": r["weights"]["w_emit"],
+            "w_rely": r["weights"]["w_rely"],
         })
     comp_df = pd.DataFrame(rows)
     comp_df.to_csv(os.path.join(OPT_DIR, "strategy_comparison.csv"), index=False)
@@ -294,19 +325,21 @@ def save_and_visualise(df, strategy_results, vehicles_aug):
     plt.savefig(os.path.join(OPT_DIR, "strategy_tradeoff_radar.png"), bbox_inches="tight")
     plt.close()
 
-    # --- Plot 2: Strategy score bar chart ---
+    # --- Plot 2: Strategy comparison using PRIORITISED subset metrics (these differ per strategy) ---
     fig, axes = plt.subplots(2, 2, figsize=(12, 9))
-    fig.suptitle("Strategy Comparison Across Objectives", fontsize=13, fontweight="bold")
+    fig.suptitle("Strategy Comparison — Top-20% Prioritised Shipments\n"
+                 "(metrics differ because each strategy selects different shipments first)",
+                 fontsize=11, fontweight="bold")
     metrics = [
-        ("avg_cost_proxy",      "Avg Cost Proxy",       "#e74c3c"),
-        ("avg_time_min",        "Avg Journey Time (min)","#f39c12"),
-        ("avg_emissions_kg",    "Avg Emissions (kg CO2)","#27ae60"),
-        ("avg_reliability_pct", "Avg Reliability (%)",   "#2196F3"),
+        ("prioritised_avg_cost",     "Priority Subset: Avg Cost",          "#e74c3c"),
+        ("prioritised_avg_time_min", "Priority Subset: Avg Time (min)",     "#f39c12"),
+        ("prioritised_avg_emissions","Priority Subset: Avg Emissions (kg)", "#27ae60"),
+        ("prioritised_avg_rely_pct", "Priority Subset: Avg Reliability (%)", "#2196F3"),
     ]
     for ax, (col, title, color) in zip(axes.flatten(), metrics):
         bars = ax.bar(comp_df["strategy"], comp_df[col], color=color, edgecolor="white")
         ax.bar_label(bars, fmt="%.1f", padding=3, fontsize=9)
-        ax.set_title(title, fontsize=11)
+        ax.set_title(title, fontsize=10)
         ax.tick_params(axis="x", rotation=20)
     plt.tight_layout()
     plt.savefig(os.path.join(OPT_DIR, "strategy_comparison.png"), bbox_inches="tight")
@@ -352,8 +385,8 @@ def main():
     print("=" * 60)
     best_strategy = comp_df.loc[comp_df["avg_composite_score"].idxmin(), "strategy"]
     print(comp_df[["strategy", "avg_composite_score",
-                   "avg_time_min", "avg_emissions_kg",
-                   "avg_reliability_pct"]].to_string(index=False))
+                   "prioritised_avg_time_min", "prioritised_avg_emissions",
+                   "prioritised_avg_rely_pct"]].to_string(index=False))
     print(f"\nLowest composite score: {best_strategy}")
     print("\nOutputs saved to: data/optimization/")
     for f in sorted(os.listdir(OPT_DIR)):

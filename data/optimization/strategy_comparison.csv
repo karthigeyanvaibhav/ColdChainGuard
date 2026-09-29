@@ -1,5 +1,5 @@
-strategy,avg_composite_score,avg_cost_proxy,avg_time_min,avg_emissions_kg,avg_reliability_pct,w_cost,w_time,w_emit,w_rely
-Conservative,0.525,109.01,218.77,45.94,44.01,0.15,0.15,0.1,0.6
-Balanced,0.4945,109.01,218.77,45.94,44.01,0.25,0.25,0.25,0.25
-Eco-Friendly,0.482,109.01,218.77,45.94,44.01,0.15,0.1,0.65,0.1
-Speed-First,0.4822,109.01,218.77,45.94,44.01,0.1,0.7,0.1,0.1
+strategy,avg_composite_score,global_avg_cost,global_avg_time_min,global_avg_emissions_kg,global_avg_reliability_pct,prioritised_avg_cost,prioritised_avg_time_min,prioritised_avg_emissions,prioritised_avg_rely_pct,prioritised_n,w_cost,w_time,w_emit,w_rely
+Conservative,0.525,109.01,218.77,45.94,44.01,66.98,135.19,28.39,79.65,100,0.15,0.15,0.1,0.6
+Balanced,0.4945,109.01,218.77,45.94,44.01,53.72,108.77,22.84,67.53,100,0.25,0.25,0.25,0.25
+Eco-Friendly,0.482,109.01,218.77,45.94,44.01,48.68,97.32,20.44,51.42,100,0.15,0.1,0.65,0.1
+Speed-First,0.4822,109.01,218.77,45.94,44.01,48.81,97.27,20.43,51.38,100,0.1,0.7,0.1,0.1
