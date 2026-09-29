@@ -1,0 +1,4 @@
+strategy,warning_margin_c,critical_margin_c,total_observations,compliant,warning,critical,total_alerts,alert_rate_percent,critical_rate_percent
+Tight,0.5,2.0,21079,20800,117,162,279,1.3235922007685375,0.7685374068978604
+Balanced,1.0,3.0,21079,20800,207,72,279,1.3235922007685375,0.34157218084349356
+Relaxed,2.0,5.0,21079,20800,251,28,279,1.3235922007685375,0.1328336258835808

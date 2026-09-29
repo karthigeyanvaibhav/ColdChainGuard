@@ -1,0 +1,8 @@
+table,rows
+dim_vehicle,100
+dim_product,500
+dim_date,7
+fact_shipments,500
+fact_sensor_logs,500
+fact_route_events,500
+fact_handovers,500

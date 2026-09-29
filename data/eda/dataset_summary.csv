@@ -1,0 +1,6 @@
+dataset,rows,columns
+Shipments (master/fact),500,39
+Sensor logs (raw),21125,8
+Calibrations,150,6
+Route events,3289,6
+Handovers,1511,7

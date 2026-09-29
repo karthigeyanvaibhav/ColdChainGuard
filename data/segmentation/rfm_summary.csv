@@ -1,0 +1,6 @@
+RFM_segment,vehicle_count,avg_recency_days,avg_frequency,avg_volume,avg_rfm_score,total_volume
+Champions,18,0.0,7.0,1214.28,13.67,21857
+Loyal Assets,35,0.0,6.69,1110.89,10.97,38881
+Active Assets,22,0.18,6.09,896.36,8.18,19720
+At-Risk Assets,5,1.8,1.2,131.4,4.4,657
+Low-Activity Assets,20,2.0,0.0,0.0,3.0,0

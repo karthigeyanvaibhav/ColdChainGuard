@@ -1,0 +1,2 @@
+total_observations,online_observations,offline_observations,buffered_observations,forwarded_observations,recovered_observations,data_loss,recovery_rate_percent
+21125,21001,124,124,124,124,0,100.0
